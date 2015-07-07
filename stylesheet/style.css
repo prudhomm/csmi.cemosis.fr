@@ -18,19 +18,20 @@ header {
 }
 
 header .logo {
-  }
+}
       
 #main {
+  position: relative;
   float: right;
   width: 85%;
 }
 
-nav {
+#main-nav {
   padding: 0;
   text-align: center;
 }
 
-nav > ul > li {
+#main-nav > ul > li {
   text-align: center;
   margin-left: 2px;
   padding: 10px;
@@ -38,15 +39,15 @@ nav > ul > li {
   border: 1px solid black;
   position: relative;
 }
-nav >ul > li > a {
+#main-nav >ul > li > a {
   color: rgb(143,186,177);
   display: inline-block;
 }
-nav a:hover {
+#main-nav a:hover {
   color: #CC6600;
 }
 
-nav li:hover .sub-menu {
+#main-nav li:hover .sub-menu {
   z-index: 1;
   opacity: 1;
 }
@@ -67,6 +68,15 @@ nav li:hover .sub-menu {
 .sub-menu li{
   list-style-type: none;
   text-align: center;
+}
+
+#table-of-contents {
+  position: absolute;
+  border: 1px solid black;
+  background-color: #BAD1D1;
+  top: 0;
+  right: 0;
+
 }
 
 table {
