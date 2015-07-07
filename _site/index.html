@@ -9,97 +9,10 @@
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <style type="text/css">
-      body {
-        font-family: "Dosis", sans-serif;
-      }
-      body h3{
-        font-weight:normal;
-        line-height:1.4;
-        color: rgb(143,186,177);
-      }
-      body table {
-        font-family: Arial, sans-serif;
-        font-size: 12px;
-      }
-      header {
-        background-image: 
-      }
-      header .logo {
-        
-      }
-      #main {
-        float: right;
-        width: 85%;
-      }
-
-      nav {
-        padding: 0;
-        text-align: center;
-      }
-
-      nav li {
-        text-align: center;
-        margin-left: 2px;
-        padding: 10px;
-        display: inline-block;
-        border: 1px solid black;
-      }
-      nav a {
-        color: rgb(143,186,177);
-        display: inline-block;
-      }
-      nav a:hover {
-        color: #CC6600;
-      }
-
-      table {
-        border: 1px solid black;
-        padding: 3px;
-        color: rgb(43,49,53);
-        font-family: Arial,sans-serif;
-        font-size: 12px;
-        line-height: 18px;
-        text-align: justify;
-        clear: left;
-        float: left;
-        margin: 5px;
-        width: 48%;
-      }
-      .tab-semester {
-        border: 1px solid black;
-        text-align: center;
-        background-color: #DAE3E8;
-      }
-      .tab-ue {
-        border: 1px solid black;
-        text-align: center;
-        background-color: #EEEEEE;
-        border-top-width: 1px;
-        border-top-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-      }
-      .tab-course {
-        border: 1px solid black;
-        text-align: left;
-        background-color: "white";
-        vertical-align: top;
-      }
-      .tab-course a {
-        color:rgb(0,108,141);
-      }
-      .tab-ects {
-        border: 1px solid black;
-        text-align: left;
-        background-color: white;
-        vertical-align: top;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
   </head>
 
-  <body>
+  <body id="home">
     <header>
       <div id="logo">
         <a href="http://www.cemosis.fr//"><img src="images/logo.png"></a> 
@@ -114,10 +27,19 @@
     <!-- nav -->
     <nav>
       <ul>
-        <h2><li><a href="#">Rubrique 1</a></li></h2>
-        <h2><li><a href="#">Rubrique 2</a></li></h2>
-        <h2><li><a href="#">Rubrique 3</a></li></h2>
-        <h2><li><a href="#">Rubrique 4</a></li></h2>
+        <li><a href="index.html" id="home-nav">Page d'accueil</a></li>
+        <li>
+          <a href="#" id="course-nav">Enseignement</a>
+
+          <ul class="sub-menu">
+            <li><a href="#">Semestre 1</a></li>
+            <li><a href="#">Semestre 2</a></li>
+            <li><a href="#">Semestre 3</a></li>
+            <li><a href="#">Semestre 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#" id="community-nav">Communauté</a></li>
+        <li><a href="#" id="contact-nav">Contact</a></li>
       </ul>
     </nav>
 
@@ -245,7 +167,7 @@
           <td class="tab-ects">ECTS: 3</td>
         </tr>
         <tr>
-          <td class="tab-course">• <a href="http://mathinfo.unistra.fr/offre-de-formation/mod/?spec=1&amp;sem=9&amp;el_id=8"class="tab-course"><b>Stage ou mémoire M1</b></a></td>
+          <td class="tab-course">• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/mod/?spec=1&amp;sem=9&amp;el_id=8">Stage ou mémoire M1</b></a></td>
           <td class="tab-ects">ECTS: 6</td>
         </tr>
         <tr>
@@ -268,7 +190,7 @@
         <table>
         <tbody>
         <tr>
-          <td class="tab-semester"><b>S3</b></td>
+          <td class="tab-semester" colspan="2"><b>S3</b></td>
         </tr>
         <tr>
           <td class="tab-ue" colspan="2"><b>UE obligatoires</b></td>
@@ -311,10 +233,10 @@
         <table>
         <tbody>
         <tr>
-        <td class="tab-semester"><b>S4</b></td>
+        <td class="tab-semester" colspan="2"><b>S4</b></td>
         </tr>
         <tr>
-        <td class="tab-ue"><b>UE obligatoires</b></td>
+        <td class="tab-ue" colspan="2"><b>UE obligatoires</b></td>
         </tr>
         <tr>
         <td class="tab-course">• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=15&amp;ue=485">Langues vivantes</a></b></td>
