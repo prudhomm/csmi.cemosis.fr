@@ -8,7 +8,7 @@ body {
 }
 /* animation doesn't work well need fix.
 #sections img:hover {
-	margin-top: 2px;	
+	margin-top: 2px;
 }*/
 
 .navbar {
@@ -67,4 +67,85 @@ blockquote {
   font-family: Consolas, "Times New Roman", Verdana;
   border-left: 4px solid #CCC;
   padding-left: 8px;
+}
+
+/* Testimonials
+-------------------------------------------------- */
+/* line 2009, ../../app/assets/stylesheets/layout.css.scss */
+.twitter-testimonials {
+  padding: 20px;
+}
+/* line 2011, ../../app/assets/stylesheets/layout.css.scss */
+.twitter-testimonials img {
+  margin-top: 10px;
+}
+
+/* line 2016, ../../app/assets/stylesheets/layout.css.scss */
+.testimonial {
+  margin: 0;
+  margin-top: 15px;
+  max-width: 350px;
+  padding: 10px 50px;
+  position: relative;
+  color: #666;
+  border-radius: 5px;
+  font-style: italic;
+  border-left: none;
+}
+
+/* line 2028, ../../app/assets/stylesheets/layout.css.scss */
+.testimonial:before, .testimonial:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #999;
+  font-style: normal;
+}
+
+/* line 2037, ../../app/assets/stylesheets/layout.css.scss */
+.testimonial:before {
+  top: 0;
+  left: 10px;
+}
+
+/* line 2042, ../../app/assets/stylesheets/layout.css.scss */
+.testimonial:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
+/* line 2048, ../../app/assets/stylesheets/layout.css.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+  margin: 0 0 0 25px;
+}
+
+/* line 2057, ../../app/assets/stylesheets/layout.css.scss */
+.testimonial-author {
+  margin: 5 0 0 25px;
+  width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  text-align: center;
+}
+
+/* line 2065, ../../app/assets/stylesheets/layout.css.scss */
+.testimonial-author span {
+  font-size: 12px;
+  color: #666;
+}
+/* line 2068, ../../app/assets/stylesheets/layout.css.scss */
+​
+blockquote p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
 }
