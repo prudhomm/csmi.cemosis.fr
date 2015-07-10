@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Le Master CSMI s'adresse aux titulaires d'une licence de mathématiques qui souhaitent s'orienter vers une carrière d'ingénieur ou vers une thèse dans un domaine des mathématiques appliquées. L'objectif de cette formation est de donner une double compétence en calcul scientifique et en mathématique de l'information.
 baseurl: "/csmi.cemosis.fr"
-url: "http://csmi.cemosis.com" # the base hostname & protocol for your site
+url: "http://csmi.cemosis.fr/" # the base hostname & protocol for your site
 twitter_username: 
 github_username: 
 
