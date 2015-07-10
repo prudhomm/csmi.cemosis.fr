@@ -1,6 +1,23 @@
 body {
   padding-top: 50px;
 }
+/* back to top arrow  */
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
 
 #image-slide {
   width: 800px;
