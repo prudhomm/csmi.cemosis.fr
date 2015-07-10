@@ -26,7 +26,7 @@ body {
 }
 /* Bump up animation for icons .*/
 #sections img:hover {
-	
+
 }
 
 .navbar {
@@ -157,6 +157,30 @@ blockquote {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
+}
+
+/* line 112, ../../app/assets/stylesheets/layout.css.scss */
+.article-highlight-thumbnails {
+  text-align: center;
+}
+
+/* line 116, ../../app/assets/stylesheets/layout.css.scss */
+.article-highlight-thumbnails > li {
+  display: inline-block;
+  *display: inline;
+  float: none;
+}
+
+/* line 122, ../../app/assets/stylesheets/layout.css.scss */
+.article-highlight-thumbnails .thumbnail {
+  min-height: 350px;
+  margin-bottom: 20px;
+}
+
+/* line 127, ../../app/assets/stylesheets/layout.css.scss */
+.contact-thumb-li {
+  min-width: 85px;
+  max-width: 200px;
 }
 
 /* make the row element have the same height */
