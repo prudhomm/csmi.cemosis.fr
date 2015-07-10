@@ -1,6 +1,22 @@
 body {
   padding-top: 50px;
-  background-image: url(images/gallery.png);
+}
+/* back to top arrow  */
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+}
+
+.back-to-top i {
+  font-size: 60px;
 }
 
 #image-slide {
@@ -17,6 +33,10 @@ body {
   height: 50px;
   margin-top: -50px;
   visibility: hidden;
+}
+
+.img-responsive {
+  margin: 0 auto;
 }
 
 #sections img {
@@ -38,17 +58,13 @@ body {
 	padding-top: 50px;
 }
 
-.container-full {
-	margin: 0 auto;
-	width: 100%;
-}
 
 #gallery {
     box-shadow: 10px 10px 5px #888888;
 }
 
 .centered {
-	text-align: center;
+  text-align: center;
 }
 
 .centered-1 {
