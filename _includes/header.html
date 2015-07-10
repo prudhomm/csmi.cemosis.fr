@@ -1,0 +1,44 @@
+<header class="site-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- logo -->
+      <a class="navbar-brand" href="http://www.cemosis.fr">
+        <img alt="Brand" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
+      </a>
+      <a class="navbar-brand" href="http://www.unistra.fr/">
+        <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
+      </a>
+      <a class="navbar-brand" href="https://mathinfo.unistra.fr/">
+        <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
+      </a>
+      </div>
+
+      <!-- Navbar buttons -->
+      <div class="collapse navbar-collapse" id="main-navbar">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{{ base }}/index.html">Page d'accueil</a></li>
+          <li><a href="{{ base }}/news">Actualités</a></li>
+          <li><a href="{{ base }}/course">Enseignement</a></li>
+      </div><!-- /.navbra-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- 
+  <div class="trigger">
+    {% for page in site.pages %}
+      {% if page.title %}
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  -->
+</header>

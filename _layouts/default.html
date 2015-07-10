@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  {% include base.html %}
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <!-- Return to top arrow -->
+    <a href="#" class="back-to-top" style="display: inline;">
+      <i class="fa fa-arrow-circle-up fa-6"></i>
+    </a>
+
+    {% include main-body.html %}
+        <!-- {{ content }} -->
+
+    <hr class="soften">
+
+    <div class="container-fluid">
+      <center><h2>Partager notre site</h2></center>
+      <div id="share" class="centered" style="margin-top: 80px"></div>
+
+      <div class="centered" style="margin-top:50px">
+        <button type="button" class="btn btn-primary btn-lg hvr-pulse-grow" style="text-align:centered">Rejoignez-nous !</button>
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+
+    {% include script.html %}
+
+  </body>
+
+</html>
