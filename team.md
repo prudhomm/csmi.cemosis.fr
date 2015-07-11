@@ -5,7 +5,7 @@ permalink: /team/
 
 <center><h2>&Eacute;quipe pédagogique</h2></center>
 
-{% for member in site.data.members %}
+{% for member in site.data.team.members %}
 
 <div class="container-fluid">
 	
