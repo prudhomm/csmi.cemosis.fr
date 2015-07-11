@@ -11,6 +11,7 @@
                 qui m'a convaincu de poursuivre dans cette voie.
   job: Doctorante, Université de Strasbourg
   id: testimony-0
+  year: 
 
 - author: Thomas Strub
   testimony: >
@@ -19,6 +20,7 @@
         laquelle j'ai pu aborder l'aspect industriel des maths appliquées.
   job: Docteur de l'Université de Strasbourg, AxesSim
   id: testimony-1
+  year:
 
 - author: Romain Hild
   testimony: >
@@ -31,6 +33,7 @@
              l’impact écologique des voitures de demain.
   position: Doctorant, Université de Strasbourg, Anciennement Ingénieur de recherche en collaboration avec PlasticOmnium
   id: testimony-2
+  year: 
 
 - author: Jean-Baptiste Wahl
   testimony: >
@@ -48,3 +51,4 @@
                de recherche théorique.
   job: Doctorant, Université de Strasbourg
   id: testimony-3
+  year: 
