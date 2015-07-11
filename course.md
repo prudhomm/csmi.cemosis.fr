@@ -40,7 +40,7 @@ permalink : /course/
 	<span class="anchor" id="{{ course.id }}"></span>
 	<table class="table table-bordered table-striped" style="margin-top:50px">
 		<tbody>
-		<tr>
+		<tr style="background-color:#CCCCCC">
 			<td style="text-align:center"><h2>{{ course.name }}</h2></td>
 		</tr>
 		<tr>
@@ -71,7 +71,7 @@ permalink : /course/
 	<span class="anchor" id="{{ course.id }}"></span>
 	<table class="table table-bordered table-striped" style="margin-top:50px">
 		<tbody>
-		<tr>
+		<tr style="background-color:#CCCCCC">
 			<td style="text-align:center"><h2>{{ course.name }}</h2></td>
 		</tr>
 		<tr>
@@ -102,7 +102,7 @@ permalink : /course/
 	<span class="anchor" id="{{ course.id }}"></span>
 	<table class="table table-bordered table-striped" style="margin-top:50px">
 		<tbody>
-		<tr>
+		<tr style="background-color:#CCCCCC">
 			<td style="text-align:center"><h2>{{ course.name }}</h2></td>
 		</tr>
 		<tr>
@@ -133,7 +133,7 @@ permalink : /course/
 	<span class="anchor" id="{{ course.id }}"></span>
 	<table class="table table-bordered table-striped" style="margin-top:50px">
 		<tbody>
-		<tr>
+		<tr style="background-color:#CCCCCC">
 			<td style="text-align:center"><h2>{{ course.name }}</h2></td>
 		</tr>
 		<tr>
