@@ -4,6 +4,7 @@
   knowledege: Savoir programmer, tester et valider la méthodes des volumes fini sur architecture parallèle (cluster ou GPU) en dimensions 1, 2 ou 3. Application à un problème issu de la mécanique ou de la physique.
   info: "ATTENTION : UE non ouverte en 2013/2014 au semestre 3 du Master Informatique, spécialité RISE. Une note sera fournie par le Centre de Ressources de Langues (CRL)."
   duration: "TD : 16h"
+  id: s4-1
 
 - name: Stage ou mémoire M2
   ects: 27
@@ -11,3 +12,4 @@
   knowledege: 
   info: 
   duration: 
+  id: s4-2

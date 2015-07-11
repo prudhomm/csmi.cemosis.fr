@@ -4,6 +4,7 @@
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-1
 
 - name: Algorithmique II
   ects: 3
@@ -11,6 +12,7 @@
   knowledege: Approfondir les compétences abordées en algorithmique I
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-2
 
 - name: Analyse fonctionnelle
   ects: 3
@@ -18,12 +20,14 @@
   knowledege: Savoir distinguer sur le plan théorique et pratique les diverses notions de convergence en dimension finie ou infinie. Pratique du calcul avec les distributions.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-3
 
 - name: Arithmétique
   ects: 3
   content: Rappels et approfondissement sur les éléments de l'arithmétique utiles à la cryptographie.
   knowledege: Applications élémentaires de l'arithmétique à la cryptographie et à l'informatique.
   duration: "Cours Intégrés : 26h"
+  id: s1-4
 
 - name: Calcul parallèle
   ects: 3
@@ -31,6 +35,7 @@
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-5
 
 - name: Calcul scientifique
   ects: 3
@@ -40,6 +45,7 @@
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-6
 
 - name: Graphe
   ects: 3
@@ -47,6 +53,7 @@
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-7
 
 - name: Language vivantes
   ects: 3
@@ -54,6 +61,7 @@
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
   info: "ATTENTION : UE non ouverte en 2013/2014 au semestre 3 du Master Informatique, spécialité RISE. Une note sera fournie par le Centre de Ressources de Langues (CRL)"
   duration: "Cours Intégrés : 26h"
+  id: s1-8
 
 - name: Logique
   ects: 3
@@ -61,6 +69,7 @@
   knowledege: La compréhension des questions pratiques liées aux circuits logiques.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-9
 
 - name: Modèle aléatoire
   ects: 3
@@ -70,3 +79,4 @@
   knowledege: Savoir simuler des phénomènes aléatoires simples sur un ordinateur. Acquérir une intuition pratique du calcul stochastique.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s1-10

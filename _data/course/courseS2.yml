@@ -4,6 +4,7 @@
   knowledege: 
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s2-1
 
 - name: "Informatique : Langage objets"
   ects: 3
@@ -13,6 +14,7 @@
   knowledege: Savoir concevoir une hiérarchie simple de classes et l'implémenter en C++ et en Java.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s2-2
 
 - name: Méthodes numériques pour équations aux dérivées partielles I
   ects: 3
@@ -22,12 +24,14 @@
   knowledege: Savoir mettre un problème aux limites sous forme variationnelle. Savoir démontrer qu'un problème est bien posé. Comprendre les aspects théoriques et pratiques de la méthode des éléments finis.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s2-3
 
 - name: Optimisation
   ects: 6
   content: "Analyse convexe. Théorèmes d'existence et d'unicité de solutions. Conditions d'extrémalité : équations et inéquations d'Euler, multiplicateurs de Lagrange, relations de Kuhn-Tucker. Algorithmes numériques : méthodes de gradient, de relaxation de Newton et quasi-Newton, de pénalisation."
   knowledege: Savoir mettre en oeuvre les algorithmes classiques de l'optimisation. Savoir étudier un problème d'optimisation.
   duration: "Cours Intégrés : 52h"
+  id: s2-4
 
 - name: "PIP: certification python"
   ects: 3
@@ -35,6 +39,7 @@
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s2-5
 
 - name: Théorie des codes I
   ects: 3
@@ -42,6 +47,7 @@
   knowledege: La compréhension des questions de sécurité liées aux transmissions électroniques en ce qui concerne la validité du signal reçu; l'étude détaillée des moyens pour détecter et corriger les erreurs de transmission; la compréhension des questions techniques du codage et du décodage pour les codes correcteurs d'erreurs.
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
+  id: s2-6
 
 - name: Stage ou mémoire M1
   ects: 6
@@ -49,3 +55,4 @@
   knowledege: 
   info: 
   duration: 
+  id: s2-7

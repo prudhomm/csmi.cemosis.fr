@@ -243,46 +243,15 @@
         <tr>
           <td colspan="2"><b>UE obligatoires</b></td>
         </tr>
+
+        {% for course in site.data.course.courseS1 %}
+
         <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=730">Algorithmique I</a></b></td>
-          <td>ECTS: 3</td>
+          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>ECTS: {{ course.ects }}</td>
         </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=731">Algorithmique II</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=357">Analyse fonctionnelle</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=732">Arithmétique</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=733">Calcul parallèle</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=356">Calcul scientifique</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=361">Graphe</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=485">Langues vivantes</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=734">Logique</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=8&amp;ue=735">Modèles aléatoires</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
+
+        {% endfor %}
         </tbody>
         </table>
       </div>
@@ -295,48 +264,31 @@
         <tr>
           <td colspan="2"><b>UE obligatoires</b></td>
         </tr>
+
+        {% for course in site.data.course.courseS2 %}
+
         <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=365">Fourier et signal</a></b></td>
-          <td>ECTS: 3</td>
+          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>ECTS: {{ course.ects }}</td>
         </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=364">Informatique : Langage objets</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=736">Méthodes numériques pour équations aux dérivées partielles I</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=10">Optimisation</a></b></td>
-          <td>ECTS: 6</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=354">PIP: certification python</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=738">Théorie des codes I</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/mod/?spec=1&amp;sem=9&amp;el_id=8">Stage ou mémoire M1</b></a></td>
-          <td>ECTS: 6</td>
-        </tr>
-        <tr>
+
+        {% endfor %}
+
           <td colspan="2"><b>UE obligatoires à choix</b></td>
         </tr>
         <tr>
           <td align="center" colspan="2">1 UE à choisir parmi 2</td>
         </tr>
+
+        {% for course in site.data.course.courseS2UEChoice %}
+
         <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=737">Méthodes numériques pour les équations aux dérivées partielles II</a></b></td>
-          <td>ECTS: 3</td>
+          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>ECTS: {{ course.ects }}</td>
         </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=9&amp;ue=739">Théorie des codes II</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
+
+        {% endfor %}
+
         </tbody>
         </table>
       </div>
@@ -349,38 +301,16 @@
         <tr>
           <td colspan="2"><b>UE obligatoires</b></td>
         </tr>
+
+        {% for course in site.data.course.courseS3 %}
+
         <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=38">Calcul formel</a></b></td>
-          <td>ECTS: 3</td>
+          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>ECTS: {{ course.ects }}</td>
         </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=367">Contrôle optimal</a></b></td>
-          <td>ECTS: 6</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=36">Cryptographie</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=40">Informatique : Base de données</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=41">Modèles hyperboliques</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=366">Projet éléments finis</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=243">Projet volumes finis</a></b></td>
-          <td>ECTS: 3</td>
-        </tr>
-        <tr>
-          <td>• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=14&amp;ue=39">Réseaux</a></b></td>
-          <td>ECTS: 6</td>
-        </tr>
+
+        {% endfor %}
+
         </tbody>
         </table>
       </div>
@@ -393,14 +323,16 @@
           <tr>
           <td colspan="2"><b>UE obligatoires</b></td>
           </tr>
+
+          {% for course in site.data.course.courseS4 %}
+
           <tr>
-          <td class="tab-course">• <b><a href="http://mathinfo.unistra.fr/offre-de-formation/ue/?spec=1&amp;sem=15&amp;ue=485">Langues vivantes</a></b></td>
-          <td class="tab-ects">ECTS: 3</td>
+          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>ECTS: {{ course.ects }}</td>
           </tr>
-          <tr>
-          <td class="tab-course">• <a href="http://mathinfo.unistra.fr/offre-de-formation/mod/?spec=1&amp;sem=15&amp;el_id=9"><b>Stage ou mémoire M2</b></a></td>
-          <td class="tab-ects">ECTS: 27</td>
-          </tr>
+
+          {% endfor %}
+
         </tbody>
         </table>
       </div>
