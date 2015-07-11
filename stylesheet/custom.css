@@ -12,6 +12,8 @@ div .container-fluid {
   margin: 0 auto;
 }
 
+
+
 /* back to top arrow  */
 .back-to-top {
 background: none;
@@ -66,11 +68,6 @@ text-decoration: none;
 
 .centered {
   text-align: center;
-}
-
-.centered-1 {
-	text-align: center;
-	background-color: #f5f5f5;
 }
 
 .footer {
@@ -132,7 +129,7 @@ text-decoration: none;
 /* line 2037, ../../app/assets/stylesheets/layout.css.scss */
 .testimonial:before {
   top: 0;
-  left: 10px;
+  left: 5px;
 }
 
 /* line 2042, ../../app/assets/stylesheets/layout.css.scss */
