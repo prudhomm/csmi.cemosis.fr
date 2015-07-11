@@ -7,7 +7,9 @@ div .container-fluid {
   margin-bottom: 50px;
 }
 
-
+hr {
+  margin: 10px;
+}
 
 .col-centered {
   float: none;
