@@ -1,0 +1,47 @@
+- name: Cécile Daversin
+  testimony: >
+              Mon intérêt pour les mathématiques m'a conduit naturellement vers les mathématiques fondamentales. 
+              En découvrant que mes connaissances pouvaient servir à répondre à des besoins concrets, j'ai choisi 
+              de m'orienter vers les mathématiques appliquées. 
+              Mon master en simulation numérique m'a permis d'avoir mon premier contrat en tant qu'ingénieur en calcul 
+              scientifique au Laboratoire National des Champs Magnétiques Intenses, avant de commencer ma thèse.
+              Mes travaux sont quotidiennement utilisés au sein du laboratoire, ce qui me procure le sentiment d'être utile 
+              et complètement intégrée dans le processus complet de fabrication des aimants, réunissant une large gamme de métiers.
+               C'est ce lien étroit et direct entre le développement de méthodes numériques innovantes et les applications concrètes
+                qui m'a convaincu de poursuivre dans cette voie.
+  job: Doctorante, Université de Strasbourg
+
+- name: Thomas Strub
+  testimony: >
+        J'ai rencontré le calcul scientifique relativement tard dans mes études, l'application des maths à des problèmes 
+        concrets m'a immédiatement séduite. Cela m'a poussé à préparer un master dans ce domaine, puis une thèse CIFRE, durant 
+        laquelle j'ai pu aborder l'aspect industriel des maths appliquées.
+  job: Docteur de l'Université de Strasbourg, AxesSim
+
+- name: Romain Hild
+  testimony: >
+             Même si une formation en mathématiques peut parfois sembler difficile, il faut garder à l’esprit qu’elle permet 
+             surtout d’apprendre à réfléchir et à penser logiquement, et elle apporte des bases solides qui peuvent servir dans 
+             de nombreux domaines. Ainsi, même si vous pensez que vous n’utiliserez pas le théorème de Pythagore tous les jours, 
+             vous vous rendrez compte que les mathématiques sont utilisées partout et ont un impact bien réel sur les objets que 
+             vous utilisez au quotidien. Pour ma part, j’ai la chance de travailler avec une entreprise leader dans le domaine 
+             automobile, avec, à la clé, l’opportunité de voir mes travaux utilisés pour augmenter l’aérodynamisme et réduire 
+             l’impact écologique des voitures de demain.
+  position: Doctorant, Université de Strasbourg, Anciennement Ingénieur de recherche en collaboration avec PlasticOmnium
+
+- name: Jean-Baptiste Wahl
+  testimony: >
+             Lorsque je me suis inscrit en Master CSMI, c'était avant tout dans le but d'obtenir un diplôme professionnalisant,
+              dans la continuité de ma licence de Mathématiques. Durant ces deux années de formation, j'ai découvert le monde de
+               l'analyse numérique et j'ai été surpris par la richesse de cette discipline : on est amené à utiliser régulièrement 
+               des notions d'algèbre et d'analyse mais aussi de physique, d'algorithmique et de programmation. C'est un milieu très 
+               ouvert où un grand nombre de choses restent à faire. Par ailleurs, les domaines de la simulation, du contrôle et de la 
+               réduction de modèle intéressent de plus en plus les industriels. Moi même, j'ai la chance de travailler depuis 2 ans 
+               en collaboration avec le groupe Airbus sur un projet de simulation aerothermique. Ce projet et l'intérêt que je 
+               portais à mon travail, m'ont amené tout naturellement à poursuivre mon Master par un doctorat. Cette expérience 
+               supplémentaire dans la recherche me conforte aujourd'hui dans mes choix. J'affine mes connaissances, je rencontre 
+               des chercheurs brillants et me créé un réseau, j'apprend de nouvelles théories tout en apportant ma propre contribution. 
+               C'est une voie que je conseille fortement aux passionnés de mathématiques qui ont envie de mêler applications et travail 
+               de recherche théorique.
+  job: Doctorant, Université de Strasbourg
+

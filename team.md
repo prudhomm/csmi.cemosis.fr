@@ -3,14 +3,13 @@ layout: default
 permalink: /team/
 ---
 
-<center><h2>&Eacute;quipe pédagogique</h2></center>
+<center style="margin-top:80px"><h2>&Eacute;quipe pédagogique</h2></center>
+
+<div class="container" style="margin:0 auto width:400px">
 
 {% for member in site.data.team.members %}
 
-<div class="container-fluid">
-	
-	
-	<table>
+	<table class="">
 		<tr>
 			<td>{{ member.name }}</td>
 			<td>
@@ -24,6 +23,7 @@ permalink: /team/
 			</td>
 		</tr>
 	</table>
-</div>
 
 {% endfor %}
+
+</div>
