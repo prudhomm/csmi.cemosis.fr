@@ -7,12 +7,32 @@ div .container-fluid {
   margin-bottom: 50px;
 }
 
+
+
 .col-centered {
   float: none;
   margin: 0 auto;
 }
 
+#panel-sections {
+  background-color: #EDEEEF;
+}
 
+#panel-access {
+  background-color: #EDEEEF;
+}
+
+#panel-metiers {
+  background-color: #EDEEEF;
+}
+
+#panel-agenda {
+  background-color: #EDEEEF;
+}
+
+#panel-partnership {
+  background-color: #E5E5E5;
+}
 
 /* back to top arrow  */
 .back-to-top {

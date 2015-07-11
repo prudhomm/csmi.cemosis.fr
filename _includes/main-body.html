@@ -22,9 +22,12 @@
     <!--<img id="gallery" alt="Gallery image." class="img-rounded" src="images/gallery.png" height="600" width="800">-->
     <img id="gallery" alt="Gallery image." class="img-responsive" src="{{ site.baseurl }}/images/gallery.png" >
 
+</div>
 
+<hr class="soften">
 
-  <div id="sections"class="centered" style="margin-top:50px">
+<div id="panel-sections" class="container-fluid">
+  <div id="sections"class="centered">
     <div class="row-fluid">
       <div class="col-md-4" style="margin-top:50px">
       <a class="hvr-bounce-in" href="#testimony"><img src="{{ site.baseurl }}/images/icons/message.png"></a>
@@ -71,7 +74,7 @@
 
 <hr class="soften">
 
-<div class="container-fluid">
+
   <span class="anchor" id="testimony"></span>
   <div id="panel-testimony" class="container-fluid">
     <center>
@@ -147,9 +150,12 @@
         </div>
       </div>
     </div>
+  </div>
+
 
     <hr class="soften">
 
+  <div id="panel-diploma" class="container-fluid">
     <center  style="margin-top:50px">
       <h2>Avec quel diplôme ou formation?</h2>
     </center>
@@ -258,7 +264,7 @@
         {% for course in site.data.course.courseS1 %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -279,7 +285,7 @@
         {% for course in site.data.course.courseS2 %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -294,7 +300,7 @@
         {% for course in site.data.course.courseS2UEChoice %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -316,7 +322,7 @@
         {% for course in site.data.course.courseS3 %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -338,7 +344,7 @@
           {% for course in site.data.course.courseS4 %}
 
           <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
           </tr>
 
@@ -420,6 +426,3 @@
 
     </div>
   </div>
-
-
-</div><!-- main container's end -->
