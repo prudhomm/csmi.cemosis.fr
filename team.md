@@ -5,7 +5,7 @@ permalink: /team/
 
 <center style="margin-top:80px"><h2>&Eacute;quipe pédagogique</h2></center>
 
-<div class="container" style="margin:0 auto width:100px">
+<div class="container" style="max-width:500px">
 
 {% for member in site.data.team.members %}
 
