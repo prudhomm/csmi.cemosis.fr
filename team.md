@@ -12,13 +12,13 @@ permalink: /team/
 	<table class="table table-bordered table-hover table-striped" style="margin-top:50px">
 		<tbody>
 		<tr>
-			<td style="text-align:center">{{ member.name }}</td>
+			<td style="text-align:center">{{ member.position }}</td>
 		</tr>
 		<tr>
 			<td>
 				<ul>
 
-					<li>{{ member.position }}</li>
+					<li>{{ member.name }}</li>
 					<li>Bureau: {{ member.office }}</li>
 					<li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
 					<li>Téléphone: {{ member.telephone }}</li>
