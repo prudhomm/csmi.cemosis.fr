@@ -3,12 +3,17 @@ body {
 }
 
 div .container-fluid {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 hr {
-  margin: 10px;
+  margin: 0px;
+}
+/* table of contents tocify style */
+@media (max-width: 767px) {
+    #toc {
+        position: relative;
+        width: 100%;
+    }
 }
 
 .col-centered {
@@ -16,24 +21,41 @@ hr {
   margin: 0 auto;
 }
 
-#panel-sections {
-  background-color: #EDEEEF;
+#panel-testimony {
+  background-color: #eee;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 #panel-access {
-  background-color: #EDEEEF;
+  padding-top: 50px;
+}
+
+#panel-diploma {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #panel-metiers {
-  background-color: #EDEEEF;
+  background-color: #eee;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#panel-agenda {
-  background-color: #EDEEEF;
+#panel-course {
+  padding-bottom: 50px;
 }
 
 #panel-partnership {
-  background-color: #E5E5E5;
+  background-color: #eee;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#panel-agenda {
+  background-color: #eee;
+  padding-top: 50px;
+  padding-bottom: 50px;  
 }
 
 /* back to top arrow  */
