@@ -1,4 +1,4 @@
-<div class="jumbotron">
+<div class="jumbotron" style="border-bottom: 1px solid black">
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="col-md-6">
@@ -17,14 +17,54 @@
   </div>
 </div>
 
-
+<!-- 
 <div class="container-fluid">
-    <!--<img id="gallery" alt="Gallery image." class="img-rounded" src="images/gallery.png" height="600" width="800">-->
     <img id="gallery" alt="Gallery image." class="img-responsive" src="/images/gallery.png" >
 
+</div>-->
+
+<div id="slide-show" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#slide-show" data-slide-to="0" class="active"></li>
+    <li data-target="#slide-show" data-slide-to="1"></li>
+    <li data-target="#slide-show" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="/images/slide/gallery.png">
+        <div class="carousel-caption">
+          <h2 style="background-color:black">Description...</h2>
+        </div>
+    </div>
+    <div class="item">
+      <img src="/images/slide/lncmi-1.png">
+        <div class="carousel-caption">
+          <div class="carousel-caption">
+          <h2 style="background-color:black">Description...</h2>
+          </div> 
+        </div>
+    </div>
+    <div class="item">
+      <img src="/images/slide/vivabrain-stream-2.png">
+      <div class="carousel-caption">
+          <div class="carousel-caption">
+          <h2 style="background-color:black">Description...</h2>
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#slide-show" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Précédent</span>
+  </a>
+  <a class="right carousel-control" href="#slide-show" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Suivant</span>
+  </a>
 </div>
-
-
 
 <div id="panel-sections" class="container-fluid">
   <div id="sections"class="centered">

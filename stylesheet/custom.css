@@ -2,19 +2,36 @@ body {
   padding-top: 50px;
 }
 
+.carousel-indicators li {
+  background-color: #3366CC;
+}
+.carousel-indicators .active {
+  background-color: #CC0000;
+}
+
+.carousel-inner {
+  height: 800px;
+}
+
+.carousel-inner .item {
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;s
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    min-height: 100%;
+}
+
 div .container-fluid {
 }
 
 hr {
   margin: 0px;
 }
-/* table of contents tocify style */
-@media (max-width: 767px) {
-    #toc {
-        position: relative;
-        width: 100%;
-    }
-}
+
+
 
 .col-centered {
   float: none;
