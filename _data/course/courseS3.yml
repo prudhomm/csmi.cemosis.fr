@@ -1,0 +1,64 @@
+- name: Calcul formel
+  ects: 3
+  content: Algorithmique. Algorithmes de factorisation et LLL. Systèmes de calcul formel. Applications.
+  knowledege: La maîtrise de systèmes tels que MAPLE ou SAGE et l'étude d'applications.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s3-1
+
+- name: Contrôle optimal
+  ects: 6
+  content: "Notion d'état adjoint. Application à quelques EDP de la physique: Poisson, chaleur, ondes. Mise en oeuvre dans un logiciel d'éléments finis."
+  knowledege: Savoir calculer théoriquement et pratiquement un état adjoint. Mise en ouvre dans un logiciel de calcul scientifique.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 52h"
+  id: s3-2
+
+- name: Cryptographie
+  ects: 3
+  content: Cryptographie classique ou à clef publique. Outils mathématiques. Questions de confidentialité, signature ; sécurité informatique.
+  knowledege: La maîtrise des questions de sécurité informatique.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s3-3
+
+- name: "Informatique : Base de données"
+  ects: 3
+  content: Introduction à la théorie et aux systèmes de bases de données.
+  knowledege: La connaissance approfondie des grands systèmes tels que ORACLE.
+  duration: "Cours Intégrés : 52h"
+  id: s3-4
+
+- name: Modèles hyperboliques
+  ects: 3
+  content: "Introduction à la théorie des systèmes hyperboliques de lois de conservation. Exemples: Burgers, Euler, Maxwell. Entropie, problème de Riemann."
+  knowledege: "Savoir faire des calcul simples sur les systèmes hyperboliques: entropies, invariants de Riemann, ondes simples et chocs, problèmes de Riemann."
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s3-5
+
+- name: Projet éléments finis
+  ects: 3
+  content: Techniques de mise en oeuvre de la méthode des éléments finis. Application à un problème concret issu de la mécanique ou de la physique.
+  knowledege: Savoir programmer la méthode des éléments finis. Savoir utiliser un grand logiciel d'éléments finis (libre ou du commerce) pour un problème pratique.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s3-6
+
+- name: Projet volumes finis
+  ects: 3
+  content: Technique de mise en oeuvre de la méthode des volumes finis pour les systèmes hyperboliques. Flux numériques, conditions de stabilité, techniques de montée en ordre. Etudes de convergence.
+  knowledege: Savoir programmer, tester et valider la méthodes des volumes fini sur architecture parallèle (cluster ou GPU) en dimensions 1, 2 ou 3. Application à un problème issu de la mécanique ou de la physique.
+  info: 
+  duration: |
+            "Cours : 28h" 
+            "Cours Intégrés : 26h"
+  id: s3-7
+
+- name: Réseaux
+  ects: 6
+  content: "Architecture normalisée des réseaux : OSI. Protocoles. Réseaux d'évaluation."
+  knowledege: Les questions de sécurité.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 52h"
+  id: s3-8

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <!-- Return to top arrow -->
+    <a href="#" class="back-to-top" style="display: inline;">
+      <i class="fa fa-arrow-circle-up fa-6"></i>
+    </a>
+
+    {% include main-body.html %}
+
+    <hr class="soften">
+
+    <div class="container-fluid">
+      <center><h2>Partager notre site</h2></center>
+      <div id="share" class="centered" style="margin-top: 80px"></div>
+
+      <center style="margin-top:50px">
+
+      <a href="mailto:contact-csmi@cemosis.fr" class="btn btn-primary btn-lg hvr-pulse-grow" role="button" style="width:200px">Contactez-nous</a>
+
+      <a href="https://aria.u-strasbg.fr/" class="btn btn-success btn-lg hvr-pulse-grow" role="button" style="width:200px">Candidatez</a>
+
+      </center>
+    </div>
+
+
+    {% include footer.html %}
+
+    {% include script.html %}
+
+
+    <!-- read more option's code, using Readmore.js -->
+    <script type="text/javascript">
+      $('#testimony-0').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+      $('#testimony-1').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+      $('#testimony-2').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+      $('#testimony-3').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });      
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,82 @@
+- name: Algorithmique I
+  ects: 3
+  content: Algorithmes algébriques, algorithmes de tris. Estimations asymptotiques.
+  knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-1
+
+- name: Algorithmique II
+  ects: 3
+  content: Recherche de motifs, parcours de graphes orientés, techniques mathématiques
+  knowledege: Approfondir les compétences abordées en algorithmique I
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-2
+
+- name: Analyse fonctionnelle
+  ects: 3
+  content: "Eléments d'analyse fonctionnelle utiles pour le calcul scientifique et les mathématiques pour l'ingénieur: rappels de théorie de la mesure et d'analyse convexe, espaces de Hilbert de dimension infinie, convergences faibles, distributions."
+  knowledege: Savoir distinguer sur le plan théorique et pratique les diverses notions de convergence en dimension finie ou infinie. Pratique du calcul avec les distributions.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-3
+
+- name: Arithmétique
+  ects: 3
+  content: Rappels et approfondissement sur les éléments de l'arithmétique utiles à la cryptographie.
+  knowledege: Applications élémentaires de l'arithmétique à la cryptographie et à l'informatique.
+  duration: "Cours Intégrés : 26h"
+  id: s1-4
+
+- name: Calcul parallèle
+  ects: 3
+  content: Savoir programmer un algorithme parallèle simple au moyen de la librairie MPI en C/C++ ou en FORTRAN90. Initiation au calcul sur GPU.
+  knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-5
+
+- name: Calcul scientifique
+  ects: 3
+  content: |
+            Modèles mathématiques basés sur des EDP. Exemples en physique, biologie, économie.
+            Méthodes classiques d'approximation: différences finies, éléments finis, volumes finis.
+  knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-6
+
+- name: Graphe
+  ects: 3
+  content: Algorithmes algébriques, algorithmes de tris. Estimations asymptotiques.
+  knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-7
+
+- name: Language vivantes
+  ects: 3
+  content: "Objectifs linguistiques et langagiers: travail individualisé sur la langue en fonction du niveau des étudiants et de leurs besoins leur permettant de viser des compétences C1 en master, soit en centre de ressources ou à distance (http://www.netvibes.com/english_online, http://www.netvibes.com/deutsch_online)."
+  knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
+  info: "ATTENTION : UE non ouverte en 2013/2014 au semestre 3 du Master Informatique, spécialité RISE. Une note sera fournie par le Centre de Ressources de Langues (CRL)"
+  duration: "Cours Intégrés : 26h"
+  id: s1-8
+
+- name: Logique
+  ects: 3
+  content: Logique élémentaire et calcul booléen. Calcul propositionnel. Calcul des prédicats.
+  knowledege: La compréhension des questions pratiques liées aux circuits logiques.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-9
+
+- name: Modèle aléatoire
+  ects: 3
+  content: |
+            Rappels de probabilités. Introduction aux chaînes de Markov et au calcul différentiel stochastique.
+            Simulations numériques de phénomènes aléatoires.
+  knowledege: Savoir simuler des phénomènes aléatoires simples sur un ordinateur. Acquérir une intuition pratique du calcul stochastique.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s1-10

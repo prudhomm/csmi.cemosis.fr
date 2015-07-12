@@ -1,0 +1,15 @@
+- name: Méthodes numériques pour les EDP II
+  ects: 3
+  content: "Approfondissement des notions abordées en Méthodes numériques pour les EDP I: problèmes d'évolution, problèmes non-linéaires."
+  knowledege: Analyse théorique et numériques des problèmes aux limites d'évolution paraboliques et/ou non-linéaires.
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s2-8
+
+- name: Théorie des codes II
+  ects: 3
+  content: Approfondissement des connaissances abordées en Théorie des codes I
+  knowledege: Approfondissement des compétences abordées en Théorie des codes I
+  info: "Session de rattrapage : cf. MECC 2014-15"
+  duration: "Cours Intégrés : 26h"
+  id: s2-9
