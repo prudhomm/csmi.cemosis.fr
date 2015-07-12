@@ -7,7 +7,7 @@ description: |
               L'objectif de cette formation est de donner une double compétence en calcul scientifique et en 
               mathématique de l'information.
 baseurl: 
-url: # the base hostname & protocol for your site
+url: "http://csmi.cemosis.fr/"
 twitter_username: 
 github_username: 
 

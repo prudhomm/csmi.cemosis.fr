@@ -3,7 +3,7 @@ layout: default
 permalink: /team/
 ---
 
-<center style="margin-top:80px"><h2>&Eacute;quipe pédagogique</h2></center>
+<center style="padding-top:80px"><h2>&Eacute;quipe pédagogique</h2></center>
 
 <div class="container" style="max-width:500px">
 

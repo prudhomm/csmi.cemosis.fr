@@ -10,11 +10,11 @@ permalink : /course/
 		</div>
 
 		<div class="col-md-5" >
-
+		<a class="anchor" id="s1"></a>
 			<div style="text-align:center"><h1>Semestre 1</h1></div>
 
 		{% for course in site.data.course.courseS1 %}
-			<span class="anchor" id="{{ course.id }}">{{ course.name }}</span>
+			<a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
 			<table class="table table-bordered table-striped" style="margin-top:50px">
 				<tbody>
 				<tr style="background-color:#CCCCCC">
@@ -43,13 +43,13 @@ permalink : /course/
 			</table>
 
 		{% endfor %}
-
+			<a class="anchor" id="s2"></a>
 			<div style="text-align:center"><h1>Semestre 2</h1></div>
-			
+
 		{% for course in site.data.course.courseS2 %}
 
 
-			<span class="anchor" id="{{ course.id }}">{{ course.name }}</span>
+			<a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
 			<table class="table table-bordered table-striped" style="margin-top:50px">
 				<tbody>
 				<tr style="background-color:#CCCCCC">
@@ -81,7 +81,7 @@ permalink : /course/
 
 		{% for course in site.data.course.courseS2UEChoice %}
 
-			<span class="anchor" id="{{ course.id }}">{{ course.name }}</span>
+			<a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
 			<table class="table table-bordered table-striped" style="margin-top:50px">
 				<tbody>
 				<tr style="background-color:#CCCCCC">
@@ -110,12 +110,12 @@ permalink : /course/
 			</table>
 
 		{% endfor %}
-
+			<a class="anchor" id="s3"></a>
 			<div style="text-align:center"><h1>Semestre 3</h1></div>
 
 		{% for course in site.data.course.courseS3 %}
 
-			<span class="anchor" id="{{ course.id }}">{{ course.name }}</span>
+			<a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
 			<table class="table table-bordered table-striped" style="margin-top:50px">
 				<tbody>
 				<tr style="background-color:#CCCCCC">
@@ -144,12 +144,12 @@ permalink : /course/
 			</table>
 
 		{% endfor %}
-
+			<a class="anchor" id="s4"></a>
 			<div style="text-align:center"><h1>Semestre 4</h1></div>
 
 		{% for course in site.data.course.courseS4 %}
 
-			<span class="anchor" id="{{ course.id }}">{{ course.name }}</span>
+			<a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
 			<table class="table table-bordered table-striped" style="margin-top:50px">
 				<tbody>
 				<tr style="background-color:#CCCCCC">

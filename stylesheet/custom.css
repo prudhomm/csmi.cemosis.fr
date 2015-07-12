@@ -21,9 +21,14 @@ hr {
   margin: 0 auto;
 }
 
+#sitemap ul{
+  list-style: none;
+  display: block;
+}
+
 #panel-testimony {
   background-color: #eee;
-  margin-top: 50px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -48,14 +53,19 @@ hr {
 
 #panel-partnership {
   background-color: #eee;
-  margin-top: 50px;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 #panel-agenda {
   background-color: #eee;
   padding-top: 50px;
   padding-bottom: 50px;  
+}
+
+#panel-international {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* back to top arrow  */
