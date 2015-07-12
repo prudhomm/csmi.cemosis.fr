@@ -20,7 +20,7 @@
 
 <div class="container-fluid">
     <!--<img id="gallery" alt="Gallery image." class="img-rounded" src="images/gallery.png" height="600" width="800">-->
-    <img id="gallery" alt="Gallery image." class="img-responsive" src="{{ site.baseurl }}/images/gallery.png" >
+    <img id="gallery" alt="Gallery image." class="img-responsive" src="/images/gallery.png" >
 
 </div>
 
@@ -30,41 +30,41 @@
   <div id="sections"class="centered">
     <div class="row-fluid">
       <div class="col-md-4" style="margin-top:50px">
-      <a class="hvr-bounce-in" href="#testimony"><img src="{{ site.baseurl }}/images/icons/message.png"></a>
+      <a class="hvr-bounce-in" href="#testimony"><img src="/images/icons/message.png"></a>
         <h3>Témoignages</h3>
       </div>
 
       <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#access"><img src="{{ site.baseurl }}/images/icons/mind.png"></a>
+        <a class="hvr-bounce-in" href="#access"><img src="/images/icons/mind.png"></a>
         <h3>Accès</h3>
     </div>
 
 
       <div class="col-md-4" style="margin-top:50px">
-         <a class="hvr-bounce-in" href="#metiers"><img src="{{ site.baseurl }}/images/icons/businessman.png"></a>
+         <a class="hvr-bounce-in" href="#metiers"><img src="/images/icons/businessman.png"></a>
          <h3>Métiers</h3>
       </div>
     </div>
 
     <div class="row-fluid">
       <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#course"><img src="{{ site.baseurl }}/images/icons/teacher.png"></a>
+        <a class="hvr-bounce-in" href="#course"><img src="/images/icons/teacher.png"></a>
         <h3>Enseignements</h3>
       </div>
       <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#agenda"><img src="{{ site.baseurl }}/images/icons/calendar.png"></a>
+        <a class="hvr-bounce-in" href="#agenda"><img src="/images/icons/calendar.png"></a>
         <h3>Agenda des cours</h3>
       </div>
 
       <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#partnership"><img src="{{ site.baseurl }}/images/icons/users.png"></a>
+        <a class="hvr-bounce-in" href="#partnership"><img src="/images/icons/users.png"></a>
         <h3>Partenaires</h3>
       </div>
     </div>
     <div class="row-fluid">
       <div class="col-md-4" style="margin-top:50px"></div>
       <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#international"><img src="{{ site.baseurl }}/images/icons/world.png"></a>
+        <a class="hvr-bounce-in" href="#international"><img src="/images/icons/world.png"></a>
         <h3>Relations internationales</h3>
       </div>
       <div class="col-md-4" style="margin-top:50px"></div>
@@ -200,7 +200,7 @@
       <div class="col-md-6">
        <h3 class="marketing-title">Forum Emploi Mathématique</h3>
        <a href="http://www.forum-emploi-maths.org/"><div class="thumbnail" style="width=50%">
-         <img src="{{ site.baseurl }}/images/fem4.png"  style="min-height:256px;height:256px;">
+         <img src="/images/fem4.png"  style="min-height:256px;height:256px;">
          <div class="caption" >
            <address>
              <strong></strong><br>
@@ -264,7 +264,7 @@
         {% for course in site.data.course.courseS1 %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -285,7 +285,7 @@
         {% for course in site.data.course.courseS2 %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -300,7 +300,7 @@
         {% for course in site.data.course.courseS2UEChoice %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -322,7 +322,7 @@
         {% for course in site.data.course.courseS3 %}
 
         <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
         </tr>
 
@@ -344,7 +344,7 @@
           {% for course in site.data.course.courseS4 %}
 
           <tr>
-          <td>• <b><a href="{{ site.baseurl }}/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
           <td>ECTS: {{ course.ects }}</td>
           </tr>
 
