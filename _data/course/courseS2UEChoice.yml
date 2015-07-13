@@ -5,7 +5,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-8
-  teacher: 
+  teacher: m1
 
 - name: Théorie des codes II
   ects: 3
@@ -14,4 +14,4 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-9
-  teacher: 
+  teacher: m11
