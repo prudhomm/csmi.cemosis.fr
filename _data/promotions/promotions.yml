@@ -1,0 +1,71 @@
+- id: promo-1
+  year: 2012
+  students:
+   - name: Ranine Tarabay
+     email: ranine.a.tarabay@gmail.com
+     last-known-job: Doctorante
+     last-known-company: Université de Strasbourg
+   - name: Laura Mendoza
+     email:
+     last-known-job: Doctorante
+     last-known-company: Technische Universität Munchen
+
+- id: promo-2
+  year: 2013
+  students:
+   - name: Guillaume Dollé
+     email: dolle.guillaume@gmail.com
+     last-known-job: Doctorant
+     last-known-company: Université de Strasbourg
+   - name: Jey Nadarasa
+     email: jey.nadarasa@gmail.com
+     last-known-job: Doctorant
+     last-known-company: Université de Strasbourg
+
+- id: promo-3
+  year: 2014
+  students:
+   - name: Jean-Baptiste Wahl
+     email: jbwahl@gmail.com
+     last-known-job: Doctorant
+     last-known-company: Université de Strasbourg
+   - name: Romain Hild
+     email: hild.romain@gmail.com
+     last-known-job: Doctorant
+     last-known-company: Université de Strasbourg
+   - name: François Der Hovsepian
+     email: francois.mac@gmail.com
+     last-known-job: Sans emploi
+     last-known-company:
+
+- id: promo-4
+  year: 2015
+  students:
+   - name: Mamadou Camara
+     email: camara0388@gmail.com
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
+   - name: Alexandre Corizzi
+     email: alexandre.corizzi@gmail.com
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
+   - name: Pierre Gerhard
+     email:
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
+   - name: Thomas Lantz
+     email: lantz.thomas0@gmail.com
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
+   - name: Djébril Mokaddem
+     email: djebril.mokaddem@gmail.com
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
+   - name: Marion Spreng
+     email: spreng.marion@gmail.com
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
+   - name: Benjamin Vanthong
+     email: benjamin.vanthong@gmail.com
+     last-known-job: Master CSMI
+     last-known-company: Université de Strasbourg
