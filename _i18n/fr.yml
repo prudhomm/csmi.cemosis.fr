@@ -2,7 +2,7 @@ global:
 
 navbar:
     home: Page d'accueil
-    team: "&Eacute;"
+    team: "&Eacute;quipe"
     promotions: Promotions
-    news: Actualités
-    course: Enseignement
+    news: Actualit&eacute;s
+    course: Enseignements
