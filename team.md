@@ -82,7 +82,38 @@ permalink: /team/
                             	<ul>
                             {% assign course = | member.course | split:";" %}
                             {% for id in course %}
-                                	<li><a href="/course/#{{ id }}">{{ id }}</a></li>
+                            	{% for course in site.data.course.courseS1 %}
+									{% if course.id == id %}
+										{% assign name = course.name %}
+									{% endif %}
+								{% endfor %}
+
+								{% for course in site.data.course.courseS2 %}
+									{% if course.id == id %}
+										{% assign name = course.name %}
+									{% endif %}
+								{% endfor %}
+
+								{% for course in site.data.course.courseS2UEChoice %}
+									{% if course.id == id %}
+										{% assign name = course.name %}
+									{% endif %}
+								{% endfor %}
+
+								{% for course in site.data.course.courseS3 %}
+									{% if course.id == id %}
+										{% assign name = course.name %}
+									{% endif %}
+								{% endfor %}	
+                                
+                                {% for course in site.data.course.courseS4 %}
+									{% if course.id == id %}
+										{% assign name = course.name %}
+									{% endif %}
+								{% endfor %}
+								
+                                <li><a href="/course/#{{ id }}">{{ name }}</a></li>
+                            	
                             {% endfor %}
                             	</ul>
                             </li>

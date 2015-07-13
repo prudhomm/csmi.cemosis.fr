@@ -33,9 +33,13 @@ permalink : /course/
 							<ul>
 								{% assign teacher = | course.teacher | split:";" %}
 								{% for id in teacher %}
+									{% for member in site.data.team.members %}
+											{% if member.id == id %}
+											{% assign name = member.name %}
+											{% endif %}
+									{% endfor %}		
+								<li><a href="/team/#{{ id }}">{{ name }}</a></li>
 
-								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
-								
 								{% endfor %}
 							</ul>
 							{% else %}
@@ -81,7 +85,12 @@ permalink : /course/
 							<ul>
 								{% assign teacher = | course.teacher | split:";" %}
 								{% for id in teacher %}
-								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+									{% for member in site.data.team.members %}
+										{% if member.id == id %}
+										{% assign name = member.name %}
+										{% endif %}
+									{% endfor %}	
+								<li><a href="/team/#{{ id }}">{{ name }}</a></li>
 								{% endfor %}
 							</ul>
 							{% else %}
@@ -124,7 +133,12 @@ permalink : /course/
 							<ul>
 								{% assign teacher = | course.teacher | split:";" %}
 								{% for id in teacher %}
-								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								{% for member in site.data.team.members %}
+										{% if member.id == id %}
+										{% assign name = member.name %}
+										{% endif %}
+									{% endfor %}	
+								<li><a href="/team/#{{ id }}">{{ name }}</a></li>
 								{% endfor %}
 							</ul>
 							{% else %}
@@ -169,7 +183,12 @@ permalink : /course/
 							<ul>
 								{% assign teacher = | course.teacher | split:";" %}
 								{% for id in teacher %}
-								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								{% for member in site.data.team.members %}
+										{% if member.id == id %}
+										{% assign name = member.name %}
+										{% endif %}
+									{% endfor %}	
+								<li><a href="/team/#{{ id }}">{{ name }}</a></li>
 								{% endfor %}
 							</ul>
 							{% else %}
@@ -213,8 +232,13 @@ permalink : /course/
 							<ul>
 								{% assign teacher = | course.teacher | split:";" %}
 								{% for id in teacher %}
+									{% for member in site.data.team.members %}
+										{% if member.id == id %}
+										{% assign name = member.name %}
+										{% endif %}
+									{% endfor %}	
 
-								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								<li><a href="/team/#{{ id }}">{{ name }}</a></li>
 								{% endfor %}
 							</ul>
 							{% else %}
