@@ -10,7 +10,7 @@ permalink : /course/
 		</div>
 
 		<div class="col-md-5" >
-		<a class="anchor" id="s1"></a>
+		<a class="anchor" id="S1"></a>
 			<div style="text-align:center"><h1>Semestre 1</h1></div>
 
 		{% for course in site.data.course.courseS1 %}
@@ -43,7 +43,7 @@ permalink : /course/
 			</table>
 
 		{% endfor %}
-			<a class="anchor" id="s2"></a>
+			<a class="anchor" id="S2"></a>
 			<div style="text-align:center"><h1>Semestre 2</h1></div>
 
 		{% for course in site.data.course.courseS2 %}
@@ -110,7 +110,7 @@ permalink : /course/
 			</table>
 
 		{% endfor %}
-			<a class="anchor" id="s3"></a>
+			<a class="anchor" id="S3"></a>
 			<div style="text-align:center"><h1>Semestre 3</h1></div>
 
 		{% for course in site.data.course.courseS3 %}
@@ -144,7 +144,7 @@ permalink : /course/
 			</table>
 
 		{% endfor %}
-			<a class="anchor" id="s4"></a>
+			<a class="anchor" id="S4"></a>
 			<div style="text-align:center"><h1>Semestre 4</h1></div>
 
 		{% for course in site.data.course.courseS4 %}
