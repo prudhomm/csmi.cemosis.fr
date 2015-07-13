@@ -17,12 +17,18 @@ permalink: /team/
 	<table class="table table-bordered table-hover table-striped" style="margin-top:50px">
 		<tbody>
 		<tr>
-			<td style="text-align:center"><h3>{{ member.position }}</h3></td>
+		 <td colspan="2" style="text-align:center"><h3>{{ member.position }}</h3></td>
 		</tr>
 		<tr>
+		<td>
+		{% if member.photo %}
+			<img src="{{ member.photo }}" width="128px">
+		{% else %}
+		 <img src="/images/photos/unknown-id-128x128.png" width="128px">
+		{% endif %}
+		</td>
 			<td>
 				<ul>
-
 					<li>{{ member.name }}</li>
 					<li>Bureau: {{ member.office }}</li>
 					<li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
@@ -52,9 +58,16 @@ permalink: /team/
 	<table class="table table-bordered table-hover table-striped" style="margin-top:50px">
 		<tbody>
 		<tr>
-			<td style="text-align:center"><h3>{{ member.name }}</h3></td>
+			<td colspan="2" style="text-align:center"><h3>{{ member.name }}</h3></td>
 		</tr>
 		<tr>
+		<td>
+		{% if member.photo %}
+			<img src="{{ member.photo }}" width="128px">
+		{% else %}
+		 <img src="/images/photos/unknown-id-128x128.png" width="128px">
+		{% endif %}
+		</td>
 			<td>
 				<ul>
 
