@@ -1,0 +1,14 @@
+- id: im-1
+  path: /images/slide/gallery.png
+  state: active
+  description: Gallerie d'images
+
+- id: im-2
+  path: /images/slide/lncmi-1.png
+  state:
+  description: Champs de température dans un électro-aimant du LNCMI  (C) Feel++ Consortium
+
+- id: im-3
+  path: /images/slide/vivabrain-stream-2.png
+  state:
+  description: Lignes de courant du champs de vitesse du sang dans le réseau cérébro-veineux  (C) Feel++ Consortium

@@ -10,18 +10,20 @@ body {
 }
 
 .carousel-inner {
-  height: 800px;
+  height: 700px;
 }
 
 .carousel-inner .item {
   overflow: hidden;
-  max-height: 100%;
-  max-width: 100%;s
+  //max-height: 128px;
+  max-width: 100%;
+
 }
 
 .carousel-inner .item img {
     width: 100%;
-    min-height: 100%;
+    //min-height: 100%;
+    //max-height: 600px;
 }
 
 div .container-fluid {
@@ -77,7 +79,7 @@ hr {
 #panel-agenda {
   background-color: #eee;
   padding-top: 50px;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
 }
 
 #panel-international {
