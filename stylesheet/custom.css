@@ -2,28 +2,52 @@ body {
   padding-top: 50px;
 }
 
+.carousel-indicators li {
+  background-color: #3366CC;
+}
+.carousel-indicators .active {
+  background-color: #CC0000;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.carousel-inner .item {
+  overflow: hidden;
+  //max-height: 128px;
+  max-width: 100%;
+
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    //min-height: 100%;
+    //max-height: 600px;
+}
+
 div .container-fluid {
 }
 
 hr {
   margin: 0px;
 }
-/* table of contents tocify style */
-@media (max-width: 767px) {
-    #toc {
-        position: relative;
-        width: 100%;
-    }
-}
+
+
 
 .col-centered {
   float: none;
   margin: 0 auto;
 }
 
+#sitemap ul{
+  list-style: none;
+  display: block;
+}
+
 #panel-testimony {
   background-color: #eee;
-  margin-top: 50px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -48,14 +72,19 @@ hr {
 
 #panel-partnership {
   background-color: #eee;
-  margin-top: 50px;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 #panel-agenda {
   background-color: #eee;
   padding-top: 50px;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
+}
+
+#panel-international {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* back to top arrow  */
