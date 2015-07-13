@@ -9,9 +9,9 @@ permalink : /course/
 		<div id="toc"></div>
 		</div>
 
-		<div class="col-md-5" >
+		<div class="col-md-6" >
 		<a class="anchor" id="S1"></a>
-			<div style="text-align:center"><h1>Semestre 1</h1></div>
+		<div style="text-align:center"><h1>Semestre 1</h1></div>
 
 		{% for course in site.data.course.courseS1 %}
 			<a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
@@ -179,6 +179,6 @@ permalink : /course/
 
 		{% endfor %}
 		</div>
-		<div class="col-md-4"></div>	
+		<div class="col-md-3"></div>	
 	</div>
 </div>
