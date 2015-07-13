@@ -33,11 +33,16 @@
 
   <div class="carousel-inner" role="listbox">
    {% for image in site.data.slideshow.slideshow %}
+   {% if image.state %}
     <div class="item {{ image.state }}">
+    {% else %}
+    <div class="item">
+    {% endif %}
       <img src="{{ image.path }}">
         <div class="carousel-caption">
+         <div class="carousel-caption">
           <h2 style="background-color:black">{{ image.description }}</h2>
-        </div>
+        </div></div>
     </div>
     {% endfor %}
   </div>
