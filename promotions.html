@@ -1,0 +1,37 @@
+---
+layout: default
+permalink: /promotions/
+---
+
+<center>
+  <div style="padding-bottom:50px;"><h2>Les promotions du Master Calcul Scientifique et Mathématiques de l'Information</h2></div>
+</center>
+
+{% for promotion in site.data.promotions.promotions %}
+ <div class="container-fluid">
+  <center>
+    <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.year }}</h2></div>
+  </center>
+   <div class="row-fluid">
+    {% for student in promotion.students %}
+    <div class="col-md-6">
+     <table class="table table-condensed table-hover table-striped table-bordered">
+      <tbody>
+      <tr><td colspan="2" style="text-align:center"><h3 class="marketing-title">{{ student.name }}</h3></td></tr>
+      <tr>
+       <td class="marketing-title">Email</td>
+       <td ><a href="mailto:{{student.email}}">{{student.email}}</a></td>
+      </tr>
+      <tr>
+       <td class="marketing-title">Dernier emploi</td>
+       <td>{{student.last-known-job}}, {{student.last-known-company}}</td>
+      </tr>
+     </tbody>
+     </table>
+    </div>
+    {% endfor %}
+   </div>
+
+</div>
+ </div>
+{% endfor %}

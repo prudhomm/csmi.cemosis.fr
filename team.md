@@ -8,11 +8,8 @@ permalink: /team/
         <div style="padding-bottom:50px;"><h2>Responsables</h2></div>
     </center>
     <div class="row-fluid">
-    <div class="col-md-3"></div>
-        <div class="col-md-6">
-
         {% for member in site.data.team.managers %}
-
+        <div class="col-md-6">
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-striped" style="margin-top:50px">
                 <tbody>
@@ -40,20 +37,19 @@ permalink: /team/
             </table>
 
         </div>
+            </div>
         {% endfor %}
-
-          </div>
-          <div class="col-md-3"></div>
-    </div>
+</div>
 </div>
 
-<div class="container" style="max-width:600px">
+<div class="container-fluid">
     <center>
         <div style="padding-bottom:50px;"><h2>&Eacute;quipe pédagogique</h2></div>
     </center>
     <div class="row-fluid">
 
         {% for member in site.data.team.members %}
+        <div class="col-md-6">
         <a class="anchor" id="{{ member.id }}"></a>
         <div class="table-reponsive">
             <table class="table table-bordered table-hover table-striped" style="margin-top:50px">
@@ -79,49 +75,50 @@ permalink: /team/
                                 <li>Téléphone: {{ member.telephone }}</li>
                             {% endif %}
                             <li>Cours:
-                            	<ul>
+                             <ul>
                             {% assign course = | member.course | split:";" %}
                             {% for id in course %}
-                            	{% for course in site.data.course.courseS1 %}
-									{% if course.id == id %}
-										{% assign name = course.name %}
-									{% endif %}
-								{% endfor %}
+                             {% for course in site.data.course.courseS1 %}
+         {% if course.id == id %}
+          {% assign name = course.name %}
+         {% endif %}
+        {% endfor %}
 
-								{% for course in site.data.course.courseS2 %}
-									{% if course.id == id %}
-										{% assign name = course.name %}
-									{% endif %}
-								{% endfor %}
+        {% for course in site.data.course.courseS2 %}
+         {% if course.id == id %}
+          {% assign name = course.name %}
+         {% endif %}
+        {% endfor %}
 
-								{% for course in site.data.course.courseS2UEChoice %}
-									{% if course.id == id %}
-										{% assign name = course.name %}
-									{% endif %}
-								{% endfor %}
+        {% for course in site.data.course.courseS2UEChoice %}
+         {% if course.id == id %}
+          {% assign name = course.name %}
+         {% endif %}
+        {% endfor %}
 
-								{% for course in site.data.course.courseS3 %}
-									{% if course.id == id %}
-										{% assign name = course.name %}
-									{% endif %}
-								{% endfor %}	
-                                
+        {% for course in site.data.course.courseS3 %}
+         {% if course.id == id %}
+          {% assign name = course.name %}
+         {% endif %}
+        {% endfor %}
+
                                 {% for course in site.data.course.courseS4 %}
-									{% if course.id == id %}
-										{% assign name = course.name %}
-									{% endif %}
-								{% endfor %}
-								
+         {% if course.id == id %}
+          {% assign name = course.name %}
+         {% endif %}
+        {% endfor %}
+
                                 <li><a href="/course/#{{ id }}">{{ name }}</a></li>
-                            	
+
                             {% endfor %}
-                            	</ul>
+                             </ul>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 </tbody>
             </table>
+        </div>
         </div>
         {% endfor %}
     </div>
