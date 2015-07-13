@@ -13,3 +13,7 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+languages: ["fr", "en", "de"]
+
+exclude_from_localizations: ["js", "images", "stylesheet"]

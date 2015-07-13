@@ -23,7 +23,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s1-3
-  teacher: 
+  teacher:
 
 - name: Arithmétique
   ects: 3
@@ -66,10 +66,10 @@
   ects: 3
   content: "Objectifs linguistiques et langagiers: travail individualisé sur la langue en fonction du niveau des étudiants et de leurs besoins leur permettant de viser des compétences C1 en master, soit en centre de ressources ou à distance (http://www.netvibes.com/english_online, http://www.netvibes.com/deutsch_online)."
   knowledege: La sensibilité aux coûts et performances d'algorithmes variés. Savoir déterminer une complexité maximale et une complexité en moyenne.
-  info: "ATTENTION : UE non ouverte en 2013/2014 au semestre 3 du Master Informatique, spécialité RISE. Une note sera fournie par le Centre de Ressources de Langues (CRL)"
+  info: Les modalités d'évaluations sont <a href="http://mathinfo.unistra.fr/etudiant/modalites-devaluation-des-etudiants-livrets-pedagogiques"> en ligne</a>
   duration: "Cours Intégrés : 26h"
   id: s1-8
-  teacher: 
+  teacher:
 
 - name: Logique
   ects: 3

@@ -8,30 +8,37 @@ permalink: /promotions/
 </center>
 
 {% for promotion in site.data.promotions.promotions %}
- <div class="container-fluid">
-  <center>
-    <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.year }}</h2></div>
-  </center>
-   <div class="row-fluid">
-    {% for student in promotion.students %}
-    <div class="col-md-6">
-     <table class="table table-condensed table-hover table-striped table-bordered">
-      <tbody>
-      <tr><td colspan="2" style="text-align:center"><h3 class="marketing-title">{{ student.name }}</h3></td></tr>
-      <tr>
-       <td class="marketing-title">Email</td>
-       <td ><a href="mailto:{{student.email}}">{{student.email}}</a></td>
-      </tr>
-      <tr>
-       <td class="marketing-title">Dernier emploi</td>
-       <td>{{student.last-known-job}}, {{student.last-known-company}}</td>
-      </tr>
-     </tbody>
-     </table>
-    </div>
-    {% endfor %}
-   </div>
+  {% assign remainder = promotion.year | modulo:2 %}
+  {% if remainder == 1 %}
+    {% assign panel = 'panel-odd-year' %}
+  {% else %}
+    {% assign panel = '' %}
+  {% endif %}
 
-</div>
- </div>
+  <div id="{{ panel }}" class="container-fluid">
+    <center>
+      <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.year }}</h2></div>
+    </center>
+    
+    <div class="row-fluid">
+    {% for student in promotion.students %}
+      <div class="col-md-4">
+        <table class="table table-condensed table-hover table-striped table-bordered">
+        <tbody>
+        <tr><td colspan="2" style="text-align:center"><h3 class="marketing-title">{{ student.name }}</h3></td></tr>
+        <tr>
+          <td class="marketing-title">Email</td>
+          <td ><a href="mailto:{{student.email}}">{{student.email}}</a></td>
+        </tr>
+        <tr>
+          <td class="marketing-title">Dernier emploi</td>
+          <td>{{student.last-known-job}}, {{student.last-known-company}}</td>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
 {% endfor %}

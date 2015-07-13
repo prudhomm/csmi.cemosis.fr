@@ -1,0 +1,8 @@
+global:
+
+navbar:
+    home: Home
+    team: Team
+    promotions: Classes
+    news: News
+    course: Courses

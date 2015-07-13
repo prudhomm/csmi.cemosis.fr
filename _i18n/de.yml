@@ -1,0 +1,8 @@
+global:
+
+navbar:
+    home: Startseite
+    team: Team
+    promotions: Förderung
+    news: Nachrichten
+    course: Unterricht
