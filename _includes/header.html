@@ -28,11 +28,11 @@
 
         <ul class="nav navbar-nav navbar-right">
           <!-- auto active current page -->
-          <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="/index.html">Page d'accueil</a></li>
-          <li class="{% if page.url contains '/team/' %}active{% endif %}"><a href="/team">&Eacute;quipe</a></li>
-          <li class="{% if page.url contains '/promotions/' %}active{% endif %}"><a href="/promotions">Promotions</a></li>
-          <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="/news">Actualités</a></li>
-          <li class="{% if page.url contains '/course/' %}active{% endif %}"><a href="/course">Enseignements</a></li>
+          <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="/index.html">{% t navbar.home %}</a></li>
+          <li class="{% if page.url contains '/team/' %}active{% endif %}"><a href="/team">{% t navbar.team %}</a></li>
+          <li class="{% if page.url contains '/promotions/' %}active{% endif %}"><a href="/promotions">{% t navbar.promotions %}</a></li>
+          <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="/news">{% t navbar.news %}</a></li>
+          <li class="{% if page.url contains '/course/' %}active{% endif %}"><a href="/course">{% t navbar.course %}</a></li>
       </div><!-- /.navbra-collapse -->
 
     </div><!-- /.container-fluid -->
