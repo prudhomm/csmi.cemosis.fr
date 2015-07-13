@@ -71,7 +71,7 @@
   duration: "Cours Intégrés : 26h"
   id: s1-9
 
-- name: Modèle aléatoire
+- name: Modèles aléatoires
   ects: 3
   content: |
             Rappels de probabilités. Introduction aux chaînes de Markov et au calcul différentiel stochastique.
