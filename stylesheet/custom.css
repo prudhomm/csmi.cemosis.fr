@@ -1,7 +1,9 @@
+/* need 50px height padding which equals to fixed navbar's height */
 body {
   padding-top: 50px;
 }
 
+/* change default indicators color */
 .carousel-indicators li {
   background-color: #3366CC;
 }
@@ -26,8 +28,6 @@ body {
     //max-height: 600px;
 }
 
-div .container-fluid {
-}
 
 hr {
   margin: 0px;
@@ -85,6 +85,11 @@ hr {
 #panel-international {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* promotion panel */
+#panel-odd-year {
+  background-color: #eee;
 }
 
 /* back to top arrow  */
