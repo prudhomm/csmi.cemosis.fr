@@ -1,13 +1,71 @@
 - name: Christophe Prudhomme
-  position: Responsable du Master
+  cours: s1-6;s3-6
   office: UFR Math Info Bureau 210
   email: prudhomme@unistra.fr
   telephone: 03 68 85 00 89
-  
-- name: Marion Seidel
-  position: Responsable administrative
-  office: 
-  email: mseidel@unistra.fr
-  telephone: 03 68 85 02 88
 
-  
+- name: Philippe Helluy
+  cours: s3-5;s3-7
+  office:
+  email: helluy@math.unistra.fr
+  telephone:
+
+- name: Bopeng Rao
+  cours:  s2-4;s2-3;s3-2;s3-5
+  office:
+  email: rao@math.unistra.fr
+  telephone:
+
+- name: Yann Bugeaud
+  cours: s1-7
+  office:
+  email: bugeaud@math.unistra.fr
+  telephone:
+
+- name: Maurice Mignotte
+  cours: s1-1;s1-2;s1-4;s1-9;s3-1;s3-3
+  office:
+  email: mignotte@math.unistra.fr
+  telephone:
+
+- name: Vincent Loechner
+  cours: s1-5
+  office:
+  email: loechner@unistra.fr
+  telephone:
+
+- name: Vincent Vigon
+  cours: s1-10;s2-1
+  office:
+  email: vigon@math.unistra.fr
+  telephone:
+
+- name: Pascal Mathis
+  cours: s2-2
+  office:
+  email: mathis@unistra.fr
+  telephone:
+
+- name: Laurent Navoret
+  cours: s2-5
+  office:
+  email: navoret@math.unistra.fr
+  telephone:
+
+- name: Catherine Guth
+  cours: s3-4;
+  office:
+  email: guthc@unistra.fr
+  telephone:
+
+- name: Henri Carayol
+  cours: s2-6
+  office:
+  email: carayol@math.unistra.fr
+  telephone:
+
+- name: Pierre David
+  cours: s3-8
+  office:
+  email: pda@unistra.fr
+  telephone:
