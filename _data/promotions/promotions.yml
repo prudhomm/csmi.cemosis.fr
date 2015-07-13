@@ -1,15 +1,50 @@
 - id: promo-1
   year: 2012
   students:
+   - name: Kodjo Sena Messa Apeke
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Diary Ba
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Christelle Bordin
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Susana Goncalves Barroso
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Diane Gilliocq
+     email: diane.gilliocqhirtz@gmail.com
+     last-known-job: Doctorante
+     last-known-company: Université de Haute Alsace
+   - name: Michel Massaro
+     email: michel.massaro@gmail.com
+     last-known-job: Doctorant
+     last-known-company: Université de Strasbourg
+   - name: Laura Mendoza
+     email: lasofivec@gmail.com
+     last-known-job: Doctorante
+     last-known-company: Technische Universität Munchen
+   - name:  Thi Trang Nhung Pham
+     email:
+     last-known-job: Doctorante
+     last-known-company: Université de Strasbourg
+   - name: Marie Salomon
+     email: marie.salomon@cgi.com
+     last-known-job: Ingénieur
+     last-known-company: CGI, Strasbourg
    - name: Ranine Tarabay
      email: ranine.a.tarabay@gmail.com
      last-known-job: Doctorante
      last-known-company: Université de Strasbourg
-   - name: Laura Mendoza
-     email:
-     last-known-job: Doctorante
-     last-known-company: Technische Universität Munchen
-
+   - name: Bruno Weber
+     email: bru.bru.web@gmail.com 
+     last-known-job: Doctorant
+     last-known-company: Université de Strasbourg
 - id: promo-2
   year: 2013
   students:
@@ -37,7 +72,10 @@
      email: francois.mac@gmail.com
      last-known-job: Sans emploi
      last-known-company:
-
+   - name: Jérôme Specht
+     email:
+     last-known-job:
+     last-known-company:
 - id: promo-4
   year: 2015
   students:
