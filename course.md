@@ -28,6 +28,19 @@ permalink : /course/
 						<p>{{ course.knowledege }}</p>
 						<h3>Autres informations</h3>
 						<p>{{ course.info }}</p>
+						<h3>Enseignant(s):</h3>
+							{% if course.teacher %}
+							<ul>
+								{% assign teacher = | course.teacher | split:";" %}
+								{% for id in teacher %}
+
+								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								
+								{% endfor %}
+							</ul>
+							{% else %}
+							<br>
+							{% endif %}
 
 						<table class="table table-bordered table-striped">
 							<tr>
@@ -63,6 +76,17 @@ permalink : /course/
 						<p>{{ course.knowledege }}</p>
 						<h3>Autres informations</h3>
 						<p>{{ course.info }}</p>
+						<h3>Enseignant(s):</h3>
+							{% if course.teacher %}
+							<ul>
+								{% assign teacher = | course.teacher | split:";" %}
+								{% for id in teacher %}
+								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								{% endfor %}
+							</ul>
+							{% else %}
+							<br>
+							{% endif %}
 
 						<table class="table table-bordered table-striped">
 							<tr>
@@ -95,6 +119,17 @@ permalink : /course/
 						<p>{{ course.knowledege }}</p>
 						<h3>Autres informations</h3>
 						<p>{{ course.info }}</p>
+						<h3>Enseignant(s):</h3>
+							{% if course.teacher %}
+							<ul>
+								{% assign teacher = | course.teacher | split:";" %}
+								{% for id in teacher %}
+								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								{% endfor %}
+							</ul>
+							{% else %}
+							<br>
+							{% endif %}
 
 						<table class="table table-bordered table-striped">
 							<tr>
@@ -129,7 +164,17 @@ permalink : /course/
 						<p>{{ course.knowledege }}</p>
 						<h3>Autres informations</h3>
 						<p>{{ course.info }}</p>
-
+						<h3>Enseignant(s):</h3>
+							{% if course.teacher %}
+							<ul>
+								{% assign teacher = | course.teacher | split:";" %}
+								{% for id in teacher %}
+								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								{% endfor %}
+							</ul>
+							{% else %}
+							<br>
+							{% endif %}
 						<table class="table table-bordered table-striped">
 							<tr>
 								<td><h3>Volume horaire</h3></td>
@@ -163,6 +208,18 @@ permalink : /course/
 						<p>{{ course.knowledege }}</p>
 						<h3>Autres informations</h3>
 						<p>{{ course.info }}</p>
+						<h3>Enseignant(s):</h3>
+							{% if course.teacher %}
+							<ul>
+								{% assign teacher = | course.teacher | split:";" %}
+								{% for id in teacher %}
+
+								<li><a href="/team/#{{ id }}">{{ id }}</a></li>
+								{% endfor %}
+							</ul>
+							{% else %}
+							<br>
+							{% endif %}
 
 						<table class="table table-bordered table-striped">
 							<tr>

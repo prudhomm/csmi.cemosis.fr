@@ -5,6 +5,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-1
+  teacher: m7;
 
 - name: "Informatique : Langage objets"
   ects: 3
@@ -15,6 +16,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-2
+  teacher: m8;
 
 - name: Méthodes numériques pour équations aux dérivées partielles I
   ects: 3
@@ -25,6 +27,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-3
+  teacher: m3;
 
 - name: Optimisation
   ects: 6
@@ -32,6 +35,7 @@
   knowledege: Savoir mettre en oeuvre les algorithmes classiques de l'optimisation. Savoir étudier un problème d'optimisation.
   duration: "Cours Intégrés : 52h"
   id: s2-4
+  teacher: m3;
 
 - name: "PIP: certification python"
   ects: 3
@@ -40,6 +44,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-5
+  teacher: m9;
 
 - name: Théorie des codes I
   ects: 3
@@ -48,6 +53,7 @@
   info: "Session de rattrapage : cf. MECC 2014-15"
   duration: "Cours Intégrés : 26h"
   id: s2-6
+  teacher: m11;
 
 - name: Stage ou mémoire M1
   ects: 6
@@ -56,3 +62,4 @@
   info: 
   duration: 
   id: s2-7
+  teacher: 

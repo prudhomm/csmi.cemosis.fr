@@ -9,7 +9,7 @@ permalink: /about/
 
 	<h2 style="margin-top:50px">Mentions légales</h2>
 
-	<p>Bienvenue sur le site du CSMI.</p>
+	<p>Bienvenue sur le site du Master CSMI.</p>
 
 	<h2 style="margin-top:50px">Contenus</h2>
 
