@@ -3,21 +3,32 @@ layout: default
 permalink: /team/
 ---
 
-<center style="padding-top:80px"><h2>&Eacute;quipe pédagogique</h2></center>
+<div class="container-fluid" >
+<center>
+		<div style="padding-bottom:50px;"><h2>Responsables</h2></div>
+</center>
+<div class="row-fluid">
 
-<div class="container" style="max-width:500px">
+		<div class="col-md-5">
 
-{% for member in site.data.team.members %}
+{% for member in site.data.team.managers %}
 
+<div class="table-responsive">
 	<table class="table table-bordered table-hover table-striped" style="margin-top:50px">
 		<tbody>
 		<tr>
-			<td style="text-align:center">{{ member.position }}</td>
+		 <td colspan="2" style="text-align:center"><h3>{{ member.position }}</h3></td>
 		</tr>
 		<tr>
+		<td>
+		{% if member.photo %}
+			<img src="{{ member.photo }}" width="128px">
+		{% else %}
+		 <img src="/images/photos/unknown-id-128x128.png" width="128px">
+		{% endif %}
+		</td>
 			<td>
 				<ul>
-
 					<li>{{ member.name }}</li>
 					<li>Bureau: {{ member.office }}</li>
 					<li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
@@ -27,7 +38,53 @@ permalink: /team/
 		</tr>
 		</tbody>
 	</table>
-
+	 <div class="span1"></div>
+</div>
 {% endfor %}
 
+  </div>
+ </div>
+</div>
+
+<div class="container" style="max-width:500px">
+<center>
+		<div style="padding-bottom:50px;"><h2>&Eacute;quipe pédagogique</h2></div>
+</center>
+<div class="row-fluid">
+
+		<div class="col-md-6">
+{% for member in site.data.team.members %}
+
+	<table class="table table-bordered table-hover table-striped" style="margin-top:50px">
+		<tbody>
+		<tr>
+			<td colspan="2" style="text-align:center"><h3>{{ member.name }}</h3></td>
+		</tr>
+		<tr>
+		<td>
+		{% if member.photo %}
+			<img src="{{ member.photo }}" width="128px">
+		{% else %}
+		 <img src="/images/photos/unknown-id-128x128.png" width="128px">
+		{% endif %}
+		</td>
+			<td>
+				<ul>
+
+					{% if member.office %}
+						<li>Bureau: {{ member.office }}</li>
+					{% endif %}
+					<li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
+					{% if member.telephone %}
+						<li>Téléphone: {{ member.telephone }}</li>
+					{% endif %}
+				</ul>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+{% endfor %}
+</div>
+</div>
 </div>
