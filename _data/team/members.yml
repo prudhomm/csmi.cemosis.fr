@@ -4,6 +4,7 @@
   email: prudhomme@unistra.fr
   telephone: 03 68 85 00 89
   photo: /images/photos/cp-id-192x192.jpg
+  web: http://www-irma.u-strasbg.fr/~prudhomm
   id: m1
 
 - name: Philippe Helluy
@@ -12,6 +13,7 @@
   email: helluy@math.unistra.fr
   telephone:
   photo:
+  web: http://www-irma.u-strasbg.fr/~helluy
   id: m2
 
 - name: Bopeng Rao
@@ -20,6 +22,7 @@
   email: rao@math.unistra.fr
   telephone:
   photo:
+  web:
   id: m3
 
 - name: Yann Bugeaud
@@ -28,6 +31,7 @@
   email: bugeaud@math.unistra.fr
   telephone:
   photo:
+  web:
   id: m4
 
 - name: Maurice Mignotte
@@ -36,6 +40,7 @@
   email: mignotte@math.unistra.fr
   telephone:
   photo:
+  web:
   id: m5
 
 - name: Vincent Loechner
@@ -44,6 +49,7 @@
   email: loechner@unistra.fr
   telephone:
   photo:
+  web:
   id: m6
 
 - name: Vincent Vigon
@@ -52,6 +58,7 @@
   email: vigon@math.unistra.fr
   telephone:
   photo:
+  web:
   id: m7
 
 - name: Pascal Mathis
@@ -60,6 +67,7 @@
   email: mathis@unistra.fr
   telephone:
   photo:
+  web:
   id: m8
 
 - name: Laurent Navoret
@@ -68,6 +76,7 @@
   email: navoret@math.unistra.fr
   telephone:
   photo:
+  web:
   id: m9
 
 - name: Catherine Guth
@@ -76,6 +85,7 @@
   email: guthc@unistra.fr
   telephone:
   photo:
+  web:
   id: m10
 
 - name: Henri Carayol
@@ -84,6 +94,7 @@
   email: carayol@math.unistra.fr
   telephone:
   photo:
+  web:
   id: m11
 
 - name: Pierre David
@@ -92,4 +103,5 @@
   email: pda@unistra.fr
   telephone:
   photo:
+  web:
   id: m12
