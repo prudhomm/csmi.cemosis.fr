@@ -3,11 +3,54 @@ layout: default
 permalink: /promotions/
 ---
 
-<center>
-  <div style="padding-bottom:50px;"><h2>Les promotions du Master Calcul Scientifique et Mathématiques de l'Information</h2></div>
-</center>
+<div class="jumbotron" style="border-bottom: 1px solid black vertical-align">
+  <div class="container-fluid">
+    <div class="row-fluid">
 
-{% for promotion in site.data.promotions.promotions %}
+        <h1>Master Calcul Scientifique</h1>
+        <h1 style="text-align:center">et Mathématiques de l'Information</h1>
+
+        <blockquote class="testimonial"><h2>Les Mathématiques de l'Innovation</h2></blockquote>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+{% assign sorted_promotions = (site.data.promotions.promotions | sort: 'year' | reverse) %}
+
+<div class="page-header">
+  <h1>Promotions CSMI 2014,2015 &amp; CSSI 2011-2013 <!--<div class="dropdown">
+  <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Promotions
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+   {% for promotion in sorted_promotions %}
+    <li><a href="#{{ promotion.master }}-{{promotion.year}}">{{ promotion.master }} {{ promotion.year}}</a></li>
+   {% endfor %}
+  </ul>
+</div>-->
+</h1>
+<div class="row-fluid">
+ <div class="col-md-3"></div>
+ <div class="col-md-6">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Un peu d'histoire</h3>
+  </div>
+
+  <div class="panel-body">
+   <p>En 2005, Éric Sonnendrucker créée  et est le responsable du  Master Calcul Scientifique et Visualisation qui est fusionné de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité Informatique qui est alors sous la responsabilité de <a href="/team/#m2">Philippe Helluy</a>. En 2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la responsabilité de <a href="/team/#m1">Christophe Prud'homme</a>.</p>
+  </div>
+</div></div>
+<div class="col-md-3"></div>
+</div>
+</div>
+{% for promotion in sorted_promotions %}
   {% assign remainder = promotion.year | modulo:2 %}
   {% if remainder == 1 %}
     {% assign panel = 'panel-odd-year' %}
@@ -15,11 +58,12 @@ permalink: /promotions/
     {% assign panel = '' %}
   {% endif %}
 
+  <a name="{{ promotion.master }}-{{promotion.year}}"></a>
   <div id="{{ panel }}" class="container-fluid">
     <center>
-      <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.year }}</h2></div>
+      <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.master }} {{ promotion.year }}</h2></div>
     </center>
-    
+
     <div class="row-fluid">
     {% for student in promotion.students %}
       <div class="col-md-4">

@@ -1,7 +1,28 @@
 ---
 layout: default
-permalink : /course/
+permalink : /courses/
 ---
+
+<div class="jumbotron" style="border-bottom: 1px solid black vertical-align">
+  <div class="container-fluid">
+    <div class="row-fluid">
+
+        <h1>Master Calcul Scientifique</h1>
+        <h1 style="text-align:center">et Mathématiques de l'Information</h1>
+
+        <blockquote class="testimonial"><h2>Les Mathématiques de l'Innovation</h2></blockquote>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <div class="page-header">
+    <h1>Les cours du Master par semestre et thématique</h1>
+  </div>
 
 <div class="container-fluid">
   <div id="toc"></div>
@@ -24,6 +45,7 @@ permalink : /course/
       <p>{{ course.content }}</p>
       <h3>Objectifs : savoir-faire et compétences</h3>
       <p>{{ course.knowledege }}</p>
+      <h3>ECTS: <small>{{ course.ects }}</small></h3>
       <h3>Autres informations</h3>
       <p>{{ course.info }}</p>
       <h3>Enseignant(s):</h3>
@@ -79,6 +101,7 @@ permalink : /course/
       <p>{{ course.content }}</p>
       <h3>Objectifs : savoir-faire et compétences</h3>
       <p>{{ course.knowledege }}</p>
+      <h3>ECTS: <small>{{ course.ects }}</small></h3>
       <h3>Autres informations</h3>
       <p>{{ course.info }}</p>
       <h3>Enseignant(s):</h3>
@@ -128,6 +151,7 @@ permalink : /course/
       <p>{{ course.content }}</p>
       <h3>Objectifs : savoir-faire et compétences</h3>
       <p>{{ course.knowledege }}</p>
+      <h3>ECTS: <small>{{ course.ects }}</small></h3>
       <h3>Autres informations</h3>
       <p>{{ course.info }}</p>
       <h3>Enseignant(s):</h3>
@@ -180,6 +204,7 @@ permalink : /course/
       <p>{{ course.content }}</p>
       <h3>Objectifs : savoir-faire et compétences</h3>
       <p>{{ course.knowledege }}</p>
+      <h3>ECTS: <small>{{ course.ects }}</small></h3>
       <h3>Autres informations</h3>
       <p>{{ course.info }}</p>
       <h3>Enseignant(s):</h3>
