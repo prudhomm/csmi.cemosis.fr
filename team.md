@@ -2,18 +2,31 @@
 layout: default
 permalink: /team/
 ---
+<div class="jumbotron" style="border-bottom: 1px solid black vertical-align">
+  <div class="container-fluid">
+    <div class="row-fluid">
+        <h1>Master Calcul Scientifique</h1>
+        <h1 style="text-align:center">et Mathématiques de l'Information</h1>
+
+        <blockquote class="testimonial"><h2>Les Mathématiques de l'Innovation</h2></blockquote>
+
+    </div>
+  </div>
+</div>
+
+<div class="page-header">
+  <h1>Responsables du Master et Équipe Pédagogique<small></small></h1>
+</div>
 
 <div class="container-fluid" >
-    <center>
-        <div style="padding-top: 50px;padding-bottom:30px;"><h2>Responsables</h2></div>
-    </center>
+
     <div class="row-fluid">
     <div class="col-md-3"></div>
-        <div class="col-md-6">
 
+    <div class="col-md-6">
         {% for member in site.data.team.managers %}
-
         <div class="table-responsive">
+            <a name="{{ member.id }}"></a>
             <table class="table table-bordered table-hover table-striped" style="margin-top:50px">
                 <tbody>
                 <tr>
@@ -42,20 +55,21 @@ permalink: /team/
         </div>
         {% endfor %}
 
-          </div>
+         </div>
           <div class="col-md-3"></div>
     </div>
 </div>
 
-<div class="container-fluid">
+<div id="panel-odd-year" class="container-fluid">
     <center>
         <div style="padding-bottom:50px;"><h2>&Eacute;quipe pédagogique</h2></div>
     </center>
 
     <div class="row-fluid">
-    {% for member in site.data.team.members %}
+    {% assign sorted_members = (site.data.team.members | sort: 'name') %}
+    {% for member in sorted_members %}
 
-        <div class="col-md-6">
+        <div class="col-md-4">
             <a class="anchor" id="{{ member.id }}"></a>
             <div class="table-reponsive">
             <table class="table table-bordered table-hover table-striped" style="margin-top:50px">
