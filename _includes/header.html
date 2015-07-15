@@ -40,7 +40,7 @@
           <li class="{% if page.url contains '/team/' %}active{% endif %}"><a href="{{ link-lang }}/team">{% t navbar.team %}</a></li>
 
           <li class="dropdown {% if page.url contains '/promotions/' %}active{% endif %}">
-          <a href="/promotions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a href="{{ link-lang }}/promotions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
            {% t navbar.promotions %} <span class="caret"></span></a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -51,7 +51,7 @@
           </li>
 
           <!--<li class="{% if page.url contains '/promotions/' %}active{% endif %}"><a href="/promotions">{% t navbar.promotions %}</a></li>-->
-          <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="/news">{% t navbar.news %}</a></li>
+          <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="{{ link-lang }}/news">{% t navbar.news %}</a></li>
 
           <li class="dropdown {% if page.url contains '/courses/' %}active{% endif %}">
           <a href="{{ link-lang }}/courses" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
