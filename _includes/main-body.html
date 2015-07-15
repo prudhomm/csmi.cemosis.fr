@@ -23,7 +23,7 @@
 
 </div>-->
 
-<div id="slide-show" class="carousel slide" data-ride="carousel">
+<div id="slide-show" class="carousel slide" data-ride="carousel" style="width: 60%; margin: 0 auto">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#slide-show" data-slide-to="0" class="active"></li>
@@ -41,7 +41,7 @@
       <img src="{{ image.path }}">
         <div class="carousel-caption">
          <div class="carousel-caption">
-          <h2 style="background-color:black">{{ image.description }}</h2>
+          <h2 style="background-color: rbga(0,0,0,0.5);">{{ image.description }}</h2>
         </div></div>
     </div>
     {% endfor %}
@@ -289,7 +289,7 @@
         {% for course in site.data.course.courseS1 %}
 
         <tr>
-          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
           <!--<td>ECTS: {{ course.ects }}</td>-->
         </tr>
 
