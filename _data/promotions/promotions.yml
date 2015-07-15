@@ -1,5 +1,6 @@
 - id: promo-1
   year: 2012
+  master: CSSI
   students:
    - name: Kodjo Sena Messa Apeke
      email:
@@ -42,11 +43,12 @@
      last-known-job: Doctorante
      last-known-company: Université de Strasbourg
    - name: Bruno Weber
-     email: bru.bru.web@gmail.com 
+     email: bru.bru.web@gmail.com
      last-known-job: Doctorant
      last-known-company: Université de Strasbourg
 - id: promo-2
   year: 2013
+  master: CSSI
   students:
    - name: Guillaume Dollé
      email: dolle.guillaume@gmail.com
@@ -59,6 +61,7 @@
 
 - id: promo-3
   year: 2014
+  master: CSMI
   students:
    - name: Jean-Baptiste Wahl
      email: jbwahl@gmail.com
@@ -78,6 +81,7 @@
      last-known-company:
 - id: promo-4
   year: 2015
+  master: CSMI
   students:
    - name: Mamadou Camara
      email: camara0388@gmail.com
