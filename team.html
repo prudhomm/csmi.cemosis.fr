@@ -91,6 +91,9 @@ permalink: /team/
                             <li>Bureau: {{ member.office }}</li>
                             {% endif %}
                             <li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
+                            {% if member.web %}
+                             <li>WWW: <a href="{{ member.web }}">{{ member.web }}</a></li>
+                            {% endif %} 
                             {% if member.telephone %}
                             <li>Téléphone: {{ member.telephone }}</li>
                             {% endif %}
