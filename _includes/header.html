@@ -59,13 +59,26 @@
           </li>
           
           {% if site.lang == "fr" %}
-            {% assign lang-option1 = "en" %}
-            {% assign lang-option2 = "de" %}
-            
-            <li style="max-height:50px"><a href="{{ page.url }}"><img src="/images/United-Kingdom.png"></a></li>
-            <li style="max-height:50px"><a href="{{ site.baseurl_root }}"><img src="/images/Germany.png"></a></li>
+            {% capture link1 %}/en{{ page.url }}{% endcapture %}
+            {% capture link2 %}/de{{ page.url }}{% endcapture %}
+            <li style="max-height:50px"><a href="{{ link1 }}"><img src="/images/United-Kingdom.png"></a></li>
+            <li style="max-height:50px"><a href="{{ link2 }}"><img src="/images/Germany.png"></a></li>
           {% endif %}
 
+          {% if site.lang == "en" %}
+            {% capture link1 %}{{ page.url }}{% endcapture %}
+            {% capture link2 %}{{ site.baseurl | replace:'en','de' }}{{ page.url }}{% endcapture %}
+            <li style="max-height:50px"><a href="{{ link1 }}"><img src="/images/France.png"></a></li>
+            <li style="max-height:50px"><a href="{{ link2 }}"><img src="/images/Germany.png"></a></li>
+          {% endif %}
+
+          {% if site.lang == "de" %}
+            {% capture link1 %}{{ page.url }}{% endcapture %}
+            {% capture link2 %}{{ site.baseurl | replace:'de','en' }}{{ page.url }}{% endcapture %}
+            <li style="max-height:50px"><a href="{{ link1 }}"><img src="/images/France.png"></a></li>
+            <li style="max-height:50px"><a href="{{ link2 }}"><img src="/images/United-Kingdom.png"></a></li>
+          {% endif %}
+        </ul>
 
       </div><!-- /.navbra-collapse -->
 
