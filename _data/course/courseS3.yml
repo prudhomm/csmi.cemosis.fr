@@ -55,12 +55,12 @@
   ects: 3
   content: Technique de mise en oeuvre de la méthode des volumes finis pour les systèmes hyperboliques. Flux numériques, conditions de stabilité, techniques de montée en ordre. Etudes de convergence.
   knowledege: Savoir programmer, tester et valider la méthodes des volumes fini sur architecture parallèle (cluster ou GPU) en dimensions 1, 2 ou 3. Application à un problème issu de la mécanique ou de la physique.
-  info: 
+  info:
   duration: |
-            "Cours : 28h" 
+            "Cours : 28h"
             "Cours Intégrés : 26h"
   id: s3-7
-  teacher: m7;
+  teacher: m2;
 
 - name: Réseaux
   ects: 6
