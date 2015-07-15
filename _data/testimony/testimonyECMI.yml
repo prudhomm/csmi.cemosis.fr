@@ -1,0 +1,23 @@
+- author: Author1
+  testimony: >
+             Testimony...
+  job: Author's job
+  id: testimonyECMI-1
+
+- author: Author2
+  testimony: >
+             Testimony...
+  job: Author's job
+  id: testimonyECMI-2
+
+- author: Author3
+  testimony: >
+             Testimony...
+  job: Author's job
+  id: testimonyECMI-3
+
+- author: Author4
+  testimony: >
+             Testimony...
+  job: Author's job
+  id: testimonyECMI-4

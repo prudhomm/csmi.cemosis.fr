@@ -114,36 +114,14 @@
 
     <div class="row-fluid">
 
+    {% for testimony in site.data.testimony.testimony | limit:4 %}
       <div class="col-md-6">
-        <blockquote class="testimonial"><p id="{{ site.data.testimony[1].id }}">{{ site.data.testimony[1].testimony }}</p></blockquote>
+        <blockquote class="testimonial"><p id="{{ testimony.id }}">{{ testimony.testimony }}</p></blockquote>
         <div class="arrow-down"></div>
-        <p class="testimonial-author">{{ site.data.testimony[1].author }} | <span>{{ site.data.testimony[1].job }}</span></p>
+        <p class="testimonial-author">{{ testimony.author }} | <span>{{ testimony.job }}</span></p>
       </div>
 
-      <div class="col-md-6">
-        <blockquote class="testimonial"><p id="{{ site.data.testimony[2].id }}">{{ site.data.testimony[2].testimony }}</p></blockquote>
-        <div class="arrow-down"></div>
-        <p class="testimonial-author">{{ site.data.testimony[2].author }} | <span>{{ site.data.testimony[2].job }}</span></p>
-      </div>
-
-
-    </div>
-
-    <div class="row-fluid">
-
-      <div class="col-md-6">
-        <blockquote class="testimonial"><p id="{{ site.data.testimony[0].id }}">{{ site.data.testimony[0].testimony }}</p></blockquote>
-        <div class="arrow-down"></div>
-        <p class="testimonial-author">{{ site.data.testimony[0].author }} | <span>{{ site.data.testimony[0].job }}</span></p>
-      </div>
-
-      <div class="col-md-6">
-      <blockquote class="testimonial"><p id="{{ site.data.testimony[3].id }}">{{ site.data.testimony[3].testimony }}</p></blockquote>
-      <div class="arrow-down"></div>
-      <p class="testimonial-author">{{ site.data.testimony[3].author }} | <span>{{ site.data.testimony[3].job }}</span></p>
-      </div>
-
-
+    {% endfor %}
     </div>
 
     <center style="padding-top:50px">Rejoignez nous sur le groupe <a href="https://www.linkedin.com/groups?home=&amp;gid=3923807&amp;trk=anet_ug_hm"><i class="fa fa-linkedin fa-lg"></i>&nbspLinkedIn  du Master CSMI</a></center>
@@ -289,7 +267,7 @@
         {% for course in site.data.course.courseS1 %}
 
         <tr>
-          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
           <!--<td>ECTS: {{ course.ects }}</td>-->
         </tr>
 
@@ -310,7 +288,7 @@
         {% for course in site.data.course.courseS2 %}
 
         <tr>
-          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
           <!--<td>ECTS: {{ course.ects }}</td>-->
         </tr>
 
@@ -325,7 +303,7 @@
         {% for course in site.data.course.courseS2UEChoice %}
 
         <tr>
-          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
           <!--<td>ECTS: {{ course.ects }}</td>-->
         </tr>
 
@@ -347,7 +325,7 @@
         {% for course in site.data.course.courseS3 %}
 
         <tr>
-          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
           <!--<td>ECTS: {{ course.ects }}</td>-->
         </tr>
 
@@ -369,7 +347,7 @@
           {% for course in site.data.course.courseS4 %}
 
           <tr>
-          <td>• <b><a href="/course/#{{ course.id }}">{{ course.name }}</a></b></td>
+          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
           <!--<td>ECTS: {{ course.ects }}</td>-->
           </tr>
 
@@ -409,6 +387,17 @@
       <h3 class="marketing-title">Semaine de modélisation ECMI</h3>
       <p>Les étudiants CSMI peuvent participer entre autres aux <a href="http://www.ecmi-indmath.org/wordpress/?page_id=102">semaines de modélisation</a> ECMI organisée chaque année.</p>
      </div>
+    </div>
+
+    <div class="row-fluid">
+      {% for tECMI in site.data.testimony.testimonyECMI | limit: 4 %}
+
+      <div class="col-md-6">
+        <blockquote class="testimonial"><p id="{{ tECMI.id }}">{{ tECMI.testimony }}</p></blockquote>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author">{{ tECMI.author }} | <span>{{ tECMI.job }}</span></p>
+      </div>
+      {% endfor %}
     </div>
 
   </div>

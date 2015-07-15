@@ -28,6 +28,7 @@
       <div class="collapse navbar-collapse" id="main-navbar">
 
         <ul class="nav navbar-nav navbar-right">
+
           <!-- auto active current page -->
           <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="{{ link-lang }}/index.html">{% t navbar.home %}</a></li>
           <li class="{% if page.url contains '/team/' %}active{% endif %}"><a href="{{ link-lang }}/team">{% t navbar.team %}</a></li>
@@ -43,7 +44,6 @@
             </ul>
           </li>
 
-          <!--<li class="{% if page.url contains '/promotions/' %}active{% endif %}"><a href="/promotions">{% t navbar.promotions %}</a></li>-->
           <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="{{ link-lang }}/news">{% t navbar.news %}</a></li>
 
           <li class="dropdown {% if page.url contains '/courses/' %}active{% endif %}">
@@ -57,7 +57,16 @@
               <li><a href="{{ link-lang }}/courses/#S4">Semestre 4</a></li>
             </ul>
           </li>
-          <!--<li class="{% if page.url contains '/course/' %}active{% endif %}"><a href="/course">{% t navbar.course %}</a></li>-->
+          
+          {% if site.lang == "fr" %}
+            {% assign lang-option1 = "en" %}
+            {% assign lang-option2 = "de" %}
+            
+            <li style="max-height:50px"><a href="{{ page.url }}"><img src="/images/United-Kingdom.png"></a></li>
+            <li style="max-height:50px"><a href="{{ site.baseurl_root }}"><img src="/images/Germany.png"></a></li>
+          {% endif %}
+
+
       </div><!-- /.navbra-collapse -->
 
     </div><!-- /.container-fluid -->
