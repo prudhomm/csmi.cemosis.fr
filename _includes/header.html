@@ -29,13 +29,6 @@
 
         <ul class="nav navbar-nav navbar-right">
           <!-- auto active current page -->
-          {% assign link-lang = "" %}
-          {% if site.lang == "en" %}
-            {% assign link-lang = "/en" %}
-          {% endif %}
-          {% if site.lang == "de" %}
-            {% assign link-lang = "/de" %}
-          {% endif %}
           <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="{{ link-lang }}/index.html">{% t navbar.home %}</a></li>
           <li class="{% if page.url contains '/team/' %}active{% endif %}"><a href="{{ link-lang }}/team">{% t navbar.team %}</a></li>
 
