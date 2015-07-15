@@ -34,20 +34,21 @@ permalink: /promotions/
    {% endfor %}
   </ul>
 </div>-->
-</h1>
+  </h1>
 <div class="row-fluid">
- <div class="col-md-3"></div>
- <div class="col-md-6">
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Un peu d'histoire</h3>
-  </div>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Un peu d'histoire</h3>
+    </div>
 
-  <div class="panel-body">
-   <p>En 2005, Éric Sonnendrucker créée  et est le responsable du  Master Calcul Scientifique et Visualisation qui est fusionné de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité Informatique qui est alors sous la responsabilité de <a href="/team/#m2">Philippe Helluy</a>. En 2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la responsabilité de <a href="/team/#m1">Christophe Prud'homme</a>.</p>
+    <div class="panel-body">
+    <p>En 2005, Éric Sonnendrucker créée  et est le responsable du  Master Calcul Scientifique et Visualisation qui est fusionné de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité Informatique qui est alors sous la responsabilité de <a href="{{ link-lang }}/team/#m2">Philippe Helluy</a>. En 2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la responsabilité de <a href="{{ link-lang }}/team/#m1">Christophe Prud'homme</a>.</p>
+    </div>
+    </div>
   </div>
-</div></div>
-<div class="col-md-3"></div>
+  <div class="col-md-3"></div>
 </div>
 </div>
 {% for promotion in sorted_promotions %}
@@ -58,7 +59,7 @@ permalink: /promotions/
     {% assign panel = '' %}
   {% endif %}
 
-  <a name="{{ promotion.master }}-{{promotion.year}}"></a>
+  <a id="{{ promotion.master }}-{{promotion.year}}" class="anchor"></a>
   <div id="{{ panel }}" class="container-fluid">
     <center>
       <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.master }} {{ promotion.year }}</h2></div>

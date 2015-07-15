@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <!-- links between languages, add {{ link-lang }} before any internal URLs-->
+  {% assign link-lang = "" %}
+  {% if site.lang == "en" %}
+    {% assign link-lang = "/en" %}
+  {% endif %}
+  {% if site.lang == "de" %}
+    {% assign link-lang = "/de" %}
+  {% endif %}
+
 
   {% include head.html %}
 
