@@ -60,6 +60,7 @@ mathématique de l'information.
         <img alt="Brand" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
       </a>
 
+      
       <!-- Navbar buttons -->
       <div class="collapse navbar-collapse" id="main-navbar">
 
@@ -67,9 +68,39 @@ mathématique de l'information.
           <!-- auto active current page -->
           <li class=""><a href="/index.html">Page d'accueil</a></li>
           <li class=""><a href="/team">&Eacute;quipe</a></li>
-          <li class=""><a href="/promotions">Promotions</a></li>
+
+          <li class="dropdown ">
+          <a href="/promotions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+           Promotions <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+             
+              <li><a href="/promotions/#CSMI-2015">CSMI 2015</a></li>
+             
+              <li><a href="/promotions/#CSMI-2014">CSMI 2014</a></li>
+             
+              <li><a href="/promotions/#CSSI-2013">CSSI 2013</a></li>
+             
+              <li><a href="/promotions/#CSSI-2012">CSSI 2012</a></li>
+             
+            </ul>
+          </li>
+
+          <!--<li class=""><a href="/promotions">Promotions</a></li>-->
           <li class="active"><a href="/news">Actualit&eacute;s</a></li>
-          <li class=""><a href="/course">Enseignements</a></li>
+
+          <li class="dropdown ">
+          <a href="/courses" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+           Enseignements <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="/courses/#S1">Semestre 1</a></li>
+              <li><a href="/courses/#S2">Semestre 2</a></li>
+              <li><a href="/courses/#S3">Semestre 3</a></li>
+              <li><a href="/courses/#S4">Semestre 4</a></li>
+            </ul>
+          </li>
+          <!--<li class=""><a href="/course"></a></li>-->
       </div><!-- /.navbra-collapse -->
 
     </div><!-- /.container-fluid -->
@@ -254,7 +285,7 @@ jQuery(document).ready(function() {
             jQuery('.back-to-top').fadeOut(duration);
         }
     });
- 
+
     jQuery('.back-to-top').click(function(event) {
         event.preventDefault();
         jQuery('html, body').animate({scrollTop: 0}, duration);
@@ -263,6 +294,24 @@ jQuery(document).ready(function() {
 });
 </script>
 
+<script>
+jQuery(function($) {
+    if($(window).width()>769){
+        $('.navbar .dropdown').hover(function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+        }, function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+        });
+
+        $('.navbar .dropdown > a').click(function(){
+            location.href = this.href;
+        });
+
+    }
+});
+</script>
 
 
 
