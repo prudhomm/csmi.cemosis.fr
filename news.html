@@ -9,9 +9,9 @@ author:
   	<div class="col-md-3">
   	  <div class="well">
   		  <ul class="nav nav-stacked" id="sidebar">
-  		    <li><a href="{{ link-lang }}/category1">{{ t news.category1 }}</a></li>
-  		    <li><a href="{{ link-lang }}/category2">{{ t news.category2 }}</a></li>
-  		    <li><a href="{{ link-lang }}/category3">{{ t news.category3 }}</a></li>
+  		    <li><a href="{{ link-lang }}/category1">{% t news.category1 %}</a></li>
+  		    <li><a href="{{ link-lang }}/category2">{% t news.category2 %}</a></li>
+  		    <li><a href="{{ link-lang }}/category3">{% t news.category3 %}</a></li>
   		  </ul>
   	  </div>
   	</div>
@@ -19,8 +19,8 @@ author:
   	<div class="col-md-9">
 
     {% for post in site.posts %}
-	  <a href=""><h2>{{ post.title }}Title</h2></a>
-	  <p>post.content</p>
+	  <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+	  <p>{{ post.content }}</p>
     {% endfor %}
     </div>
 

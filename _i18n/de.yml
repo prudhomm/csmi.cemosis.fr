@@ -6,3 +6,8 @@ navbar:
     promotions: Förderung
     news: Nachrichten
     courses: Unterricht
+
+news:
+    category1: catergory1 
+    category2: catergory2
+    category3: catergory3

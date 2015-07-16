@@ -14,8 +14,6 @@ github_username:
 # Build settings
 markdown: kramdown
 
-permalink: /news/:year/:month/:day/:title/
-
 languages: ["fr", "en", "de"]
 
 exclude_from_localizations: ["js", "images", "stylesheet"]
