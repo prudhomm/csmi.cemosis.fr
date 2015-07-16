@@ -7,6 +7,9 @@ navbar:
     news: Actualit&eacute;s
     courses: Enseignements
 
+index:
+    recentNewsTitle: Actualités récentes
+
 news:
     category1: catergory1 
     category2: catergory2

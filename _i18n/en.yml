@@ -7,6 +7,9 @@ navbar:
     news: News
     courses: Courses
 
+index:
+    recentNewsTitle: Recent News
+
 news:
     category1: catergory1 
     category2: catergory2

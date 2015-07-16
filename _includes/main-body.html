@@ -10,18 +10,19 @@
 
       </div>
 
+      <div class="col-md-6">
+        <h2>{% t index.recentNewsTitle %}</h2>
 
-      <div class="col-md-6"></div>
+        <ul style="text-align:left;padding-top:10px">
+        {% for post in site.posts limit:4 %}
+          <li><h3>[{{ post.categories }}] <a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+        {% endfor %}
+        </ul>
+      </div>
 
     </div>
   </div>
 </div>
-
-<!--
-<div class="container-fluid">
-    <img id="gallery" alt="Gallery image." class="img-responsive" src="/images/gallery.png" >
-
-</div>-->
 
 <div id="slide-show" class="carousel slide" data-ride="carousel" style="max-width: 50%; margin: 0 auto">
   <!-- Indicators -->
