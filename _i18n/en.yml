@@ -1,4 +1,9 @@
 global:
+    masterName1: Master Calcul Scientifique
+    masterName2: et Mathématiques de l'Information
+    slogan: Les Mathématiques de l'Innovation
+    next: Suivant
+    previous: Précédent
 
 navbar:
     home: Home
@@ -8,3 +13,38 @@ navbar:
     courses: Courses
     managers: Managers
     teachingstaff: Teaching Staff
+
+index:
+    recentNewsTitle: Actualités récentes
+    testimony: Témoignages
+    metiers: Métiers
+    access: Accès
+    courses: Enseignements
+    agendaCourse: Agenda des cours
+    partnership: Partenaires
+    international: Relations internationales
+    testimonyPanel:
+        title: Témoignages d'Anciens Étudiants
+        joinGroup: Rejoignez nous sur le groupe
+        groupLink: LinkedIn  du Master CSMI
+
+news:
+    category1: catergory1 
+    category2: catergory2
+    category3: catergory3
+    tag1: tag1
+    tag2: tag2
+    tag3: tag3
+
+courses:
+    navtabAll: Tous les cours
+    navtabDiscipline: Par discipline
+    navtabCategory: Par catégory
+    navtabInfo: Informatique
+    navtabMath: Mathématique
+    navtabInter: Interdiscipline
+
+footer:
+    copyright: Cemosis 2015 Tous droits réservés
+    about: "&Agrave; propos"
+

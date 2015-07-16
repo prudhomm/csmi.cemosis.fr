@@ -6,6 +6,7 @@
   duration: "Cours Intégrés : 26h"
   id: s2-8
   teacher: m1
+  discipline: math
 
 - name: Théorie des codes II
   ects: 3
@@ -15,3 +16,4 @@
   duration: "Cours Intégrés : 26h"
   id: s2-9
   teacher: m11
+  discipline: info
