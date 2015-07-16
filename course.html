@@ -78,6 +78,7 @@ permalink : /courses/
     </tbody>
    </table>
 </div>
+
   {% endfor %}
 
 </div>
@@ -134,9 +135,8 @@ permalink : /courses/
    </table>
    </div>
   {% endfor %}
-   </div>
-  <div class="row-fluid">
-  {% for course in site.data.course.courseS2UEChoice %}
+
+    {% for course in site.data.course.courseS2UEChoice %}
   <div class="col-md-4" >
    <a class="anchor" id="{{ course.id }}">{{ course.name }}</a>
    <table class="table table-bordered table-striped" style="margin-top:50px">
@@ -184,7 +184,8 @@ permalink : /courses/
    </table>
   </div>
   {% endfor %}
-  </div>
+
+   </div>
 
    <a class="anchor" id="S3"></a>
    <div style="text-align:center"><h1>Semestre 3</h1></div>

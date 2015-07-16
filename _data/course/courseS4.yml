@@ -5,6 +5,7 @@
   info: Les modalités d'évaluations sont  <a href="http://mathinfo.unistra.fr/etudiant/modalites-devaluation-des-etudiants-livrets-pedagogiques"> en ligne</a>
   duration: "TD : 16h"
   id: s4-1
+  discipline: humanities
 
 - name: Stage ou mémoire M2
   ects: 27
@@ -13,3 +14,4 @@
   info:
   duration:
   id: s4-2
+  discipline: 

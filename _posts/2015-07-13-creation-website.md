@@ -1,10 +1,10 @@
 ---
 layout: news
-title: The first news of CSMI website
-date: 2015-07-10
+title: The third news of CSMI website
+date: 2015-07-13
 author: admin
 categories: website update
-tag: tag1
+tag: tag4
 ---
 
 Lorem ipsum dolor sit amet, enim animal nominati ei sea, vis iriure denique ne. Quidam dignissim ei nam, ei laudem indoctum mel. Mollis singulis his et. Alii percipit consulatu ea cum, an probo scripserit vim, natum elaboraret mea no. Eum te amet summo dolorem. Sea ei inimicus convenire, eu soluta omnium facilis qui.

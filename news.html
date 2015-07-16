@@ -1,18 +1,24 @@
 ---
 layout: default
 permalink: /news/
-author:
+author: all
 ---
 
 <div class="container" style="padding-top:50px">
   <div class="row">
   	<div class="col-md-3">
   	  <div class="well">
-  		  <ul class="nav nav-stacked" id="sidebar">
+  		  <ul class="nav nav-stacked">
   		    <li><a href="{{ link-lang }}/category1">{% t news.category1 %}</a></li>
   		    <li><a href="{{ link-lang }}/category2">{% t news.category2 %}</a></li>
   		    <li><a href="{{ link-lang }}/category3">{% t news.category3 %}</a></li>
   		  </ul>
+        <hr style="border:1px solid black">
+        <ul class="nav nav-stacked">
+          <li><a href="{{ link-lang }}/tag1">{% t news.tag1 %}</a></li>
+          <li><a href="{{ link-lang }}/tag2">{% t news.tag2 %}</a></li>
+          <li><a href="{{ link-lang }}/tag3">{% t news.tag3 %}</a></li>
+        </ul>
   	  </div>
   	</div>
 
