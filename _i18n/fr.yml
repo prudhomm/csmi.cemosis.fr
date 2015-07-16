@@ -6,8 +6,10 @@ navbar:
     promotions: Promotions
     news: Actualit&eacute;s
     courses: Enseignements
+    managers: Responsables
+    teachingstaff: "&Eacute;quipe P&eacute;dagogique"
 
 news:
-    catergory1: catergory1 
-    catergory2: catergory2
-    catergory3: catergory3
+    category1: category1
+    category2: category2
+    category3: category3

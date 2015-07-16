@@ -2,24 +2,15 @@
 layout: default
 permalink: /team/
 ---
-<div class="jumbotron" style="border-bottom: 1px solid black vertical-align">
-  <div class="container-fluid">
-    <div class="row-fluid">
-        <h1>Master Calcul Scientifique</h1>
-        <h1 style="text-align:center">et Mathématiques de l'Information</h1>
 
-        <blockquote class="testimonial"><h2>Les Mathématiques de l'Innovation</h2></blockquote>
 
-    </div>
-  </div>
-</div>
 
 <div class="page-header">
   <h1>Responsables du Master et Équipe Pédagogique<small></small></h1>
 </div>
 
 <div class="container-fluid" >
-
+    <a name="managers"></a>
     <div class="row-fluid">
     <div class="col-md-3"></div>
 
@@ -60,6 +51,7 @@ permalink: /team/
     </div>
 </div>
 
+<a name="teachingstaff"></a>
 <div id="panel-odd-year" class="container-fluid">
     <center>
         <div style="padding-bottom:50px;"><h2>&Eacute;quipe pédagogique</h2></div>
@@ -93,7 +85,7 @@ permalink: /team/
                             <li>E-mail: <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
                             {% if member.web %}
                              <li>WWW: <a href="{{ member.web }}">{{ member.web }}</a></li>
-                            {% endif %} 
+                            {% endif %}
                             {% if member.telephone %}
                             <li>Téléphone: {{ member.telephone }}</li>
                             {% endif %}
