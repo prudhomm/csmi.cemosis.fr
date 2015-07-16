@@ -17,3 +17,11 @@ news:
     tag1: tag1
     tag2: tag2
     tag3: tag3
+
+courses:
+    navtabAll: Tous les cours
+    navtabDiscipline: Par discipline
+    navtabCategory: Par catégory
+    navtabInfo: Informatique
+    navtabMath: Mathématique
+    navtabInter: Interdiscipline
