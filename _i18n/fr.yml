@@ -1,14 +1,40 @@
 global:
+    masterName1: Master Calcul Scientifique
+    masterName2: et Mathématiques de l'Information
+    slogan: Les Mathématiques de l'Innovation
+    next: Suivant
+    previous: Précédent
+    contactButton: Contactez-nous
+    applyButton: Candidatez
+    s1: Semestre 1
+    s2: Semestre 2
+    s3: Semestre 3
+    s4: Semestre 4
 
 navbar:
     home: Page d'accueil
     team: "&Eacute;quipe"
-    promotions: Promotions
+    promotions: promotions
     news: Actualit&eacute;s
     courses: Enseignements
 
 index:
     recentNewsTitle: Actualités récentes
+    testimony: Témoignages
+    metiers: Métiers
+    access: Accès
+    courses: Enseignements
+    agendaCourse: Agenda des cours
+    partnership: Partenaires
+    international: Relations internationales
+    testimonyPanel:
+        title: Témoignages d'Anciens Étudiants
+        joinGroup: Rejoignez nous sur le groupe
+        groupLink: LinkedIn  du Master CSMI
+    accessPanel:
+        title: Comment accéder au Master?
+        prerequisite: Quels sont les prérequis?
+
 
 news:
     category1: catergory1 
@@ -25,3 +51,7 @@ courses:
     navtabInfo: Informatique
     navtabMath: Mathématique
     navtabInter: Interdiscipline
+
+footer:
+    copyright: Cemosis 2015 Tous droits réservés
+    about: "&Agrave; propos"
