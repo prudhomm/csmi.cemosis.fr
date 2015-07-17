@@ -4,6 +4,12 @@ global:
     slogan: Les Mathématiques de l'Innovation
     next: Suivant
     previous: Précédent
+    contactButton: Contact us
+    applyButton: Apply
+    s1: Semester 1
+    s2: Semester 2
+    s3: Semester 3
+    s4: Semester 4
 
 navbar:
     home: Home
