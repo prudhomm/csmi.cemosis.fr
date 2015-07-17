@@ -4,6 +4,10 @@ permalink: /news/
 author: all
 ---
 
+<div class="page-header">
+  <h1>Les Actualités du Master<small></small></h1>
+</div>
+
 <div class="container" style="padding-top:50px">
   <div class="row">
   	<div class="col-md-3">
@@ -22,7 +26,7 @@ author: all
   	  </div>
   	</div>
 
-  	<div class="col-md-9">
+   <div class="col-md-9">
 
     {% for post in site.posts %}
 	  <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>

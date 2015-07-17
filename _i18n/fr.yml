@@ -17,6 +17,8 @@ navbar:
     promotions: promotions
     news: Actualit&eacute;s
     courses: Enseignements
+    managers: Responsables
+    teachingstaff: "&Eacute;quipe P&eacute;dagogique"
 
 index:
     recentNewsTitle: Actualités récentes
@@ -37,9 +39,9 @@ index:
 
 
 news:
-    category1: catergory1 
-    category2: catergory2
-    category3: catergory3
+    category1: category1
+    category2: category2
+    category3: category3
     tag1: tag1
     tag2: tag2
     tag3: tag3
@@ -55,3 +57,4 @@ courses:
 footer:
     copyright: Cemosis 2015 Tous droits réservés
     about: "&Agrave; propos"
+

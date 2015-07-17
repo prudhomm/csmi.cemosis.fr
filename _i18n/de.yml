@@ -17,6 +17,8 @@ navbar:
     promotions: Förderung
     news: Nachrichten
     courses: Unterricht
+    managers: Managers
+    teachingstaff: Teaching Staff
 
 index:
     recentNewsTitle: Actualités récentes
@@ -51,3 +53,4 @@ courses:
 footer:
     copyright: Cemosis 2015 Tous droits réservés
     about: "&Agrave; propos"
+
