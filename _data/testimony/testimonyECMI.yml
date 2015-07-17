@@ -1,23 +1,38 @@
-- author: Author1
+- author: Guillaume Dollé
   testimony: >
-             Testimony...
-  job: Author's job
+             <b>Expliquez-nous le déroulement de la première semaine ?</b>
+             La première semaine était composée de quatre cours sur plusieurs thèmes dispensés par plusieurs enseignants d’universités participantes. Pour ma part, j’avais déjà vu certains cours alors que d’autres m’étaient totalement inconnus. Par ailleurs, une visite à été organisés au sein d’une entreprise qui améliore l’efficacité des ascenseurs qu’ils produisent grâce au calcul numérique.
+             <b>Et la semaine de modélisation proprement dite ?</b>
+             Ce fut certainement la partie la plus intéressante de cette école d’été. Nous étions au total 75 étudiants répartis dans 10 équipes “internationales” afin de favoriser les échanges. Un projet de modélisation a été attribué à chaque équipe dirigée par un instructeur. Nous disposions de 5 jours pour proposer un modèle afin de résoudre une problématique donnée.
+             La semaine s’est terminée avec une présentation des résultats devant l’ensemble des participants et des instructeurs ainsi que l’élaboration d’un rapport par la suite. La chose la plus compliquée était certainement de savoir bien s’organiser. Nous devions partitionner les tâches au sein d’une équipe composée de 7 à 8 personnes. Et lorsqu’on parallélise le travail, la communication peut s’avérer coûteuse en temps !
+             <b>Un mot sur l’ambiance et l’organisation ?</b>
+             Une très bonne ambiance, nous avons tissé des liens rapidement entre étudiants ce qui a favorisé les échanges à la fois culturels et scientifiques.
+             <b>Aucun regret ?</b>
+             Aucun, si je devais le refaire, je le referai sans hésiter. Je conseille d’ailleurs à tout étudiant d’y participer si l’opportunité se présente. C’est une bonne occasion de se faire des contacts et de pratiquer l’anglais quelque soit votre niveau !
+             <b>Un mot de conclusion ?</b>
+             Ce fut une très bonne expérience à la fois éprouvante et enrichissante qui a été rendue possible grâce à <a href="http://www.agence-maths-entreprises.fr/">AMIES</a>, merci !
+  job: Doctorant, Université de Strasbourg
   id: testimonyECMI-1
 
-- author: Author2
+- author: Ranine Tarabay
   testimony: >
-             Testimony...
-  job: Author's job
+             <b>Expliquez-nous le déroulement de la première semaine</b>
+             La semaine de cours intensive était intéressante. C'était des maths différentes de celles qu'on apprend à l'université. Voir le coté "application" et ce qu’apportent les maths à la biologie, la chimie ou les sciences de l'environnement était très motivant.
+             L'examen qu'on a passé (ainsi que la semaine de modélisation qui a suivi) nous a permis de nous auto-évaluer scientifiquement mais aussi de comparer notre savoir et savoir faire par rapport à d'autres étudiants européens.
+             <b>Un mot sur l’ambiance et l’organisation</b>
+             C'était une expérience enrichissante, aussi bien dans le cadre scientifique que dans le cadre social et relationnel, qui nous a permis de créer des liens professionnels (encadrants et enseignants) et amicaux.
+             <b>un mot de conclusion </b>
+             Je conseillerais fortement tout étudiant de master à y participer
+  job: Doctorante, Université de Strasbourg, ECMI Modelling week 2012
   id: testimonyECMI-2
 
-- author: Author3
+- author: Laura Mendoza
   testimony: >
-             Testimony...
-  job: Author's job
+             <b>Decrivez nous la semaine de modélisation proprement dite ?</b>
+             Sans aucun doute, la semaine de modélisation fut la partie la plus importante. J'ai appris beaucoup plus que ce que j’aurais pu imaginer dans un si court délai. Il a fallu beaucoup de travail mais c'était une expérience extrêmement gratifiante. A la fin, je ne peux pas cacher que j'étais soulagée ... mais on a eu une forte cohésion de groupe, ce qui nous a rendus très dynamiques et donc les tâches semblaient moins lourdes.
+             <b>Un mot sur l’ambiance et l’organisation</b>
+             Mme. Antje Noack, notre interlocutrice de la part du TU de Dresde, s'est très bien occupée de la partie administrative et de notre réception à la guesthouse. Elle a toujours été très attentive et patiente et si l'organisation des deux semaines a été (presque) parfaite je  suis sûre que c'est en grande partie grâce à elle.
+             <b>Aucun regret ?</b>
+             la seule chose que je regrette c'est de ne pas l'avoir fait l'année d'avant.
+  job: Doctorante Technische Universität München
   id: testimonyECMI-3
-
-- author: Author4
-  testimony: >
-             Testimony...
-  job: Author's job
-  id: testimonyECMI-4
