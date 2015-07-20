@@ -20,7 +20,6 @@ mathématique de l'information.
 ">
   <link rel="shortcut icon" type="type/png" href="/images/favicon.png"/>
 
-  <link rel="stylesheet" href="/stylesheet/custom.css">
   <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -67,16 +66,28 @@ mathématique de l'information.
 
       
       <!-- Navbar buttons -->
-      <div class="collapse navbar-collapse" id="main-navbar">
+      <div class="collapse navbar-collapse  navbar-fixed-top" id="main-navbar">
 
         <ul class="nav navbar-nav navbar-right">
+
           <!-- auto active current page -->
           <li class="active"><a href="/index.html">Page d'accueil</a></li>
-          <li class=""><a href="/team">&Eacute;quipe</a></li>
 
+          <!-- Team -->
+          <li class="dropdown ">
+          <a href="/team" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+           &Eacute;quipe <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="/team/#managers">Responsables</a></li>
+              <li><a href="/team/#teachingstaff">&Eacute;quipe P&eacute;dagogique</a></li>
+            </ul>
+          </li>
+
+          <!-- Promotions -->
           <li class="dropdown ">
           <a href="/promotions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-           Promotions <span class="caret"></span></a>
+           promotions <span class="caret"></span></a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
              
@@ -91,7 +102,6 @@ mathématique de l'information.
             </ul>
           </li>
 
-          <!--<li class=""><a href="/promotions">Promotions</a></li>-->
           <li class=""><a href="/news">Actualit&eacute;s</a></li>
 
           <li class="dropdown ">
@@ -105,16 +115,69 @@ mathématique de l'information.
               <li><a href="/courses/#S4">Semestre 4</a></li>
             </ul>
           </li>
-          <!--<li class=""><a href="/course"></a></li>-->
+
+          
+            
+            
+            <li style="max-height:50px"><a href="/en/index.html"><img src="/images/United-Kingdom.png"></a></li>
+            <li style="max-height:50px"><a href="/de/index.html"><img src="/images/Germany.png"></a></li>
+          
+
+          
+
+          
+        </ul>
+
       </div><!-- /.navbra-collapse -->
 
     </div><!-- /.container-fluid -->
   </nav>
 
+  <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+          <div class="item active">
+              <div class="slide1"></div>
+          </div>
+          <div class="item">
+              <div class="slide2"></div>
+          </div>
+          <div class="item">
+              <div class="slide3"></div>
+          </div>
+      </div><!-- .carousel-inner -->
+      <div class="container carousel-overlay text-center toto">
+
+       <div class="col-md-6">
+       <h1>Master Calcul Scientifique</h1>
+       <h1 style="text-align:center">et Mathématiques de l'Information</h1>
+          <blockquote class="testimonial"><h2>Les Mathématiques de l'Innovation</h2></blockquote>
+
+          <a class="btn btn-lg btn-primary fp-buttons" href="mailto:contact-csmi@cemosis.fr">
+              <span class="fa fa-question"></span> Contactez-nous
+          </a>
+          <a class="btn btn-lg btn-success fp-buttons" href="https://aria.u-strasbg.fr/">
+              <span class="fa fa-check"></span> Candidatez
+          </a>
+          </div>
+       <div class="col-md-6">
+        <h2><span class="label label-default">Actualités récentes</span></h2>
+
+        <ul class="list-group" style="text-align:left;padding-top:20px">
+        
+          <li class="list-group-item"><h4>[website] <a href="/website/2015/07/17/creation-website.html">Un site web moderne et attractif pour CSMI</a></h4></li>
+        
+          <li class="list-group-item"><h4>[stage] <a href="/stage/2015/07/17/creation-website.html">Soutenances de stage de M1 et M2</a></h4></li>
+        
+        </ul>
+       </div>
+      </div>
+  </div><!-- .carousel -->
 
 
 
-    <div class="jumbotron" style="border-bottom: 1px solid black">
+
+    <!--<div class="jumbotron" style="border-bottom: 1px solid black">
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="col-md-6">
@@ -126,12 +189,21 @@ mathématique de l'information.
 
       </div>
 
+      <div class="col-md-6">
+        <h2>Actualités récentes</h2>
 
-      <div class="col-md-6"></div>
+        <ul style="text-align:left;padding-top:10px">
+        
+          <li><h3>[website] <a href="/website/2015/07/17/creation-website.html">Un site web moderne et attractif pour CSMI</a></h3></li>
+        
+          <li><h3>[stage] <a href="/stage/2015/07/17/creation-website.html">Soutenances de stage de M1 et M2</a></h3></li>
+        
+        </ul>
+      </div>
 
     </div>
   </div>
-</div>
+</div>-->
 
 <!--
 <div class="container-fluid">
@@ -139,8 +211,9 @@ mathématique de l'information.
 
 </div>-->
 
+<!--
+
 <div id="slide-show" class="carousel slide" data-ride="carousel" style="max-width: 50%; margin: 0 auto">
-  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#slide-show" data-slide-to="0" class="active"></li>
     <li data-target="#slide-show" data-slide-to="1"></li>
@@ -153,30 +226,27 @@ mathématique de l'information.
     <div class="item active">
     
       <img src="/images/slide/gallery.png">
-        <div class="carousel-caption">
          <div class="carousel-caption">
-          <h2 style="background-color: rbga(0,0,0,0.5);">Gallerie d'images</h2>
-        </div></div>
+           <h2>Gallerie d'images</h2>
+         </div>
     </div>
     
    
     <div class="item">
     
       <img src="/images/slide/lncmi-1.png">
-        <div class="carousel-caption">
          <div class="carousel-caption">
-          <h2 style="background-color: rbga(0,0,0,0.5);">Champs de température dans un électro-aimant du LNCMI  (C) Feel++ Consortium</h2>
-        </div></div>
+           <h2>Champs de température dans un électro-aimant du LNCMI  (C) Feel++ Consortium</h2>
+         </div>
     </div>
     
    
     <div class="item">
     
       <img src="/images/slide/vivabrain-stream-2.png">
-        <div class="carousel-caption">
          <div class="carousel-caption">
-          <h2 style="background-color: rbga(0,0,0,0.5);">Lignes de courant du champs de vitesse du sang dans le réseau cérébro-veineux  (C) Feel++ Consortium</h2>
-        </div></div>
+           <h2>Lignes de courant du champs de vitesse du sang dans le réseau cérébro-veineux  (C) Feel++ Consortium</h2>
+         </div>
     </div>
     
   </div>
@@ -189,7 +259,7 @@ mathématique de l'information.
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Suivant</span>
   </a>
-</div>
+</div> -->
 
 <div id="panel-sections" class="container-fluid">
   <div id="sections"class="centered">
@@ -213,27 +283,31 @@ mathématique de l'information.
 
     <div class="row-fluid">
       <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#course"><img src="/images/icons/teacher.png"></a>
+        <a class="hvr-bounce-in" href="/courses"><img src="/images/icons/teacher.png"></a>
         <h3>Enseignements</h3>
       </div>
+
       <div class="col-md-4" style="margin-top:50px">
+        <a class="hvr-bounce-in" href="#international"><img src="/images/icons/world.png"></a>
+        <h3>Relations internationales</h3>
+      </div>
+
+      <!--<div class="col-md-4" style="margin-top:50px">
         <a class="hvr-bounce-in" href="#agenda"><img src="/images/icons/calendar.png"></a>
         <h3>Agenda des cours</h3>
-      </div>
+      </div>-->
 
       <div class="col-md-4" style="margin-top:50px">
         <a class="hvr-bounce-in" href="#partnership"><img src="/images/icons/users.png"></a>
         <h3>Partenaires</h3>
       </div>
     </div>
-    <div class="row-fluid">
+    <!-- 3rd line -->
+    <!--<div class="row-fluid">
       <div class="col-md-4" style="margin-top:50px"></div>
-      <div class="col-md-4" style="margin-top:50px">
-        <a class="hvr-bounce-in" href="#international"><img src="/images/icons/world.png"></a>
-        <h3>Relations internationales</h3>
-      </div>
       <div class="col-md-4" style="margin-top:50px"></div>
-    </div>
+      <div class="col-md-4" style="margin-top:50px"></div>
+    </div>-->
   </div>
 </div>
 
@@ -248,27 +322,9 @@ mathématique de l'information.
 
     <div class="row-fluid">
 
+    
       <div class="col-md-6">
-        <blockquote class="testimonial"><p id="testimony-1">J'ai rencontré le calcul scientifique relativement tard dans mes études, l'application des maths à des problèmes  concrets m'a immédiatement séduite. Cela m'a poussé à préparer un master dans ce domaine, puis une thèse CIFRE, durant  laquelle j'ai pu aborder l'aspect industriel des maths appliquées.
-</p></blockquote>
-        <div class="arrow-down"></div>
-        <p class="testimonial-author">Thomas Strub | <span>Docteur de l'Université de Strasbourg, AxesSim</span></p>
-      </div>
-
-      <div class="col-md-6">
-        <blockquote class="testimonial"><p id="testimony-2">Même si une formation en mathématiques peut parfois sembler difficile, il faut garder à l’esprit qu’elle permet  surtout d’apprendre à réfléchir et à penser logiquement, et elle apporte des bases solides qui peuvent servir dans  de nombreux domaines. Ainsi, même si vous pensez que vous n’utiliserez pas le théorème de Pythagore tous les jours,  vous vous rendrez compte que les mathématiques sont utilisées partout et ont un impact bien réel sur les objets que  vous utilisez au quotidien. Pour ma part, j’ai la chance de travailler avec une entreprise leader dans le domaine  automobile, avec, à la clé, l’opportunité de voir mes travaux utilisés pour augmenter l’aérodynamisme et réduire  l’impact écologique des voitures de demain.
-</p></blockquote>
-        <div class="arrow-down"></div>
-        <p class="testimonial-author">Romain Hild | <span>Doctorant, Université de Strasbourg, Anciennement Ingénieur de recherche en collaboration avec PlasticOmnium</span></p>
-      </div>
-
-
-    </div>
-
-    <div class="row-fluid">
-
-      <div class="col-md-6">
-        <blockquote class="testimonial"><p id="testimony-0">Mon intérêt pour les mathématiques m'a conduit naturellement vers les mathématiques fondamentales.  En découvrant que mes connaissances pouvaient servir à répondre à des besoins concrets, j'ai choisi  de m'orienter vers les mathématiques appliquées.  Mon master en simulation numérique m'a permis d'avoir mon premier contrat en tant qu'ingénieur en calcul  scientifique au Laboratoire National des Champs Magnétiques Intenses, avant de commencer ma thèse. Mes travaux sont quotidiennement utilisés au sein du laboratoire, ce qui me procure le sentiment d'être utile  et complètement intégrée dans le processus complet de fabrication des aimants, réunissant une large gamme de métiers.
+        <blockquote class="testimonial"><p id="testimony-1">Mon intérêt pour les mathématiques m'a conduit naturellement vers les mathématiques fondamentales.  En découvrant que mes connaissances pouvaient servir à répondre à des besoins concrets, j'ai choisi  de m'orienter vers les mathématiques appliquées.  Mon master en simulation numérique m'a permis d'avoir mon premier contrat en tant qu'ingénieur en calcul  scientifique au Laboratoire National des Champs Magnétiques Intenses, avant de commencer ma thèse. Mes travaux sont quotidiennement utilisés au sein du laboratoire, ce qui me procure le sentiment d'être utile  et complètement intégrée dans le processus complet de fabrication des aimants, réunissant une large gamme de métiers.
  C'est ce lien étroit et direct entre le développement de méthodes numériques innovantes et les applications concrètes
   qui m'a convaincu de poursuivre dans cette voie.
 </p></blockquote>
@@ -276,8 +332,17 @@ mathématique de l'information.
         <p class="testimonial-author">Cécile Daversin | <span>Doctorante, Université de Strasbourg</span></p>
       </div>
 
+    
       <div class="col-md-6">
-      <blockquote class="testimonial"><p id="testimony-3">Lorsque je me suis inscrit en Master CSMI, c'était avant tout dans le but d'obtenir un diplôme professionnalisant,
+        <blockquote class="testimonial"><p id="testimony-2">Même si une formation en mathématiques peut parfois sembler difficile, il faut garder à l’esprit qu’elle permet  surtout d’apprendre à réfléchir et à penser logiquement, et elle apporte des bases solides qui peuvent servir dans  de nombreux domaines. Ainsi, même si vous pensez que vous n’utiliserez pas le théorème de Pythagore tous les jours,  vous vous rendrez compte que les mathématiques sont utilisées partout et ont un impact bien réel sur les objets que  vous utilisez au quotidien. Pour ma part, j’ai la chance de travailler avec une entreprise leader dans le domaine  automobile, avec, à la clé, l’opportunité de voir mes travaux utilisés pour augmenter l’aérodynamisme et réduire  l’impact écologique des voitures de demain.
+</p></blockquote>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author">Romain Hild | <span>Doctorant, Université de Strasbourg, Anciennement Ingénieur de recherche en collaboration avec PlasticOmnium</span></p>
+      </div>
+
+    
+      <div class="col-md-6">
+        <blockquote class="testimonial"><p id="testimony-3">Lorsque je me suis inscrit en Master CSMI, c'était avant tout dans le but d'obtenir un diplôme professionnalisant,
  dans la continuité de ma licence de Mathématiques. Durant ces deux années de formation, j'ai découvert le monde de
   l'analyse numérique et j'ai été surpris par la richesse de cette discipline : on est amené à utiliser régulièrement 
   des notions d'algèbre et d'analyse mais aussi de physique, d'algorithmique et de programmation. C'est un milieu très 
@@ -290,11 +355,19 @@ mathématique de l'information.
   C'est une voie que je conseille fortement aux passionnés de mathématiques qui ont envie de mêler applications et travail 
   de recherche théorique.
 </p></blockquote>
-      <div class="arrow-down"></div>
-      <p class="testimonial-author">Jean-Baptiste Wahl | <span>Doctorant, Université de Strasbourg</span></p>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author">Jean-Baptiste Wahl | <span>Doctorant, Université de Strasbourg</span></p>
       </div>
 
+    
+      <div class="col-md-6">
+        <blockquote class="testimonial"><p id="testimony-4">J'ai rencontré le calcul scientifique relativement tard dans mes études, l'application des maths à des problèmes  concrets m'a immédiatement séduite. Cela m'a poussé à préparer un master dans ce domaine, puis une thèse CIFRE, durant  laquelle j'ai pu aborder l'aspect industriel des maths appliquées.
+</p></blockquote>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author">Thomas Strub | <span>Docteur de l'Université de Strasbourg, AxesSim</span></p>
+      </div>
 
+    
     </div>
 
     <center style="padding-top:50px">Rejoignez nous sur le groupe <a href="https://www.linkedin.com/groups?home=&amp;gid=3923807&amp;trk=anet_ug_hm"><i class="fa fa-linkedin fa-lg"></i>&nbspLinkedIn  du Master CSMI</a></center>
@@ -305,7 +378,7 @@ mathématique de l'information.
   <span class="anchor" id="access"></span>
   <div id="panel-access" class="container-fluid">
     <center>
-      <div><h2>Comment accéder au Master? </h2></div>
+      <div><h2>Comment accéder au Master?</h2></div>
     </center>
 
     <center>
@@ -422,7 +495,7 @@ mathématique de l'information.
     </div>
   </div>
 
-
+<!--
   <span class="anchor" id="course"></span>
   <div id="panel-course" class="containter-fluid">
     <center><h2>Enseignement</h2></center>
@@ -441,70 +514,70 @@ mathématique de l'information.
 
         <tr>
           <td>• <b><a href="/courses/#s1-1">Algorithmique I</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-2">Algorithmique II</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-3">Analyse fonctionnelle</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-4">Arithmétique</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-5">Calcul parallèle</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-6">Calcul scientifique</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-7">Graphe</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-8">Language vivantes</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-9">Logique</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
 
         <tr>
           <td>• <b><a href="/courses/#s1-10">Modèles aléatoires</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+
         </tr>
 
         
@@ -524,50 +597,43 @@ mathématique de l'information.
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-1">Fourier et signal</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-1">Fourier et signal</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-2">Informatique : Langage objets</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-2">Informatique : Langage objets</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-3">Méthodes numériques pour équations aux dérivées partielles I</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-3">Méthodes numériques pour équations aux dérivées partielles I</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-4">Optimisation</a></b></td>
-          <!--<td>ECTS: 6</td>-->
+          <td>• <b><a href="/courses/#s2-4">Optimisation</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-5">PIP: certification python</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-5">PIP: certification python</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-6">Théorie des codes I</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-6">Théorie des codes I</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-7">Stage ou mémoire M1</a></b></td>
-          <!--<td>ECTS: 6</td>-->
+          <td>• <b><a href="/courses/#s2-7">Stage ou mémoire M1</a></b></td>
         </tr>
 
         
@@ -581,15 +647,13 @@ mathématique de l'information.
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-8">Méthodes numériques pour les EDP II</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-8">Méthodes numériques pour les EDP II</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s2-9">Théorie des codes II</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s2-9">Théorie des codes II</a></b></td>
         </tr>
 
         
@@ -610,57 +674,49 @@ mathématique de l'information.
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-1">Calcul formel</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s3-1">Calcul formel</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-2">Contrôle optimal</a></b></td>
-          <!--<td>ECTS: 6</td>-->
+          <td>• <b><a href="/courses/#s3-2">Contrôle optimal</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-3">Cryptographie</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s3-3">Cryptographie</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-4">Informatique : Base de données</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s3-4">Informatique : Base de données</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-5">Modèles hyperboliques</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s3-5">Modèles hyperboliques</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-6">Projet éléments finis</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s3-6">Projet éléments finis</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-7">Projet volumes finis</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s3-7">Projet volumes finis</a></b></td>
         </tr>
 
         
 
         <tr>
-          <td>• <b><a href="/course/#s3-8">Réseaux</a></b></td>
-          <!--<td>ECTS: 6</td>-->
+          <td>• <b><a href="/courses/#s3-8">Réseaux</a></b></td>
         </tr>
 
         
@@ -681,15 +737,13 @@ mathématique de l'information.
           
 
           <tr>
-          <td>• <b><a href="/course/#s4-1">Langues vivantes</a></b></td>
-          <!--<td>ECTS: 3</td>-->
+          <td>• <b><a href="/courses/#s4-1">Langues vivantes</a></b></td>
           </tr>
 
           
 
           <tr>
-          <td>• <b><a href="/course/#s4-2">Stage ou mémoire M2</a></b></td>
-          <!--<td>ECTS: 27</td>-->
+          <td>• <b><a href="/courses/#s4-2">Stage ou mémoire M2</a></b></td>
           </tr>
 
           
@@ -699,10 +753,9 @@ mathématique de l'information.
       </div>
     </div>
   </div>
+-->
 
-
-
-  <span class="anchor" id="agenda"></span>
+ <!-- <span class="anchor" id="agenda"></span>
   <div  id="panel-agenda"class="container-fluid">
     <center><h2>Agenda</h2></center>
     <div class="col-md-4"></div>
@@ -710,11 +763,9 @@ mathématique de l'information.
       <p>Ici se trouve l'agenda de la semaine courante de l'agenda des cours et accès au calendier de l'année</p>
     </div>
     <div class="col-md-4"></div>
-  </div>
+  </div>-->
 
-
-
-
+  <!-- International -->
   <span class="anchor" id="international"></span>
   <div id="panel-international" class="container-fluid">
     <center><h2>Relations internationales</h2></center>
@@ -728,6 +779,35 @@ mathématique de l'information.
       <h3 class="marketing-title">Semaine de modélisation ECMI</h3>
       <p>Les étudiants CSMI peuvent participer entre autres aux <a href="http://www.ecmi-indmath.org/wordpress/?page_id=102">semaines de modélisation</a> ECMI organisée chaque année.</p>
      </div>
+    </div>
+
+    <div class="row-fluid">
+     <h3 class="marketing-title">Témoignages d'étudiants ayant participé à une semaine de modélisation ECMI</h3>
+      
+
+      <div class="col-md-6">
+        <blockquote class="testimonial"><p id="testimonyECMI-1"><b>Expliquez-nous le déroulement de la première semaine ?</b> La première semaine était composée de quatre cours sur plusieurs thèmes dispensés par plusieurs enseignants d’universités participantes. Pour ma part, j’avais déjà vu certains cours alors que d’autres m’étaient totalement inconnus. Par ailleurs, une visite à été organisés au sein d’une entreprise qui améliore l’efficacité des ascenseurs qu’ils produisent grâce au calcul numérique. <b>Et la semaine de modélisation proprement dite ?</b> Ce fut certainement la partie la plus intéressante de cette école d’été. Nous étions au total 75 étudiants répartis dans 10 équipes “internationales” afin de favoriser les échanges. Un projet de modélisation a été attribué à chaque équipe dirigée par un instructeur. Nous disposions de 5 jours pour proposer un modèle afin de résoudre une problématique donnée. La semaine s’est terminée avec une présentation des résultats devant l’ensemble des participants et des instructeurs ainsi que l’élaboration d’un rapport par la suite. La chose la plus compliquée était certainement de savoir bien s’organiser. Nous devions partitionner les tâches au sein d’une équipe composée de 7 à 8 personnes. Et lorsqu’on parallélise le travail, la communication peut s’avérer coûteuse en temps ! <b>Un mot sur l’ambiance et l’organisation ?</b> Une très bonne ambiance, nous avons tissé des liens rapidement entre étudiants ce qui a favorisé les échanges à la fois culturels et scientifiques. <b>Aucun regret ?</b> Aucun, si je devais le refaire, je le referai sans hésiter. Je conseille d’ailleurs à tout étudiant d’y participer si l’opportunité se présente. C’est une bonne occasion de se faire des contacts et de pratiquer l’anglais quelque soit votre niveau ! <b>Un mot de conclusion ?</b> Ce fut une très bonne expérience à la fois éprouvante et enrichissante qui a été rendue possible grâce à <a href="http://www.agence-maths-entreprises.fr/">AMIES</a>, merci !
+</p></blockquote>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author"><a href="/promotions/#Guillaume Dollé">Guillaume Dollé</a> | <span><a href="http://scala.uc3m.es/essim2013/welcome.html">ECMI modelling week 2013</a></span></p>
+      </div>
+      
+
+      <div class="col-md-6">
+        <blockquote class="testimonial"><p id="testimonyECMI-2"><b>Expliquez-nous le déroulement de la première semaine</b> La semaine de cours intensive était intéressante. C'était des maths différentes de celles qu'on apprend à l'université. Voir le coté "application" et ce qu’apportent les maths à la biologie, la chimie ou les sciences de l'environnement était très motivant. L'examen qu'on a passé (ainsi que la semaine de modélisation qui a suivi) nous a permis de nous auto-évaluer scientifiquement mais aussi de comparer notre savoir et savoir faire par rapport à d'autres étudiants européens. <b>Un mot sur l’ambiance et l’organisation</b> C'était une expérience enrichissante, aussi bien dans le cadre scientifique que dans le cadre social et relationnel, qui nous a permis de créer des liens professionnels (encadrants et enseignants) et amicaux. <b>un mot de conclusion </b> Je conseillerais fortement tout étudiant de master à y participer
+</p></blockquote>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author"><a href="/promotions/#Ranine Tarabay">Ranine Tarabay</a> | <span><a href="http://www.math.tu-dresden.de/essim2012/">ECMI Modelling Week 2012</a></span></p>
+      </div>
+      
+
+      <div class="col-md-6">
+        <blockquote class="testimonial"><p id="testimonyECMI-3"><b>Decrivez nous la semaine de modélisation proprement dite ?</b> Sans aucun doute, la semaine de modélisation fut la partie la plus importante. J'ai appris beaucoup plus que ce que j’aurais pu imaginer dans un si court délai. Il a fallu beaucoup de travail mais c'était une expérience extrêmement gratifiante. A la fin, je ne peux pas cacher que j'étais soulagée ... mais on a eu une forte cohésion de groupe, ce qui nous a rendus très dynamiques et donc les tâches semblaient moins lourdes. <b>Un mot sur l’ambiance et l’organisation</b> Mme. Antje Noack, notre interlocutrice de la part du TU de Dresde, s'est très bien occupée de la partie administrative et de notre réception à la guesthouse. Elle a toujours été très attentive et patiente et si l'organisation des deux semaines a été (presque) parfaite je  suis sûre que c'est en grande partie grâce à elle. <b>Aucun regret ?</b> la seule chose que je regrette c'est de ne pas l'avoir fait l'année d'avant.
+</p></blockquote>
+        <div class="arrow-down"></div>
+        <p class="testimonial-author"><a href="/promotions/#Laura Mendoza">Laura Mendoza</a> | <span><a href="http://www.math.tu-dresden.de/essim2012/">ECMI Modelling Week 2012</a></span></p>
+      </div>
+      
     </div>
 
   </div>
@@ -785,9 +865,9 @@ mathématique de l'information.
 
       <center style="margin-top:50px">
 
-      <a href="mailto:contact-csmi@cemosis.fr" class="btn btn-primary btn-lg hvr-pulse-grow" role="button" style="width:200px">Contactez-nous</a>
+      <a href="mailto:contact-csmi@cemosis.fr" class="btn btn-primary btn-lg hvr-pulse-grow" role="button" style="width:200px"><span class="fa fa-question"></span>Contactez-nous</a>
 
-      <a href="https://aria.u-strasbg.fr/" class="btn btn-success btn-lg hvr-pulse-grow" role="button" style="width:200px">Candidatez</a>
+      <a href="https://aria.u-strasbg.fr/" class="btn btn-success btn-lg hvr-pulse-grow" role="button" style="width:200px"><span class="fa fa-check"></span>Candidatez</a>
 
       <a href="https://github.com/cemosis/csmi.cemosis.fr/issues" class="btn btn-danger btn-lg hvr-pulse-grow" role="button" style="">Rapporter un problème</a>
 
@@ -795,30 +875,25 @@ mathématique de l'information.
     </div>
 
 
+
     <footer class="footer">
 
   <div id="sitemap" class="container-fluid">
-    <div class="row-fluid"> 
-      <div class="col-md-2"></div>   
+    <div class="row-fluid">
+      <div class="col-md-2"></div>
       <div class="col-md-3">
         <ul>
           <li>
-            <h4>Page d'acceuil</h4>
+            <h4>Page d'accueil</h4>
           </li>
           <li>
-            <a href="/#testimony">Témoignage</a>
+            <a href="/#testimony">Témoignages</a>
           </li>
           <li>
             <a href="/#access">Accès</a>
           </li>
           <li>
             <a href="/#metiers">Métiers</a>
-          </li>
-          <li>
-            <a href="/#course">Enseignements</a>
-          </li>
-          <li>
-            <a href="/#agenda">Agenda des cours</a>
           </li>
           <li>
             <a href="/#partnership">Partenaires</a>
@@ -829,13 +904,13 @@ mathématique de l'information.
         </ul>
       </div>
 
-      <div class="col-md-3">      
+      <div class="col-md-3">
         <ul>
           <li>
-            <h4>Actualités</h4>
+            <h4>Actualit&eacute;s</h4>
           </li>
           <li>
-            <a href="/news/">Actualités</a>
+            <a href="/news/">Actualit&eacute;s</a>
           </li>
         </ul>
       </div>
@@ -859,10 +934,10 @@ mathématique de l'information.
           </li>
         </ul>
       </div>
-      
+
       <div class="col-md-1"></div>
-    </div>         
-  </div>      
+    </div>
+  </div>
 
 
   <div class="container">
@@ -976,11 +1051,6 @@ jQuery(function($) {
 
     <!-- read more option's code, using Readmore.js -->
     <script type="text/javascript">
-      $('#testimony-0').readmore({
-        collapsedHeight: 150,
-        lessLink: '<a href="#">Lire moins</a>',
-        moreLink: '<a href="#">Lire la suite...</a>'  
-      });
       $('#testimony-1').readmore({
         collapsedHeight: 150,
         lessLink: '<a href="#">Lire moins</a>',
@@ -995,7 +1065,33 @@ jQuery(function($) {
         collapsedHeight: 150,
         lessLink: '<a href="#">Lire moins</a>',
         moreLink: '<a href="#">Lire la suite...</a>'  
-      });      
+      });
+      $('#testimony-4').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+
+      $('#testimonyECMI-1').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+      $('#testimonyECMI-2').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+      $('#testimonyECMI-3').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });
+      $('#testimonyECMI-4').readmore({
+        collapsedHeight: 150,
+        lessLink: '<a href="#">Lire moins</a>',
+        moreLink: '<a href="#">Lire la suite...</a>'  
+      });          
     </script>
 
   </body>

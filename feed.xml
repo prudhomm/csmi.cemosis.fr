@@ -9,9 +9,38 @@ mathématique de l&#39;information.
 </description>
     <link>http://csmi.cemosis.fr//</link>
     <atom:link href="http://csmi.cemosis.fr//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 16:40:25 +0200</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 16:40:25 +0200</lastBuildDate>
+    <pubDate>Mon, 20 Jul 2015 07:05:24 +0200</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2015 07:05:24 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Un site web moderne et attractif pour CSMI</title>
+        <description>&lt;p&gt;Le Master Calcul Scientifique et Mathématiques de l’Information se dote d’un site web moderne et attractif qui se veut vivant et réunnissant diverses informations comme par exemple :
+ - des témoigagnes d’anciens étudiants
+ - la liste complète des cours et de l’équipe pédagogique
+ - les promotions depuis 2009&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://csmi.cemosis.fr//website/2015/07/17/creation-website.html</link>
+        <guid isPermaLink="true">http://csmi.cemosis.fr//website/2015/07/17/creation-website.html</guid>
+        
+        
+        <category>website</category>
+        
+      </item>
+    
+      <item>
+        <title>Soutenances de stage de M1 et M2</title>
+        <description>&lt;p&gt;Les soutenances de stages de M1 et M2 du Master auront lieu respectivement les 26 et 27 août prochains au matin voire début d’après-midi&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://csmi.cemosis.fr//stage/2015/07/17/creation-website.html</link>
+        <guid isPermaLink="true">http://csmi.cemosis.fr//stage/2015/07/17/creation-website.html</guid>
+        
+        
+        <category>stage</category>
+        
+      </item>
     
   </channel>
 </rss>

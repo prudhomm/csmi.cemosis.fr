@@ -12,30 +12,65 @@ body {
 }
 
 .carousel-inner {
-  //height: 700px;
 }
 
-.carousel-inner .item {
-  overflow: hidden;
-  //max-height: 128px;
-  //max-width: 100%;
-
+.carousel-inner .item { 
 }
 
 .carousel-inner .item img {
-    width: 100%;
-    //min-height: 100%;
-    //max-height: 600px;
+    width: 1000px;
+    height: 600px;
 }
 .carousel-caption {
     background: none;
-    //background: rgba(0, 0, 0, 0.35);
+}
+
+
+.slide1, .slide2, .slide3 {
+    min-height: 430px;
+    background-size: cover;
+    background-position: center center;
+}
+.slide1 {
+    background-image: url(/images/slide/gallery.png);
+}
+.slide2 {
+    background-image: url(/images/slide/lncmi-1.png);
+}
+.slide3 {
+    background-image: url(/images/slide/vivabrain-stream-2.png);
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    opacity: 0;
+}
+.carousel.carousel-fade .active.item {
+    opacity: .2;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+}
+.carousel-overlay {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    background: rbga(0.,0.,0.,0.5);
 }
 
 hr {
   margin: 0px;
 }
-
 
 
 .col-centered {
@@ -140,11 +175,6 @@ text-decoration: none;
 .jumbotron {
  text-align: center;
  padding-top: 50px;
-}
-
-
-#gallery {
-    box-shadow: 10px 10px 5px #888888;
 }
 
 .centered {
