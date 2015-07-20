@@ -14,7 +14,7 @@ body {
 .carousel-inner {
 }
 
-.carousel-inner .item { 
+.carousel-inner .item {
 }
 
 .carousel-inner .item img {
@@ -26,13 +26,14 @@ body {
 }
 
 
-.slide1, .slide2, .slide3 {
+.slide1, .slide2, .slide3, .slide4, .slide5 {
     min-height: 430px;
+    max-height: 430px;
     background-size: cover;
     background-position: center center;
 }
 .slide1 {
-    background-image: url(/images/slide/gallery.png);
+   background-image: url(/images/slide/gallery.png);
 }
 .slide2 {
     background-image: url(/images/slide/lncmi-1.png);
@@ -40,6 +41,13 @@ body {
 .slide3 {
     background-image: url(/images/slide/vivabrain-stream-2.png);
 }
+.slide4 {
+    background-image: url(/images/slide/tgcc_curie.jpeg);
+}
+.slide5 {
+    background-image: url(/images/slide/elm-pressure-movie_1400x1070_0170.png);
+}
+
 /* Carousel Fade Effect */
 .carousel.carousel-fade .item {
     -webkit-transition: opacity 1s linear;
