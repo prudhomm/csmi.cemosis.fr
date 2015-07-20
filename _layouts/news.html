@@ -11,16 +11,21 @@ layout: default
   	<div class="col-md-9">
 
   	  <div class="well">
-    
+    	<div style="padding-bottom:30px">
         <h2>{{ page.title }}</h2>
+        </div>
 
-        <h2><span class="label label-default">{{ page.categories }}</span></h2>
+        <div style="padding-bottom:30px">
+        <span class="label label-default" style="font-size: 150%">{{ page.categories }}</span>
 
         <span>{{ page.date | date_to_string }}</span>
 
         <span>{{ page.author }}</span>
 
-        <h4>{{ content }}</h4>
+        
+        </div>
+
+        <div style="font-size:130%">{{ content }}</div>
 
   	  </div>
   	</div>

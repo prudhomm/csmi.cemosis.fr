@@ -13,16 +13,20 @@ author: all
   	<div class="col-md-9">
       {% for post in site.posts %}
   	  <div class="well">
-    
-        <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
 
-        <h2><span class="label label-default">{{ post.categories }}</span></h2>
+        <div style="padding-bottom:30px">    
+        <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+        </div>
+
+        <div style="padding-bottom:30px">
+        <span class="label label-default" style="font-size: 150%">{{ post.categories }}</span>
 
         <span>{{ post.date | date_to_string }}</span>
 
         <span>{{ post.author }}</span>
+        </div>
 
-        <h4>{{ post.content }}</h4>
+        <div style="font-size:130%">{{ post.content }}</div>
     
   	  </div>
       {% endfor %}
