@@ -96,6 +96,7 @@
     </div><!-- /.container-fluid -->
   </nav>
 
+
   <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
   <!-- Wrapper for slides -->
       <div class="carousel-inner">
@@ -116,7 +117,7 @@
           </div>
       </div><!-- .carousel-inner -->
       <div class="container carousel-overlay text-center">
-
+       
        <div class="col-md-8">
        <h1>{% t global.masterName1 %}</h1>
        <h1 style="text-align:center">{% t global.masterName2 %}</h1>
@@ -129,7 +130,7 @@
               <span class="fa fa-check"></span> {% t global.applyButton %}
           </a>
           </div>
-       <div class="col-md-3">
+        <div class="col-md-3">
         <!--<h2><span class="label label-default">{% t index.recentNewsTitle %}</span></h2>-->
 
         <ul class="list-group" style="text-align:left;padding-top:20px;width: 110%;opacity: .8">
@@ -137,6 +138,7 @@
           <li class="list-group-item"><h4><small>[{{ post.categories }}] <a href="{{ post.url }}">{{ post.title }}</a></small></h4></li>
         {% endfor %}
         </ul>
-       </div>
+        </div>
       </div>
+  
   </div><!-- .carousel -->
