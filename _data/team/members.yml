@@ -12,7 +12,7 @@
   office:
   email: helluy@math.unistra.fr
   telephone:
-  photo:
+  photo: /images/photos/ph-id.jpg
   web: http://www-irma.u-strasbg.fr/~helluy
   id: m2
 
@@ -21,7 +21,7 @@
   office:
   email: rao@math.unistra.fr
   telephone:
-  photo:
+  photo: /images/photos/br-id.png
   web:
   id: m3
 
@@ -30,8 +30,8 @@
   office:
   email: bugeaud@math.unistra.fr
   telephone:
-  photo:
-  web:
+  photo: /images/photos/yb-id.jpg
+  web: http://www-irma.u-strasbg.fr/~bugeaud
   id: m4
 
 - name: Maurice Mignotte
@@ -75,7 +75,7 @@
   office:
   email: navoret@math.unistra.fr
   telephone:
-  photo:
+  photo: /images/photos/ln-id.jpg
   web:
   id: m9
 
@@ -109,7 +109,7 @@
 - name: Olivier Guichard
   course: s1-3
   office:
-  email: olivier.guichard@math.unistra.fr 
+  email: olivier.guichard@math.unistra.fr
   telephone:
   photo:
   web:
