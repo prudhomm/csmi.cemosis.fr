@@ -12,7 +12,7 @@
   office:
   email: helluy@math.unistra.fr
   telephone:
-  photo: ph-id.jpg
+  photo: /images/photos/ph-id.jpg
   web: http://www-irma.u-strasbg.fr/~helluy
   id: m2
 
@@ -21,7 +21,7 @@
   office:
   email: rao@math.unistra.fr
   telephone:
-  photo: br-id.png
+  photo: /images/photos/br-id.png
   web:
   id: m3
 
@@ -30,7 +30,7 @@
   office:
   email: bugeaud@math.unistra.fr
   telephone:
-  photo: yb-id.jpg
+  photo: /images/photos/yb-id.jpg
   web: http://www-irma.u-strasbg.fr/~bugeaud
   id: m4
 
@@ -75,7 +75,7 @@
   office:
   email: navoret@math.unistra.fr
   telephone:
-  photo:
+  photo: /images/photos/ln-id.jpg
   web:
   id: m9
 
