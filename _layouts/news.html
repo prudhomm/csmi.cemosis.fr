@@ -15,22 +15,30 @@ layout: default
   	</div>
 
    <div class="col-md-3">
-
-      <div class="well">
+    <div class="well">
+      <div>
         <ul class="nav nav-stacked">
-          <li><a href="{{ link-lang }}/category1">{% t news.category1 %}</a></li>
-          <li><a href="{{ link-lang }}/category2">{% t news.category2 %}</a></li>
-          <li><a href="{{ link-lang }}/category3">{% t news.category3 %}</a></li>
+          <li><a href="{{ link-lang }}/news/">{% t news.allNews %}</a></li>
+          <li><a href="{{ link-lang }}/news/1">{% t news.categoryWebsite %}</a></li>
+          <li><a href="{{ link-lang }}/news/2">{% t news.categoryInternship %}</a></li>
+          <li><a href="{{ link-lang }}/news/3">{% t news.category3 %}</a></li>
         </ul>
         <hr style="border:1px solid black">
         <ul class="nav nav-stacked">
-          <li><a href="{{ link-lang }}/tag1">{% t news.tag1 %}</a></li>
-          <li><a href="{{ link-lang }}/tag2">{% t news.tag2 %}</a></li>
-          <li><a href="{{ link-lang }}/tag3">{% t news.tag3 %}</a></li>
+          {% for post in site.posts %}
+          {% if post.tag == 'tag1' %}
+          <li><a href="{{ link-lang }}{{ post.url }}">{% t news.tag1 %}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% for post in site.posts %}
+          {% if post.tag == 'tag2' %}
+          <li><a href="{{ link-lang }}{{ post.url }}">{% t news.tag2 %}</a></li>
+          {% endif %}
+          {% endfor %}        
         </ul>
       </div>
 
     </div>
-
+  </div>
   </div>
 </div>
