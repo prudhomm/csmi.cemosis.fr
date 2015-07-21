@@ -1,63 +1,9 @@
 ---
-layout: default
+layout: news
 permalink: /news/
 author: all
 ---
 
-<div class="page-header">
-  <h1>Les Actualités du Master<small></small></h1>
-</div>
-
-<div class="container" style="padding-top:30px">
-  <div class="row">
-  	<div class="col-md-9">
-      {% for post in site.posts %}
-  	  <div class="well">
-
-        <div style="padding-bottom:30px">    
-        <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-        </div>
-
-        <div style="padding-bottom:30px">
-        <span class="label label-default" style="font-size: 150%">{{ post.categories }}</span>
-
-        <span>{{ post.date | date_to_string }}</span>
-        {% for author in site.data.authors %}
-          {% if author.name == post.author %}
-            {% if author.photo %}
-            {% assign photo = author.photo %}
-            {% else %}
-            {% assign photo = "/images/photos/unknown-id-128x128.png" %}
-            {% endif %}          
-            {% endif %}
-        {% endfor %}
-        <img src="{{ photo }}" width="24" height="24">
-        <span>{{ post.author }}</span>
-        </div>
-
-        <div style="font-size:130%">{{ post.content }}</div>
-    
-  	  </div>
-      {% endfor %}
-  	</div>
-
-   <div class="col-md-3">
-
-      <div class="well">
-        <ul class="nav nav-stacked">
-          <li><a href="{{ link-lang }}/category1">{% t news.category1 %}</a></li>
-          <li><a href="{{ link-lang }}/category2">{% t news.category2 %}</a></li>
-          <li><a href="{{ link-lang }}/category3">{% t news.category3 %}</a></li>
-        </ul>
-        <hr style="border:1px solid black">
-        <ul class="nav nav-stacked">
-          <li><a href="{{ link-lang }}/tag1">{% t news.tag1 %}</a></li>
-          <li><a href="{{ link-lang }}/tag2">{% t news.tag2 %}</a></li>
-          <li><a href="{{ link-lang }}/tag3">{% t news.tag3 %}</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-  </div>
-</div>
+{% for post in site.posts %}
+  {% include news_item.html %}
+{% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news_item
 title: Un site web moderne et attractif pour CSMI
 date: 2015-07-17
 author: Admin

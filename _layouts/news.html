@@ -3,40 +3,15 @@ layout: default
 ---
 
 <div class="page-header">
-<h1>Les Actualités du Master<small></small></h1>
+  <h1>Les Actualités du Master<small></small></h1>
 </div>
 
 <div class="container" style="padding-top:30px">
   <div class="row">
   	<div class="col-md-9">
+    
+    {{ content }}
 
-  	  <div class="well">
-    	<div style="padding-bottom:30px">
-        <h2>{{ page.title }}</h2>
-        </div>
-
-        <div style="padding-bottom:30px">
-        <span class="label label-default" style="font-size: 150%">{{ page.categories }}</span>
-
-        <span>{{ page.date | date_to_string }}</span>
-        {% for author in site.data.authors %}
-          {% if author.name == page.author %}
-            {% if author.photo %}
-            {% assign photo = author.photo %}
-            {% else %}
-            {% assign photo = "/images/photos/unknown-id-128x128.png" %}
-            {% endif %}          
-            {% endif %}
-        {% endfor %}
-        <img src="{{ photo }}" width="24" height="24">
-        <span>{{ page.author }}</span>
-
-        
-        </div>
-
-        <div style="font-size:130%">{{ content }}</div>
-
-  	  </div>
   	</div>
 
    <div class="col-md-3">
