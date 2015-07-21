@@ -22,7 +22,16 @@ author: all
         <span class="label label-default" style="font-size: 150%">{{ post.categories }}</span>
 
         <span>{{ post.date | date_to_string }}</span>
-
+        {% for author in site.data.authors %}
+          {% if author.name == post.author %}
+            {% if author.photo %}
+            {% assign photo = author.photo %}
+            {% else %}
+            {% assign photo = "/images/photos/unknown-id-128x128.png" %}
+            {% endif %}          
+            {% endif %}
+        {% endfor %}
+        <img src="{{ photo }}" width="24" height="24">
         <span>{{ post.author }}</span>
         </div>
 

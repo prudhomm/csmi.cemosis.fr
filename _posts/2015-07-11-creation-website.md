@@ -2,7 +2,7 @@
 layout: news
 title: Soutenances de stage de M1 et M2
 date: 2015-07-17
-author: admin
+author: Admin
 categories: stage
 tag:
 ---
