@@ -1,0 +1,10 @@
+
+  {% assign number = | number | plus:1 | modulo:3 %}
+  
+  {% if number == 0 %}
+  	{% assign output = "</div><div class='row-fluid'>" %}
+  {% else %}
+  	{% assign output = "" %}
+  {% endif %}
+  
+  {{ output }}

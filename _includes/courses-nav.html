@@ -1,0 +1,21 @@
+<div style="padding-top:20px">
+  <h1>Les cours du Master par semestre et thématique</h1>
+</div>
+
+<div class="container-fluid" style="padding-top:50px">
+
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">{% t courses.navtabAll %}</a></li>
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        {% t courses.navtabDiscipline %} <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu {% if page.url contains '/math/' %}active{% endif %} {% if page.url contains '/info/' %}active{% endif %} {% if page.url contains '/inter/' %}active{% endif %}">
+        <li><a href="{{ link-lang }}/courses/info">{% t courses.navtabInfo %}</a></li>
+        <li><a href="{{ link-lang }}/courses/math">{% t courses.navtabMath %}</a></li>
+        <li><a href="{{ link-lang }}/courses/inter">{% t courses.navtabInter %}</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</div>
