@@ -3,6 +3,14 @@ body {
   padding-top: 50px;
 }
 
+.course-table {
+  margin-top:50px;
+  max-width:30%;
+  float:left;
+  margin-right:50px;
+}
+
+
 /* change default indicators color */
 .carousel-indicators li {
   background-color: #3366CC;

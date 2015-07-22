@@ -39,8 +39,9 @@ index:
 
 
 news:
-    category1: category1
-    category2: category2
+    allNews: Tous les actualités
+    categoryWebsite: Site web
+    categoryInternship: Stage
     category3: category3
     tag1: tag1
     tag2: tag2
