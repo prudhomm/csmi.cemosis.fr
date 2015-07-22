@@ -34,6 +34,7 @@ permalink: /promotions/
   <div class="col-md-3"></div>
 </div>
 </div>
+
 {% for promotion in sorted_promotions %}
   {% assign remainder = promotion.year | modulo:2 %}
   {% if remainder == 1 %}

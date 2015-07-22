@@ -27,9 +27,10 @@
      last-known-job: Doctorant
      last-known-company: Université de Strasbourg
    - name: Laura Mendoza
-     email: lasofivec@gmail.com
+     email: laura.mendoza@ipp.mpg.de
+     email-perso: lasofivec@gmail.com
      last-known-job: Doctorante
-     last-known-company: Technische Universität Munchen
+     last-known-company: Max-Planck-Institut für Plasmaphysik
    - name:  Thi Trang Nhung Pham
      email:
      last-known-job: Doctorante
@@ -46,6 +47,7 @@
      email: bru.bru.web@gmail.com
      last-known-job: Doctorant
      last-known-company: Université de Strasbourg
+
 - id: promo-2
   year: 2013
   master: CSSI
@@ -58,6 +60,26 @@
      email: jey.nadarasa@gmail.com
      last-known-job: Doctorant
      last-known-company: Université de Strasbourg
+   - name: Diallo Mamadou Bassirou
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Christian Grosch
+     email:
+     last-known-job:
+     last-known-company:
+   - name: El Hadj Amadou Mbaye
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Léonel Mbianda Nana
+     email:
+     last-known-job:
+     last-known-company:
+   - name: Alioune Ndione
+     email:
+     last-known-job:
+     last-known-company:
 
 - id: promo-3
   year: 2014
@@ -79,6 +101,15 @@
      email:
      last-known-job:
      last-known-company:
+   - name: Alexandre Kornmann
+     email: kornmannalexandre@wanadoo.fr
+     last-known-job: IT Consultant
+     last-known-company: Altran Technologies
+   - name: Thiobane Ousseynou
+     email: ousseynouthiobane@yahoo.fr
+     last-known-job: Enseignant
+     last-known-company: Éducation Nationale
+
 - id: promo-4
   year: 2015
   master: CSMI
