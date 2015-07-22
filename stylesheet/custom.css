@@ -2,41 +2,9 @@
 body {
   padding-top: 50px;
 }
-
-.course-table {
-  margin-top:50px;
-  max-width:30%;
-  float:left;
-  margin-right:50px;
-}
-
-
-/* change default indicators color */
-.carousel-indicators li {
-  background-color: #3366CC;
-}
-.carousel-indicators .active {
-  background-color: #CC0000;
-}
-
-.carousel-inner {
-}
-
-.carousel-inner .item {
-}
-
-.carousel-inner .item img {
-    width: 1000px;
-    height: 600px;
-}
-.carousel-caption {
-    background: none;
-}
-
-
+/* vh: relative number to viewport height */
 .slide1, .slide2, .slide3, .slide4, .slide5 {
-    min-height: 430px;
-    max-height: 430px;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
 }
@@ -71,14 +39,14 @@ body {
 .carousel.carousel-fade .active.left,
 .carousel.carousel-fade .active.right {
     left: 0;
-    z-index: 2;
+    z-index: -1;
     opacity: 0.5;
     filter: alpha(opacity=0.5);
 }
 .carousel-overlay {
     position: absolute;
-    top: 50px;
-    bottom: 50px;
+    z-index: 3;
+    top: 10%;
     right: 0;
     left: 0;
     background: rbga(0.,0.,0.,0.5);
@@ -164,15 +132,6 @@ text-decoration: none;
   font-size: 60px;
 }
 
-#image-slide {
-  width: 800px;
-  height: 600px;
-  position: relative;
-  margin-top: 50px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
 .anchor {
   display: block;
   height: 50px;
@@ -186,11 +145,6 @@ text-decoration: none;
 
 .navbar {
  border-bottom: 1px solid black;
-}
-
-.jumbotron {
- text-align: center;
- padding-top: 50px;
 }
 
 .centered {
@@ -335,4 +289,25 @@ blockquote {
 .vertical-align {
     display: flex;
     align-items: center;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (max-width: 990px){
+  .slide1, .slide2, .slide3, .slide4, .slide5 {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .slide1, .slide2, .slide3, .slide4, .slide5 {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .slide1, .slide2, .slide3, .slide4, .slide5 {
+    height: 155vh;
+  }
 }
