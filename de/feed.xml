@@ -9,8 +9,8 @@ mathématique de l&#39;information.
 </description>
     <link>http://csmi.cemosis.fr//</link>
     <atom:link href="http://csmi.cemosis.fr//de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jul 2015 11:05:49 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2015 11:05:49 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2015 14:37:13 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 14:37:13 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -36,21 +36,6 @@ mathématique de l&#39;information.
       </item>
     
       <item>
-        <title>Soutenances de stage de M1 et M2</title>
-        <description>&lt;p&gt;Les soutenances de stages de M1 et M2 du Master auront lieu respectivement les 26 et 27 août prochains au matin voire début d’après-midi&lt;/p&gt;
-</description>
-        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://csmi.cemosis.fr//de/internship/2015/07/17/creation-website.html</link>
-        <guid isPermaLink="true">http://csmi.cemosis.fr//de/internship/2015/07/17/creation-website.html</guid>
-        
-        <category>tag2</category>
-        
-        
-        <category>internship</category>
-        
-      </item>
-    
-      <item>
         <title>Un site web moderne et attractif pour CSMI</title>
         <description>&lt;p&gt;Le Master Calcul Scientifique et Mathématiques de l’Information se dote d’un site web moderne et attractif qui se veut vivant et réunnissant diverses informations comme par exemple :
  - des témoigagnes d’anciens étudiants
@@ -61,10 +46,48 @@ mathématique de l&#39;information.
         <link>http://csmi.cemosis.fr//de/website/2015/07/17/creation-website.html</link>
         <guid isPermaLink="true">http://csmi.cemosis.fr//de/website/2015/07/17/creation-website.html</guid>
         
-        <category>tag1</category>
-        
         
         <category>website</category>
+        
+      </item>
+    
+      <item>
+        <title>Soutenances de stage de M1 et M2</title>
+        <description>&lt;p&gt;Les soutenances de stage auront lieu les 26 et 27 aout prochains. Les jury auront lieu le 28 aout pour des raisons administratives et de calendrier.&lt;/p&gt;
+
+&lt;h2 id=&quot;dates&quot;&gt;Dates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;M1 26 aout  matin/début d’apres midi
+    &lt;ul&gt;
+      &lt;li&gt;30 minutes : 20 minutes de présentation  + 10 minutes question&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;M2 27 aout matin/début d’apres midi
+    &lt;ul&gt;
+      &lt;li&gt;40 minutes : 30 minutes de présentation + 10 minutes question&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il est obligatoire pour les étudiants de M1 d’assister aux soutenances de M2.&lt;/p&gt;
+
+&lt;h2 id=&quot;rapport-et-prsentation-orale&quot;&gt;Rapport et présentation orale&lt;/h2&gt;
+
+&lt;p&gt;Un rapport en latex/pdf doit etre remis (maximum 30 pages) avec présentation du cadre du stage puis du travail et des résultats obtenus.&lt;/p&gt;
+
+&lt;p&gt;La présentation serait faite de préférence avec latex/beamer/pdf&lt;/p&gt;
+
+&lt;p&gt;La note de stage sera composée pour moitié de l’appréciation de l’encadrant/e de stage de l’autre moitié de la soutenance.&lt;/p&gt;
+
+&lt;p&gt;Attachez de l’importance au fond mais également à la forme, le rapport doit être impeccable ainsi que la présentation.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://csmi.cemosis.fr//de/stage/2015/07/11/soutenances-de-stages.html</link>
+        <guid isPermaLink="true">http://csmi.cemosis.fr//de/stage/2015/07/11/soutenances-de-stages.html</guid>
+        
+        
+        <category>stage</category>
         
       </item>
     
