@@ -9,22 +9,26 @@ mathématique de l&#39;information.
 </description>
     <link>http://csmi.cemosis.fr//</link>
     <atom:link href="http://csmi.cemosis.fr//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jul 2015 10:35:57 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2015 10:35:57 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2015 11:05:48 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 11:05:48 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Un site web moderne et attractif pour CSMI</title>
-        <description>&lt;p&gt;Le Master Calcul Scientifique et Mathématiques de l’Information se dote d’un site web moderne et attractif qui se veut vivant et réunnissant diverses informations comme par exemple :
- - des témoigagnes d’anciens étudiants
- - la liste complète des cours et de l’équipe pédagogique
- - les promotions depuis 2009&lt;/p&gt;
+        <title>Mise à jour du site, quelques nouveautés</title>
+        <description>&lt;p&gt;Une mise à jour du site vient d’être effectuée avec quelques ajouts notables:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;une refonte du layout pour les &lt;a href=&quot;/news&quot;&gt;actualités&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;de nouvelles photos pour les membres de l’&lt;a href=&quot;/team/#teachingstaff&quot;&gt;équipe enseignante&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;la mise à jour de quelques &lt;a href=&quot;/promotions&quot;&gt;promotions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;l’ajout du groupe calcul du CNRS dans la &lt;a href=&quot;/#metiers&quot;&gt;section métiers&lt;/a&gt;  et dans la &lt;a href=&quot;/#partnership&quot;&gt;section partenaires&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Le groupe calcul du CNRS propose des offres d’emploi en thèse, ingénieur et postdoc. Il fait partie de notre réseau, nous intervenons en tant que chercheur par exemple dans le cadre de formations, workshops ou conférences autour du calcul scientifique et du calcul haute performance.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://csmi.cemosis.fr//website/2015/07/17/creation-website.html</link>
-        <guid isPermaLink="true">http://csmi.cemosis.fr//website/2015/07/17/creation-website.html</guid>
-        
-        <category>tag1</category>
+        <pubDate>Wed, 22 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://csmi.cemosis.fr//website/2015/07/22/site-update.html</link>
+        <guid isPermaLink="true">http://csmi.cemosis.fr//website/2015/07/22/site-update.html</guid>
         
         
         <category>website</category>
@@ -43,6 +47,24 @@ mathématique de l&#39;information.
         
         
         <category>internship</category>
+        
+      </item>
+    
+      <item>
+        <title>Un site web moderne et attractif pour CSMI</title>
+        <description>&lt;p&gt;Le Master Calcul Scientifique et Mathématiques de l’Information se dote d’un site web moderne et attractif qui se veut vivant et réunnissant diverses informations comme par exemple :
+ - des témoigagnes d’anciens étudiants
+ - la liste complète des cours et de l’équipe pédagogique
+ - les promotions depuis 2009&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://csmi.cemosis.fr//website/2015/07/17/creation-website.html</link>
+        <guid isPermaLink="true">http://csmi.cemosis.fr//website/2015/07/17/creation-website.html</guid>
+        
+        <category>tag1</category>
+        
+        
+        <category>website</category>
         
       </item>
     
