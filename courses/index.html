@@ -4,14 +4,15 @@ permalink : /courses/
 ---
 
   {% include courses-nav.html %}
-
+<div class="container-fluid">
   <a class="anchor" id="S1"></a>
   <div style="text-align:center"><h1>Semestre 1</h1></div>
   <div class="row-fluid">
   {% for course in site.data.course.courseS1 %}
     {% include courses-table.html %}
+    {% include courses-3-each-row.html %}
+    
   {% endfor %}
-
   </div>
 
   <a class="anchor" id="S2"></a>
@@ -19,10 +20,12 @@ permalink : /courses/
   <div class="row-fluid">
   {% for course in site.data.course.courseS2 %}
      {% include courses-table.html %}
+     {% include courses-3-each-row.html %}
   {% endfor %}
 
   {% for course in site.data.course.courseS2UEChoice %}
     {% include courses-table.html %}
+    {% include courses-3-each-row.html %}
   {% endfor %}
 
    </div>
@@ -32,6 +35,7 @@ permalink : /courses/
   <div class="row-fluid">
   {% for course in site.data.course.courseS3 %}
     {% include courses-table.html %}
+    {% include courses-3-each-row.html %}
   {% endfor %}
   </div>
 
@@ -40,6 +44,8 @@ permalink : /courses/
   <div class="row-fluid">
   {% for course in site.data.course.courseS4 %}
      {% include courses-table.html %}
+     {% include courses-3-each-row.html %}
   {% endfor %}
   </div>
 
+</div>
