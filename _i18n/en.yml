@@ -33,6 +33,43 @@ index:
         title: Témoignages d'Anciens Étudiants
         joinGroup: Rejoignez nous sur le groupe
         groupLink: LinkedIn  du Master CSMI
+    accessPanel:
+        title: Comment accéder au Master?
+        prerequisite: Quels sont les prérequis?
+        title1: "Analyse, Algèbre et Informatique"
+        title1Desc: "Vous avez de bonnes bases en analyse, en algèbre et en informatique."
+        title1Info: Une mise à niveau en informatique pourra être dispensé.
+        title2: "Programmation, Algorithmique et Applications"
+        title2Desc: "Vous aimez ou avez appréciez la programmation, l'algorithmique et les applications des mathématiques."
+        diplomaTitle: Avec quel diplôme ou formation?
+        diploma1Title: Licence de Mathématiques
+        diploma1Desc: Vous avez un accès de plein droit en <b>1ère année (M1)</b> si vous êtes titulaires d'une licence de Mathématiques délivrée par une université française.
+        diploma2Title: Licence de Physique ou d'Informatique
+        diploma2Desc: Vous avez un accès sur dossier après avis favorable de la commission pédagogique en <b>1ère année (M1)</b> pour les titulaires d'une licence de physique ou d'informatique.
+        diploma3Title: Diplôme étranger en Mathématiques
+        diploma3Desc: Vous avez un accès sur dossier après avis favorable de la commission pédagogique  en <b>1ère année (M1)</b>  pour les titulaires d'un diplôme en Mathématiques ou Mathématiques appliquées, de niveau licence au minimum, délivré par une université étrangère.
+        diploma4Title: Master 1 de Mathématiques et équivalent
+        diploma4Desc: Vous avez un accès uniquement sur dossier et après avis favorable de la commission pédagogique en <b>2ème année (M2)</b>   pour les titulaires du M1 ou équivalent.
+    metierPanel:
+        title: Métiers et Débouchés
+        forum: Forum Emploi Mathématique
+        forumDesc: Le rendez-vous de l'emploi en Mathématiques
+        onisep: Brochure Onisep
+        onisepDesc: Une vaste panoplie de métiers
+        eumathsin: EU-Maths-IN
+        eumathsinDesc: Les offres d'emploi en Mathématiques en Europe
+        cnrs: Groupe Calcul cnrs
+        cnrsDesc: Offres d'emplois en calcul (thèse, ingénieur, postdoc)
+    internationalPanel:
+        title: Relations internationales
+        ecmi: Échanges ECMI
+        ecmiDesc: CSMI est associée au réseau <a href="http://www.ecmi-indmath.org/">ECMI</a> (European Consortium for Mathematics in Industry) pour les échanges d'étudiants sur un semestre ou une année.
+        modelisationweek: Semaine de modélisation ECMI
+        modelisationweekDesc: Les étudiants CSMI peuvent participer entre autres aux <a href="http://www.ecmi-indmath.org/wordpress/?page_id=102">semaines de modélisation</a> ECMI organisée chaque année.
+        ecmiTestimony: Témoignages d'étudiants ayant participé à une semaine de modélisation ECMI
+    partnershipPanel:
+        partner: Nos partenaires
+        network: Notre Réseau
 
 news:
     allNews: Tous les actualités
