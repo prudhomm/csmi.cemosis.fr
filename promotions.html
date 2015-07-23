@@ -6,28 +6,18 @@ permalink: /promotions/
 {% assign sorted_promotions = (site.data.promotions.promotions | sort: 'year' | reverse) %}
 
 <div class="page-header">
-  <h1>Promotions CSMI 2014,2015 &amp; CSSI 2011-2013 <!--<div class="dropdown">
-  <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Promotions
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-   {% for promotion in sorted_promotions %}
-    <li><a href="#{{ promotion.master }}-{{promotion.year}}">{{ promotion.master }} {{ promotion.year}}</a></li>
-   {% endfor %}
-  </ul>
-</div>-->
-  </h1>
+  <h1>{% t promotions.title %}</h1>
+
 <div class="row-fluid">
   <div class="col-md-3"></div>
   <div class="col-md-6">
     <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title">Un peu d'histoire</h3>
+      <h3 class="panel-title">{% t promotions.introductionTitle %}</h3>
     </div>
 
     <div class="panel-body">
-    <p>En 2005, Éric Sonnendrucker créée  et est le responsable du  Master Calcul Scientifique et Visualisation qui est fusionné de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité Informatique qui est alors sous la responsabilité de <a href="{{ link-lang }}/team/#m2">Philippe Helluy</a>. En 2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la responsabilité de <a href="{{ link-lang }}/team/#m1">Christophe Prud'homme</a>.</p>
+    <p>{% t promotions.introduction %}</p>
     </div>
     </div>
   </div>
@@ -50,7 +40,7 @@ permalink: /promotions/
 
   <div id="{{ panel }}" class="container-fluid">
     <center>
-      <div style="padding-bottom:50px;"><h2>Promotion {{ promotion.master }} {{ promotion.year }}</h2></div>
+      <div style="padding-bottom:50px;"><h2>{% t promotions.promotion %} {{ promotion.master }} {{ promotion.year }}</h2></div>
     </center>
 
 
@@ -65,7 +55,7 @@ permalink: /promotions/
           <td ><a href="mailto:{{student.email}}">{{student.email}}</a></td>
         </tr>
         <tr>
-          <td class="marketing-title">Dernier emploi</td>
+          <td class="marketing-title">{% t promotions.recentjob %}</td>
           <td>{{student.last-known-job}}, {{student.last-known-company}}</td>
         </tr>
         </tbody>

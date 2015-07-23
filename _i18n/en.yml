@@ -10,6 +10,8 @@ global:
     s2: Semester 2
     s3: Semester 3
     s4: Semester 4
+    telephone: Téléphone
+    office: Bureau
 
 navbar:
     home: Home
@@ -20,7 +22,13 @@ navbar:
     managers: Managers
     teachingstaff: Teaching Staff
 
+common:
+    sharesite: Partager notre site
+    report: Rapporter un problème
+
 index:
+    readmore: Read more...
+    readless: Read less
     recentNewsTitle: Actualités récentes
     testimony: Témoignages
     metiers: Métiers
@@ -72,6 +80,7 @@ index:
         network: Notre Réseau
 
 news:
+    title: Les Actualités du Master
     allNews: Tous les actualités
     categoryWebsite: Site web
     categoryInternship: Stage
@@ -79,11 +88,25 @@ news:
     tag1: tag1
     tag2: tag2
     tag3: tag3
+team:
+    title: Responsables du Master et Équipe Pédagogique
+
+promotions:
+    title: "Promotions CSMI 2014,2015 &amp; CSSI 2011-2013"
+    introductionTitle: Un peu d'histoire
+    introduction: |
+                  En 2005, Éric Sonnendrucker créée  et est le responsable du Master Calcul Scientifique et Visualisation qui est fusionné 
+                  de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité 
+                  Informatique qui est alors sous la responsabilité de <a href="{{ link-lang }}/team/#m2">Philippe Helluy</a>. En 
+                  2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la 
+                  responsabilité de <a href="{{ link-lang }}/team/#m1">Christophe Prud'homme</a>.
+    promotion: Promotion
+    recentjob: Dernier emploi
 
 courses:
+    title: Les cours du Master par semestre et thématique
     navtabAll: Tous les cours
     navtabDiscipline: Par discipline
-    navtabCategory: Par catégory
     navtabInfo: Informatique
     navtabMath: Mathématique
     navtabInter: Interdiscipline
@@ -91,4 +114,23 @@ courses:
 footer:
     copyright: Cemosis 2015 Tous droits réservés
     about: "&Agrave; propos"
+script:
+    shareurl: https://csmi.cemosis.fr/en/
+    sharetext: "Master mention Mathématiques et Applications, Spécialité Calcul Scientifique et Mathématiques de l'Information"
 
+about:
+    legal: Mentions légales
+    welcome: Bienvenue sur le site du Master CSMI.
+    content: Contenus
+    contentTerm: Le site propose un contenu relatif au master CSMI. Il s'adresse aux étudiants.
+    rightofreply: Droit de réponse
+    rightofreplyTerm: Si vous estimez qu'un contenu porte atteinte à votre image, vous pouvez exercer un droit de réponse en écrivant à CSMI.
+    copyrightTitle: Droits d'auteur
+    copyrightTerm: |
+                    En application du code français de la propriété intellectuelle et, plus généralement, des traités et accords 
+                    internationaux comportant des dispositions relatives à la protection des droits d'auteurs, il est interdit 
+                    pour un usage autre que privé de reproduire, vendre, distribuer, émettre, diffuser, adapter, modifier, publier,
+                     communiquer intégralement ou partiellement, sous quelque forme que ce soit, les données, la présentation, 
+                     l'organisation du site, ou les oeuvres protégées par le droit d'auteur (photographies, images, textes, vidéos) 
+                     qui figurent sur ce site sans autorisation écrite particulière et préalable de Cemosis.
+    signature: Fait à Strasbourg le 10/07/2015.

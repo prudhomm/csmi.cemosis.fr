@@ -6,7 +6,7 @@ permalink : /courses/
   {% include courses-nav.html %}
 <div class="container-fluid">
   <a class="anchor" id="S1"></a>
-  <div style="text-align:center"><h1>Semestre 1</h1></div>
+  <div style="text-align:center"><h1>{% t global.s1 %}</h1></div>
   <div class="row-fluid">
   {% for course in site.data.course.courseS1 %}
     {% include courses-table.html %}
@@ -16,7 +16,7 @@ permalink : /courses/
   </div>
 
   <a class="anchor" id="S2"></a>
-  <div style="text-align:center"><h1>Semestre 2</h1></div>
+  <div style="text-align:center"><h1>{% t global.s2 %}</h1></div>
   <div class="row-fluid">
   {% for course in site.data.course.courseS2 %}
      {% include courses-table.html %}
@@ -31,7 +31,7 @@ permalink : /courses/
    </div>
 
   <a class="anchor" id="S3"></a>
-  <div style="text-align:center"><h1>Semestre 3</h1></div>
+  <div style="text-align:center"><h1>{% t global.s3 %}</h1></div>
   <div class="row-fluid">
   {% for course in site.data.course.courseS3 %}
     {% include courses-table.html %}
@@ -40,7 +40,7 @@ permalink : /courses/
   </div>
 
   <a class="anchor" id="S4"></a>
-  <div style="text-align:center"><h1>Semestre 4</h1></div>
+  <div style="text-align:center"><h1>{% t global.s4 %}</h1></div>
   <div class="row-fluid">
   {% for course in site.data.course.courseS4 %}
      {% include courses-table.html %}
