@@ -14,7 +14,7 @@ global:
 navbar:
     home: Page d'accueil
     team: "&Eacute;quipe"
-    promotions: promotions
+    promotions: Promotions
     news: Actualit&eacute;s
     courses: Enseignements
     managers: Responsables
@@ -58,4 +58,3 @@ courses:
 footer:
     copyright: Cemosis 2015 Tous droits réservés
     about: "&Agrave; propos"
-
