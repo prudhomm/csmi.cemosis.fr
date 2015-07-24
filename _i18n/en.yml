@@ -10,6 +10,8 @@ global:
     s2: Semester 2
     s3: Semester 3
     s4: Semester 4
+    telephone: Téléphone
+    office: Bureau
 
 navbar:
     home: Home
@@ -20,7 +22,13 @@ navbar:
     managers: Managers
     teachingstaff: Teaching Staff
 
+common:
+    sharesite: Partager notre site
+    report: Rapporter un problème
+
 index:
+    readmore: Read more...
+    readless: Read less
     recentNewsTitle: Actualités récentes
     testimony: Témoignages
     metiers: Métiers
@@ -33,8 +41,46 @@ index:
         title: Témoignages d'Anciens Étudiants
         joinGroup: Rejoignez nous sur le groupe
         groupLink: LinkedIn  du Master CSMI
+    accessPanel:
+        title: Comment accéder au Master?
+        prerequisite: Quels sont les prérequis?
+        title1: "Analyse, Algèbre et Informatique"
+        title1Desc: "Vous avez de bonnes bases en analyse, en algèbre et en informatique."
+        title1Info: Une mise à niveau en informatique pourra être dispensé.
+        title2: "Programmation, Algorithmique et Applications"
+        title2Desc: "Vous aimez ou avez appréciez la programmation, l'algorithmique et les applications des mathématiques."
+        diplomaTitle: Avec quel diplôme ou formation?
+        diploma1Title: Licence de Mathématiques
+        diploma1Desc: Vous avez un accès de plein droit en <b>1ère année (M1)</b> si vous êtes titulaires d'une licence de Mathématiques délivrée par une université française.
+        diploma2Title: Licence de Physique ou d'Informatique
+        diploma2Desc: Vous avez un accès sur dossier après avis favorable de la commission pédagogique en <b>1ère année (M1)</b> pour les titulaires d'une licence de physique ou d'informatique.
+        diploma3Title: Diplôme étranger en Mathématiques
+        diploma3Desc: Vous avez un accès sur dossier après avis favorable de la commission pédagogique  en <b>1ère année (M1)</b>  pour les titulaires d'un diplôme en Mathématiques ou Mathématiques appliquées, de niveau licence au minimum, délivré par une université étrangère.
+        diploma4Title: Master 1 de Mathématiques et équivalent
+        diploma4Desc: Vous avez un accès uniquement sur dossier et après avis favorable de la commission pédagogique en <b>2ème année (M2)</b>   pour les titulaires du M1 ou équivalent.
+    metierPanel:
+        title: Métiers et Débouchés
+        forum: Forum Emploi Mathématique
+        forumDesc: Le rendez-vous de l'emploi en Mathématiques
+        onisep: Brochure Onisep
+        onisepDesc: Une vaste panoplie de métiers
+        eumathsin: EU-Maths-IN
+        eumathsinDesc: Les offres d'emploi en Mathématiques en Europe
+        cnrs: Groupe Calcul cnrs
+        cnrsDesc: Offres d'emplois en calcul (thèse, ingénieur, postdoc)
+    internationalPanel:
+        title: Relations internationales
+        ecmi: Échanges ECMI
+        ecmiDesc: CSMI est associée au réseau <a href="http://www.ecmi-indmath.org/">ECMI</a> (European Consortium for Mathematics in Industry) pour les échanges d'étudiants sur un semestre ou une année.
+        modelisationweek: Semaine de modélisation ECMI
+        modelisationweekDesc: Les étudiants CSMI peuvent participer entre autres aux <a href="http://www.ecmi-indmath.org/wordpress/?page_id=102">semaines de modélisation</a> ECMI organisée chaque année.
+        ecmiTestimony: Témoignages d'étudiants ayant participé à une semaine de modélisation ECMI
+    partnershipPanel:
+        partner: Nos partenaires
+        network: Notre Réseau
 
 news:
+    title: Les Actualités du Master
     allNews: Tous les actualités
     categoryWebsite: Site web
     categoryInternship: Stage
@@ -42,11 +88,25 @@ news:
     tag1: tag1
     tag2: tag2
     tag3: tag3
+team:
+    title: Responsables du Master et Équipe Pédagogique
+
+promotions:
+    title: "Promotions CSMI 2014,2015 &amp; CSSI 2011-2013"
+    introductionTitle: Un peu d'histoire
+    introduction: |
+                  En 2005, Éric Sonnendrucker créée  et est le responsable du Master Calcul Scientifique et Visualisation qui est fusionné 
+                  de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité 
+                  Informatique qui est alors sous la responsabilité de <a href="{{ link-lang }}/team/#m2">Philippe Helluy</a>. En 
+                  2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la 
+                  responsabilité de <a href="{{ link-lang }}/team/#m1">Christophe Prud'homme</a>.
+    promotion: Promotion
+    recentjob: Dernier emploi
 
 courses:
+    title: Les cours du Master par semestre et thématique
     navtabAll: Tous les cours
     navtabDiscipline: Par discipline
-    navtabCategory: Par catégory
     navtabInfo: Informatique
     navtabMath: Mathématique
     navtabInter: Interdiscipline
@@ -54,4 +114,23 @@ courses:
 footer:
     copyright: Cemosis 2015 Tous droits réservés
     about: "&Agrave; propos"
+script:
+    shareurl: https://csmi.cemosis.fr/en/
+    sharetext: "Master mention Mathématiques et Applications, Spécialité Calcul Scientifique et Mathématiques de l'Information"
 
+about:
+    legal: Mentions légales
+    welcome: Bienvenue sur le site du Master CSMI.
+    content: Contenus
+    contentTerm: Le site propose un contenu relatif au master CSMI. Il s'adresse aux étudiants.
+    rightofreply: Droit de réponse
+    rightofreplyTerm: Si vous estimez qu'un contenu porte atteinte à votre image, vous pouvez exercer un droit de réponse en écrivant à CSMI.
+    copyrightTitle: Droits d'auteur
+    copyrightTerm: |
+                    En application du code français de la propriété intellectuelle et, plus généralement, des traités et accords 
+                    internationaux comportant des dispositions relatives à la protection des droits d'auteurs, il est interdit 
+                    pour un usage autre que privé de reproduire, vendre, distribuer, émettre, diffuser, adapter, modifier, publier,
+                     communiquer intégralement ou partiellement, sous quelque forme que ce soit, les données, la présentation, 
+                     l'organisation du site, ou les oeuvres protégées par le droit d'auteur (photographies, images, textes, vidéos) 
+                     qui figurent sur ce site sans autorisation écrite particulière et préalable de Cemosis.
+    signature: Fait à Strasbourg le 10/07/2015.

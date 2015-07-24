@@ -10,21 +10,34 @@
         <span class="icon-bar"></span>
         </button>
 
-      <!-- logo -->
-      <a class="navbar-brand" href="http://www.unistra.fr/">
-        <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="max-height:30px">
-      </a>
-      <a class="navbar-brand" href="https://mathinfo.unistra.fr/">
-        <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
-      </a>
+        <!-- mobile logos -->
+        <a class="mobile-brand navbar-brand" href="http://www.unistra.fr/">
+          <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
+        </a>
+        
+        <a class="mobile-brand navbar-brand" href="http://www.cemosis.fr">
+          <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
+        </a>
+        <a class="mobile-brand navbar-brand" href="https://mathinfo.unistra.fr/">
+          <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
+        </a>
 
-      <a class="navbar-brand" href="http://www.cemosis.fr">
-        <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
-      </a>
       </div>
       {% assign sorted_promotions = (site.data.promotions.promotions | sort: 'year' | reverse) %}
       <!-- Navbar buttons -->
-      <div class="collapse navbar-collapse  navbar-fixed-top" id="main-navbar">
+      <div class="collapse navbar-collapse navbar-fixed-top" id="main-navbar">
+
+        <!-- logos -->
+        <a class="desktop-brand navbar-brand" href="http://www.unistra.fr/">
+          <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
+        </a>
+        
+        <a class="desktop-brand navbar-brand" href="http://www.cemosis.fr">
+          <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
+        </a>
+        <a class="desktop-brand navbar-brand" href="https://mathinfo.unistra.fr/">
+          <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
+        </a>
 
         <ul class="nav navbar-nav navbar-right">
 
