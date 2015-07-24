@@ -3,7 +3,7 @@ layout: news_item
 title: Soutenances de stage de M1 et M2
 date: 2015-07-11
 author: Christophe Prud'homme
-categories: stage
+categories: internship
 tag:
 ---
 
