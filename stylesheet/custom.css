@@ -40,13 +40,13 @@ body {
 .carousel.carousel-fade .active.left,
 .carousel.carousel-fade .active.right {
     left: 0;
-    z-index: -1;
+    z-index: 0;
     opacity: 0.5;
     filter: alpha(opacity=0.5);
 }
 .carousel-overlay {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     top: 10%;
     right: 0;
     left: 0;
