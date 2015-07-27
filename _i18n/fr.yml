@@ -116,8 +116,6 @@ footer:
     about: "&Agrave; propos"
 
 script:
-    shareurl: https://csmi.cemosis.fr/
-    sharetext: "Master mention Mathématiques et Applications, Spécialité Calcul Scientifique et Mathématiques de l'Information"
 
 about:
     legal: Mentions légales
