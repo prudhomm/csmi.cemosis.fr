@@ -16,7 +16,7 @@ global:
 navbar:
     home: Page d'accueil
     team: "&Eacute;quipe"
-    promotions: promotions
+    promotions: Promotions
     news: Actualit&eacute;s
     courses: Enseignements
     managers: Responsables
@@ -114,6 +114,7 @@ courses:
 footer:
     copyright: Cemosis 2015 Tous droits réservés
     about: "&Agrave; propos"
+
 script:
     shareurl: https://csmi.cemosis.fr/
     sharetext: "Master mention Mathématiques et Applications, Spécialité Calcul Scientifique et Mathématiques de l'Information"
@@ -122,7 +123,7 @@ about:
     legal: Mentions légales
     welcome: Bienvenue sur le site du Master CSMI.
     content: Contenus
-    contentTerm: Le site propose un contenu relatif au master CSMI. Il s'adresse aux étudiants.
+    contentTerm: Le site propose un contenu relatif au master CSMI. Il s'adresse aux étudiants et aux entreprises.
     rightofreply: Droit de réponse
     rightofreplyTerm: Si vous estimez qu'un contenu porte atteinte à votre image, vous pouvez exercer un droit de réponse en écrivant à CSMI.
     copyrightTitle: Droits d'auteur
