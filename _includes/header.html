@@ -81,6 +81,8 @@
             </ul>
           </li>
 
+          <li class="{% if page.url contains '/entreprises/' %}active{% endif %}"><a href="{{ link-lang }}/entreprises">{% t navbar.entreprises %}</a></li>          
+
           {% if site.lang == "fr" %}
             {% capture link1 %}/en{{ page.url }}{% endcapture %}
             {% capture link2 %}/de{{ page.url }}{% endcapture %}

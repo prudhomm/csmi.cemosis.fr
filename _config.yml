@@ -1,7 +1,11 @@
 # Site settings
 title: Master Calcul Scientifique et Mathématiques de l'Information
 email: contact-csmi@cemosis.fr
-description: 
+description: |
+              Le Master CSMI s'adresse aux titulaires d'une licence de mathématiques qui souhaitent s'orienter vers une carrière 		
+              d'ingénieur ou vers une thèse dans un domaine des mathématiques appliquées. 		
+              L'objectif de cette formation est de donner une double compétence en calcul scientifique et en 		
+              mathématique de l'information.
 baseurl: 
 url: "http://csmi.cemosis.fr/"
 twitter_username: 

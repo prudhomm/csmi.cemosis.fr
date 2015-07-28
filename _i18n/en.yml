@@ -21,6 +21,7 @@ navbar:
     courses: Courses
     managers: Managers
     teachingstaff: Teaching Staff
+    entreprises: Entreprise
 
 common:
     sharesite: Partager notre site
@@ -78,6 +79,7 @@ index:
     partnershipPanel:
         partner: Nos partenaires
         network: Notre Réseau
+        entreprise: Partenaires industriels
 
 news:
     title: Les Actualités du Master

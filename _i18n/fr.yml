@@ -21,6 +21,7 @@ navbar:
     courses: Enseignements
     managers: Responsables
     teachingstaff: "&Eacute;quipe P&eacute;dagogique"
+    entreprises: Entreprises
 
 common:
     sharesite: Partager notre site
@@ -78,6 +79,7 @@ index:
     partnershipPanel:
         partner: Nos partenaires
         network: Notre Réseau
+        entreprise: Partenaires industriels
 news:
     title: Les Actualités du Master
     allNews: Tous les actualités
