@@ -1,0 +1,7 @@
+  {% assign number = entreprise.id | modulo:3 %}
+  {% if number == 0 %}
+  {% assign output = "</div><div class='row-fluid' style='text-align:center'>" %}
+  {% else %}
+    {% assign output = "" %}
+  {% endif %}
+    {{ output }}

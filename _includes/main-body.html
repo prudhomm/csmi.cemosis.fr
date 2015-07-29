@@ -219,123 +219,6 @@
      </div>
   </div>
 
-<!--
-  <span class="anchor" id="course"></span>
-  <div id="panel-course" class="containter-fluid">
-    <center><h2>Enseignement</h2></center>
-
-    <div class="container-fluid" style="padding-top: 50px padding-bottom:50px">
-      <div class="col-md-6" style="padding-top:50px">
-        <h3 class="centered">Semestre 1</h3>
-        <table class="table table-bordered table-hover table-striped">
-        <tbody>
-
-        <tr>
-          <td colspan="2"><b>UE obligatoires</b></td>
-        </tr>
-
-        {% for course in site.data.course.courseS1 %}
-
-        <tr>
-          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
-
-        </tr>
-
-        {% endfor %}
-        </tbody>
-        </table>
-      </div>
-
-      <div class="col-md-6" style="padding-top:50px">
-        <h3 class="centered">Semestre 2</h3>
-        <table class="table table-bordered table-hover table-striped">
-        <tbody>
-
-        <tr>
-          <td colspan="2"><b>UE obligatoires</b></td>
-        </tr>
-
-        {% for course in site.data.course.courseS2 %}
-
-        <tr>
-          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
-        </tr>
-
-        {% endfor %}
-
-          <td colspan="2"><b>UE obligatoires à choix</b></td>
-        </tr>
-        <tr>
-          <td align="center" colspan="2">1 UE à choisir parmi 2</td>
-        </tr>
-
-        {% for course in site.data.course.courseS2UEChoice %}
-
-        <tr>
-          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
-        </tr>
-
-        {% endfor %}
-
-        </tbody>
-        </table>
-      </div>
-
-      <div class="col-md-6" style="padding-top:50px">
-        <h3 class="centered">Semestre 3</h3>
-        <table class="table table-bordered table-hover table-striped">
-        <tbody>
-
-        <tr>
-          <td colspan="2"><b>UE obligatoires</b></td>
-        </tr>
-
-        {% for course in site.data.course.courseS3 %}
-
-        <tr>
-          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
-        </tr>
-
-        {% endfor %}
-
-        </tbody>
-        </table>
-      </div>
-
-      <div class="col-md-6" style="padding-top:50px">
-        <h3 class="centered">Semestre 4</h3>
-        <table class="table table-bordered table-hover table-striped">
-        <tbody>
-
-          <tr>
-          <td colspan="2"><b>UE obligatoires</b></td>
-          </tr>
-
-          {% for course in site.data.course.courseS4 %}
-
-          <tr>
-          <td>• <b><a href="{{ link-lang }}/courses/#{{ course.id }}">{{ course.name }}</a></b></td>
-          </tr>
-
-          {% endfor %}
-
-        </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
--->
-
- <!-- <span class="anchor" id="agenda"></span>
-  <div  id="panel-agenda"class="container-fluid">
-    <center><h2>Agenda</h2></center>
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-      <p>Ici se trouve l'agenda de la semaine courante de l'agenda des cours et accès au calendier de l'année</p>
-    </div>
-    <div class="col-md-4"></div>
-  </div>-->
-
   <!-- International -->
   <span class="anchor" id="international"></span>
   <div id="panel-international" class="container-fluid">
@@ -414,4 +297,20 @@
 
     <center><h2>{% t index.partnershipPanel.entreprise %}</center>
 
+    <span class="anchor" id="network"></span>
+    <div class="container-fluid">
+    <div class="row-fluid" style="text-align:center">
+    {% for entreprise in site.data.entreprise.entreprise %}
+    <div class="col-md-4">
+    <p><a href="entreprise.website"></a>
+      {% if entreprise.logo %}
+        <img src="{{ entreprise.logo }}">
+      {% else %}
+        <img src="/images/photos/unknown-id-128x128.png">
+      {% endif %}
+    </p>
+    </div>
+    {% include entreprise-3-each-row.html %}
+    {% endfor %}
+    </div>
   </div>
