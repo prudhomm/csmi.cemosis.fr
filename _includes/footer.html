@@ -95,7 +95,7 @@
             <h4>{% t navbar.entreprises %}</h4>
           </li>
           {% for entreprise in site.data.entreprise.entreprise %}
-            <li><a href="{{ link-lang }}/entreprises/#{{ entreprise.name }}">{{ entreprise.name }}</a>
+            <li><a href="{{ link-lang }}/entreprises/#{{ entreprise.id }}">{{ entreprise.name }}</a>
           {% endfor %}
         </ul>
       </div>
