@@ -4,3 +4,4 @@
 Master Calcul Scientifique et Mathémathiques de l'Information
 
 Lien: [csmi.cemosis.fr](http://csmi.cemosis.fr/)
+
