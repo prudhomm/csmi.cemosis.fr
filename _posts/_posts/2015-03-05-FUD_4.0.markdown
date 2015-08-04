@@ -1,0 +1,65 @@
+---
+layout: news_item
+title:  4th Feel++ User Days
+date: 2015-03-05
+author: vhuber
+fullname: Vincent HUBER
+categories: [workshop]
+workshop: [FUD4]
+tags: feelpp
+---
+
+The Center of Modeling and Simulation in Strasbourg as well as the
+Feel++ development team organize the "Fourth Feel++ User Days". The FUD4
+will take place in Strasbourg at IRMA between March 23 and March 25
+2015.
+
+## Sponsors
+
+The 4th Feel++ User days are sponsored by
+
+ - [Cemosis](http://www.cemosis.fr), the Center for Mathematical
+   Modeling and Simulation in Strasbourg,
+
+ - the ANR Project [HAMM](http://www.hamm-project.fr)
+
+ - the ANR Project [VIVABRAIN](http://www.vivabrain.fr)
+
+ - the ANR Project CHORUS
+
+## Programme
+
+We have special guests for these FUD 4.0.
+
+ - Giovanna Guidoboni, chair IUPUI and Labex IRMIA
+ - Riccardo Sacco, Politecnico di Milano
+ - Samuel Kokh, Maison de la simulation and CEA
+ - Didier Lucor, UPMC
+
+March 23 starts with a presentation reviewing the past developements
+of Feel++ and what the future holds. It is then followed by
+presentations associated to the ANR project
+[HAMM](http://www.hamm-project.fr) on high performance computing and
+hybrid computing.
+
+March 24 is largely dedicated to the bio-medical projects associated
+to Feel++. Our special guests speak on Tuesday too 1
+
+March 25 is dedicated to entreprises with presentations from various
+collaborations with industry :Airbus, PlasticOmnium Automotive,
+SigmaPhi, Gazomat and Holo3.
+
+The full programme is [here](https://docs.google.com/spreadsheet/ccc?key=0Agqh_bgdr40TdDg1cDl4QXdaM000NUlFYk9ReUprX0E&usp=sharing)
+
+## Register
+
+Registration is free but mandatory for logistic reasons(breaks,
+lunches and social event on March 24). The deadline is March, 16,
+2015.
+
+<iframe src="https://docs.google.com/forms/d/1dByBYGFPoadJbCmsr0_dzIqodJ0dgMlUnuMYRJe9kko/viewform?embedded=true" width="569" height="500" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+
+
+## From the train station to the Institute
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d10557.68585694684!2d7.740339418101108!3d48.58262847971634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e3!4m5!1s0x4796c849fe2e6bbd%3A0xd960066e84c58c5!2sGare+Centrale%2C+Strasbourg!3m2!1d48.585266!2d7.7354519999999996!4m5!1s0x4796c8fe50b3eb29%3A0x66aa010dad7acb60!2sInstitut+de+Recherche+Math%C3%A9matique+Avanc%C3%A9e%2C+7+Rue+Ren%C3%A9+Descartes%2C+67000+Strasbourg!3m2!1d48.580455!2d7.762986!5e0!3m2!1sfr!2sfr!4v1425487485095" width="600" height="450" frameborder="0" style="border:0"></iframe>

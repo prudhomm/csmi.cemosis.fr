@@ -1,0 +1,36 @@
+---
+layout: news_item
+title:  3rd Feel++ User Days
+date: 2014-02-19
+author: prudhomm
+fullname: Christophe Prud'homme
+categories: [workshop]
+workshop: [FUD3]
+tags: feelpp
+---
+
+
+The Center of Modeling and Simulation in Strasbourg as well as the
+Feel++ development team organizes the "Third Feel++ User Days". They
+will take place in Strasbourg at IRMA between February 19 and February
+21 2013.
+
+## Sponsors
+
+The 3rd Feel++ User days are sponsored by
+ - the Center for Mathematical Modeling and Simulation in Strasbourg,
+ - the ANR Project HAMM,
+ - the ANR Project VIVABRAIN
+ - the ANR Project CHORUS (not web site yet)
+
+We have also the support of the project HP-Feel++ granted by the Prace
+6-th call which allows us to present large scale computations obtained
+on SuperMUC at LRZ.
+
+## Programme
+
+The progamme is available [here](https://docs.google.com/spreadsheet/pub?key=0Ap5j55tvVQoodHl5NzBVY2pOUExwcW9ONFhwbWRUSVE&single=true&gid=0&output=html).
+
+## Slides
+
+The slides are available [here](https://zenodo.org/record/11719) at the [Zenodo Feel++ Community](https://zenodo.org/collection/user-feelpp).

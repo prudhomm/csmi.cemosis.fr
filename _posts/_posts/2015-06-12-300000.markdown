@@ -1,0 +1,17 @@
+---
+layout: news_item
+title:  300 000 hours
+date: 2015-06-12
+author: vhuber
+fullname: Vincent HUBER
+categories: [news]
+tags: feelpp
+---
+
+Cemosis received 300'000 core hours from the [Strasbourg MesoCenter](https://hpc.unistra.fr/) to supports
+our projects.
+
+- [Selalib](http://www.cemosis.fr/projets/interdisciplinaires/physique/fusion)  - 76 000 h
+- [NS2++](http://www.cemosis.fr/projets/entreprises/ns2pp) - 64 000 h
+- FSI - 96 000 h
+- [Aérothermie](http://www.cemosis.fr/projets/entreprises/chorus) - 64 000 h
