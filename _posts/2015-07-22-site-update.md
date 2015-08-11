@@ -4,7 +4,7 @@ title: Mise à jour du site, quelques nouveautés
 date: 2015-07-22
 author: Christophe Prud'homme
 categories: website
-tag:
+tags: csmi
 ---
 
 Une mise à jour du site vient d'être effectuée avec quelques ajouts notables:

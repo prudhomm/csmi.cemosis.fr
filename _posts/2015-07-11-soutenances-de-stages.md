@@ -4,7 +4,7 @@ title: Soutenances de stage de M1 et M2
 date: 2015-07-11
 author: Christophe Prud'homme
 categories: internship
-tag:
+tags: csmi
 ---
 
 Les soutenances de stage auront lieu les 26 et 27 aout prochains. Les jury auront lieu le 28 aout pour des raisons administratives et de calendrier.

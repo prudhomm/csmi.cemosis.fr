@@ -6,3 +6,29 @@ permalink: /entreprises/
 <div class="page-header">
   <h1>Les Entreprises partenaires de CSMI</h1>
 </div>
+
+<div class="container-fluid" style="text-align:center">
+	{% for entreprise in site.data.entreprise.entreprise %}
+	<div class="row-fluid">
+		<div class="col-md-4">
+
+			<a class="anchor" name="{{ entreprise.id }}"></a>
+				<h3>{{ entreprise.name }}</h3></td>
+					
+					{% if entreprise.logo %}
+						<img src="{{ entreprise.logo }}" width="128px">
+					{% else %}
+						<img src="/images/photos/unknown-id-128x128.png" width="128px">
+					{% endif %}
+		</div>
+		<div class="col-md-8">
+					<blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-1 }}</p></blockquote>
+        			<p class="testimonial-author">{{ entreprise.testimony-1-author }} | <span>{{ entreprise.testimony-1-job }}</span></p>
+
+					<blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-2 }}</p></blockquote>
+        			<p class="testimonial-author">{{ entreprise.testimony-2-author }} | <span>{{ entreprise.testimony-2-job }}</span></p>
+        </div>
+    </div>
+    <hr>
+	{% endfor %}
+</div>

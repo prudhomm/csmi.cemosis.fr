@@ -1,0 +1,24 @@
+---
+layout: news_item
+title:  Hp-Feel++ selected by Prace 10th call
+date: 2015-03-10
+author: prudhomm
+fullname: Christophe Prud'homme
+categories: [project]
+project: [HP-Feel++]
+tags: feelpp
+---
+
+The Hp-Feel++ project (6 Millions core hours on Curie@TGCC) was selected by
+the 10th Prace call for project.
+
+
+The HP-Feel++ project aims are twofold: (i) developing scalable solution strategies and (ii) enabling them in research applications. Two applications domains have been selected : high field magnets (HiFiMagnet) and diffuse optical tomography (DOT).
+
+HP-FEEL++ and the associated applications require the use of a wide range of numerical methods for partial differential equation (PDE). These numerical methods are implemented in [Feel++](http://www.feelpp.org) and parallelized using MPI.
+
+The size of our simulations range from several million of degrees of freedom to billions of degrees of freedom and therefore, they require access of TIER-0 computing resources. Moreover, the numerical methods used in both applications require to solve a linear system, and get an optimal scalability in this part is an active research topic.
+
+In order to obtain a large scale scalability, we have developed theoretically and numerically non-conforming numerical methods in the context of domain decomposition methods, i.e. the mortar method (MM). Recent advances have been made to also equip Feel++ with powerful conforming numerical methods, such as the Finite Element Tearing and Interconnecting method (FETI) and Balanced Neumann-Neumann.The design of efficient preconditioners for these systems is a fundamental task, in particular in three dimensions, where the number of unknowns increases very rapidly. The objective is to verify the theoretical results obtained for both methodologies on standard large scale architectures ( from hundreds to tens of thousands of core) and to apply our novel scalable solution strategies on real applications such as the design of high field magnets and optical tomographs.
+
+For high field magnets, the obtained results will be readily used to finalize the design of the Hybrid magnet. Regarding diffuse optical tomography our objective within the next three years is to develop a complete numerical model associated to the tomograph allowing for fast diagnostics (within minutes) of the presence of tumors.

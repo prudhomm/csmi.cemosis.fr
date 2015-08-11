@@ -2,8 +2,7 @@
 
   <div id="sitemap" class="container-fluid">
     <div class="row-fluid">
-      <div class="col-md-2"></div>
-      <div class="col-md-3">
+      <div class="col-md-2">
         <ul>
           <li>
             <h4>{% t navbar.home %}</h4>
@@ -25,19 +24,52 @@
           </li>
         </ul>
       </div>
+      <div class="col-md-2">
+        <ul>
+          <li>
+            <h4>{% t navbar.team %}</h4>
+          </li>
+          <li>
+            <a href="{{ link-lang }}/team/#managers">{% t navbar.managers %}</a>
+          </li>
+          <li>
+            <a href="{{ link-lang }}/team/#teachingstaff">{% t navbar.teachingstaff %}</a>
+          </li>
+        </ul>
+      </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
+       <ul>
+        <li>
+          <h4>{% t navbar.promotions %}</h4>
+        </li>
+        {% for promotion in sorted_promotions %}
+        <li><a href="{{ link-lang }}/promotions/#{{ promotion.master }}-{{promotion.year}}">{{ promotion.master }} {{ promotion.year}}</a></li>
+        {% endfor %}
+       </ul>
+      </div>
+
+      <div class="col-md-2">
         <ul>
           <li>
             <h4>{% t navbar.news %}</h4>
           </li>
           <li>
-            <a href="{{ link-lang }}/news/">{% t navbar.news %}</a>
+            <a href="{{ link-lang }}/news/">{% t news.allNews %}</a>
+          </li>
+          <li>
+            <a href="{{ link-lang }}/news/1">{% t news.categoryWebsite %}</a>
+          </li>
+          <li>
+            <a href="{{ link-lang }}/news/2">{% t news.categoryInternship %}</a>
+          </li>
+          <li>
+            <a href="{{ link-lang }}/news/3">{% t news.category3 %}</a>
           </li>
         </ul>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <ul>
           <li>
             <h4>{% t navbar.courses %}</h4>
@@ -57,7 +89,17 @@
         </ul>
       </div>
 
-      <div class="col-md-1"></div>
+      <div class="col-md-2">
+        <ul>
+          <li>
+            <h4>{% t navbar.entreprises %}</h4>
+          </li>
+          {% for entreprise in site.data.entreprise.entreprise %}
+            <li><a href="{{ link-lang }}/entreprises/#{{ entreprise.id }}">{{ entreprise.name }}</a>
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
   </div>
 
