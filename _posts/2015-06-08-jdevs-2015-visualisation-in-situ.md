@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: Présentation aux JDEVs 2015 sur la Visualisation In-Situ [MAJ: 02/07/15, pdf et vidéo]
+title: Présentation aux JDEVs 2015 sur la Visualisation In-Situ
 date: 2015-06-08
 author: Alexandre
 fullname: Alexandre Ancel
@@ -8,7 +8,7 @@ categories: news
 tags: cemosis
 ---
 
-Du 30 Juin au 3 Juillet 2015, Cemosis sera présent à la 3ème édition des [Journées nationales du DEVeloppement logiciel de l'Enseignement Supérieur et Recherche (JDEVs)] à Bordeaux(http://devlog.cnrs.fr/jdev2015).
+Du 30 Juin au 3 Juillet 2015, Cemosis sera présent à la 3ème édition des [Journées nationales du DEVeloppement logiciel de l'Enseignement Supérieur et Recherche (JDEVs)](http://devlog.cnrs.fr/jdev2015) à Bordeaux.
 
 
 Alexandre Ancel fera une présentation sur le couplage visualisation / simulation avec [ParaView](http://www.paraview.org/) dans le cadre de la thématique T8: "Logiciels scientifiques et simulation : nouveaux modèles et enjeux".

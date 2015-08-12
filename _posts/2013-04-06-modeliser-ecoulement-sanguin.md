@@ -11,4 +11,4 @@ tags: cemosis
 Le projet autour des écoulements sanguins a été mis en avant dans l'actu de Strasbourg. Il a été effectivement retenu par Le MesoChallenge de l'Université de Strasbourg
 pour l'arrivée de la nouvelle infrastructure de calcul Equip@Meso.
 
-<iframe src="http://www.lactu.unistra.fr/index.php?id=15893#c71961" height="800"></iframe>
+<iframe src="http://www.lactu.unistra.fr/index.php?id=15893#c71961" width="100%" height="800"></iframe>

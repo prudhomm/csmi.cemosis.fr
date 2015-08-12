@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: Présentation Cemosis: CS Mésocentre 24 mai
+title: Présentation Cemosis&#58; CS Mésocentre 24 mai
 date: 2013-05-22
 author: prudhomm
 fullname: Christophe Prud'homme

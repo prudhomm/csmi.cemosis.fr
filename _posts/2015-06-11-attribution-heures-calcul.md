@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: [ MésoCentre ] Attribution d'heures de calcul
+title: Attribution d'heures de calcul
 date: 2015-06-11
 author: Vincent
 fullname: Vincent Huber

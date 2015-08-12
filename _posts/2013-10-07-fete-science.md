@@ -16,8 +16,8 @@ La modélisation et la simulation étant d'un grand intérêt dans l'études des
 
 Le programme complet de l'évènement est disponible [ici](http://jardin-sciences.unistra.fr/uploads/media/ProgrammeVF-optimise.pdf).
 
-<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPeTZNNnR3NXBzNTA/preview" width="640" height="480"></iframe>
+<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPeTZNNnR3NXBzNTA/preview" width="100%" height="480"></iframe>
 
-<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPZWlNZXF3MVRIQkE/preview" width="640" height="480"></iframe>
+<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPZWlNZXF3MVRIQkE/preview" width="100%" height="480"></iframe>
 
-<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPamg5OGwyV0g1TGs/preview" width="640" height="480"></iframe>
+<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPamg5OGwyV0g1TGs/preview" width="100%" height="480"></iframe>

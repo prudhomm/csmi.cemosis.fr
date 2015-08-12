@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: Rencontres Universités Entreprises : 20 et 21 mars 2014
+title: Rencontres Universités Entreprises &#58; 20 et 21 mars 2014
 date: 2014-03-03
 author: Christophe
 fullname: Christophe Prud'homme

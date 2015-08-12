@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: Rencontre Xtra-dev: Présentation de CeMoSiS le 23 mai à 14h à l'UFR Math-Info
+title: Rencontre Xtra-dev&#58; Présentation de CeMoSiS le 23 mai à 14h à l'UFR Math-Info
 date: 2013-05-21
 author: prudhomm
 fullname: Christophe Prud'homme

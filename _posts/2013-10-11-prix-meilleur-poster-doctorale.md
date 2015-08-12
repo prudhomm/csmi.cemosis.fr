@@ -9,11 +9,12 @@ tags: cemosis
 ---
 
 <img src="/img/news/IMG_6876.JPG">
+
 Cemosis félicite **Ranine Tarabay** pour le prix du meilleur poster parmi 57 autres qui lui a été décerné lors de la [journée poster de l'école doctorale](http://ed-msii.unistra.fr/doctorat/suivi-du-projet-de-recherche/journee-poster/) *Mathématiques, Sciences de l'Information et de l'Ingénieur*.
 
 Ranine est en deuxième année de doctorat à l'Université de Strasbourg et travaille sur la simulation des écoulements sanguins dans le cadre du projet [*écoulements sanguins*](http://www.cemosis.fr/projets/interdisciplinaires/sante-bio/bloodflow).
 
-<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPZW4xdVdtX2VNUzQ/preview" width="640" height="480"></iframe>
+<iframe src="https://docs.google.com/file/d/0ByfksnCbIfJPZW4xdVdtX2VNUzQ/preview" width="100%" height="480"></iframe>
 
 ####Résumé :
 
