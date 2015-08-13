@@ -10,5 +10,6 @@ tags: cemosis
 
 Cemosis était représenté au [Forum Math Emploi](http://www.forum-emploi-maths.org/) pour présenter nos offres de formation, comme le Master de Sciences, spécialité [Calcul Scientifique et Mathématiques de l'information](http://csmi.math.unistra.fr/).
 
-
-[!](/img/news/20141202_162415.jpg)
+<center>
+<img src="/img/news/20141202_162425.jpg" width="240" height="320">
+</center>

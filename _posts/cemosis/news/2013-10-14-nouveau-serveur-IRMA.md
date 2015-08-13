@@ -40,4 +40,4 @@ Thanks to [Alain Sartout](http://www-irma.u-strasbg.fr/~sartout/) et [Alexis Pal
 
 Quelques photos de l'installation/A few pictures of the installation:
 
-<iframe src="https://drive.google.com/folderview?id=0B_O9zQtVIBI6Y1NLbkdOTjBNWkk#grid"></iframe>
+<iframe src="https://drive.google.com/folderview?hl=fr&amp;id=0B_O9zQtVIBI6Y1NLbkdOTjBNWkk#grid" width="100%" height="400"></iframe>

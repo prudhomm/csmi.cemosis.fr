@@ -1,11 +1,12 @@
 ---
 layout: news_item
-title: Workshop "Gradient Systems and applications" - 25-26/09/14
+title: Workshop "Gradient Systems and applications"
 date: 2014-09-25
 author: 
 fullname: 
 categories: event
 tags: cemosis
+period: 25-26/09/14
 ---
 
 Cemosis, le Centre de Modélisation et de Simulation de Strasbourg, ainsi que le LMIA de l'Université de Haute Alsace à Mulhouse co-organisent un workshop sur les problemes d'evolution de type flot gradient. 

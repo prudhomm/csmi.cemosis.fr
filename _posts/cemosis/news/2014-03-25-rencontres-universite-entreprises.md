@@ -10,4 +10,4 @@ tags: cemosis
 
 Cemosis était présent aux RUE2014 avec le LabeX [AMIES](http://www.agence-maths-entreprises.fr/a/?q=fr), l'EquipEX Equip@Meso, le [Genci](http://www.genci.fr/), [CaSciModOT](http://cascimodot.fdpoisson.fr/), [MaiMoSiNE](http://www.maimosine.fr/) et [la maison de la simulation](http://www.maisondelasimulation.fr/).
 
-[!](/img/news/20140321_122751.jpg)
+<img src="/img/news/20140321_122751.jpg">
