@@ -21,7 +21,7 @@ Dans ce contexte, notre objectif est de calculer automatiquement une stratégie 
 
 Pour cela, nous poursuivrons une collaboration entamée de longue date dans ce domaine avec le Pr. Afshin Gangi de l’Hôpital Civil de Strasbourg, spécialiste internationalement reconnu de ce type d’intervention. Ce projet et cette collaboration se feront dans le cadre de l’IHU de Strasbourg Mix-surg sur la chirurgie mini-invasive.
 <center>
-<img src="/img/project/bio-medical/diri_1.png" height="600" width="600">
+<img src="/img/project/bio-medical/diri_1.png" height="400" width="400">
 <p>Champ de température</p>
 <p>Géométrie fictive.</p>
 </center>
