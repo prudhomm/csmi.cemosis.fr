@@ -11,4 +11,4 @@ Cemosis, le Centre de Modélisation et de Simulation de Strasbourg co-organise a
 
 Toutes les informations sur cet évènement se trouvent sur la page associée dans la section évènements:
 
-[Workshop "Gradient Systems and applications"](http://www.cemosis.fr/home/evenements/gradient-systems-and-applications)
+[Workshop "Gradient Systems and applications"](/event/2014/09/25/workshop-gradient-system-applications/)

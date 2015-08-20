@@ -16,15 +16,15 @@ Son domaine d'application s'oriente naturellement vers la cancérologie (mammogr
 
 <center>
 	<img src="/img/project/bio-medical/optique2.jpg">
-	Tomographe optique expérimental développé par l'équipe IMIS.
+	<i style="color:#45818e">Tomographe optique expérimental développé par l'équipe IMIS.</i>
 	<img src="/img/project/bio-medical/optique1.jpg">
-	Simulation de la reconstruction des cartes d'absorption et de diffusion sur un cylindre témoin avec deux fantômes.
+	<i style="color:#45818e">Simulation de la reconstruction des cartes d'absorption et de diffusion sur un cylindre témoin avec deux fantômes.</i>
 </center>
 
 Le but final de ce projet est d'apporter à la communauté médicale un outils fiable et performant d'analyse du métabolisme à des fins thérapeutiques.
 
 <center> 
-Simulation directe.
+<b>Simulation directe.</b>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zYQ7sBZB2Fw" frameborder="0" allowfullscreen></iframe>
 Contour volumique de la lumière diffusé dans le cylindre.
  A gauche: diffusion, à droite: fluorescence.

@@ -10,10 +10,8 @@ tags: cemosis-project
 ---
 
 <center>
-<img src="/img/project/physics/LJK_logo-small.png" style="float:left;display:inline-block">
-<p>Collaboration : <a href="http://lncmi.cnrs.fr/">LNCMI</a>, <a href="http://www-ljk.imag.fr/">LJK (UJF)</a>, CeMoSiS</p>
-<img src="/img/project/physics/LNCMI-logo-small.png" style="float:right;display:inline-block">
-<div style="clear:both"></div>
+<p><img src="/img/project/physics/LJK_logo-small.png"> Collaboration : <a href="http://lncmi.cnrs.fr/">LNCMI</a>, <a href="http://www-ljk.imag.fr/">LJK (UJF)</a>, CeMoSiS <img src="/img/project/physics/LNCMI-logo-small.png">
+</p>
 </center>
 
 <img src="/img/project/physics/Magnet_3D_Ouvert.png" height="200" width="150" style="float:left;display:inline;margin:5px 0px 0px 10px">
