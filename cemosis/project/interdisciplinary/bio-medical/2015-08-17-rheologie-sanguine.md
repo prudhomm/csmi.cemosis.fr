@@ -5,10 +5,9 @@ title:
 date: 2015-08-17
 author: 
 fullname: 
-categories: cemosis-project
 categories: interdisciplinary-bio-project
 tags: cemosis-project
-abstract: Contrairement aux liquides ordinaires et aux solides élastiques, les fluides complexes présentent plusieurs comportements étranges qui dépendent essentiellement de structures sous-jacentes qui composent ces fluides. En effet, de nombreux fluides complexes sont constituées d’entités microscopiques (comme des particules rigides ou déformables, des cellules biologiques, des macromolécules etc ..) qui sont en suspension dans le liquide, et dont les individus et les comportements collectifs ont un impact sur l’ensemble des propriétés rhéologiques du fluide à l’échelle macro.
+abstract: Contrairement aux liquides ordinaires et aux solides élastiques, les fluides complexes présentent plusieurs comportements étranges qui dépendent essentiellement de structures sous-jacentes qui composent ces fluides.
 img: /img/project/bio-medical/bloodrheol1-fe20d.png
 ---
 
