@@ -7,6 +7,8 @@ author:
 fullname: 
 categories: interdisciplinary-physics-project
 tags: cemosis-project
+abstract: Le Laboratoire National des Champs Magnétiques Intenses (LNCMI) est un Très Grand Equipement du CNRS permettant aux chercheurs de réaliser des expériences sous champ magnétique intense (ie. supérieur au champ pouvant être produit par des aimants supraconducteurs, soit 24 T). Actuellement, les aimants du LNCMI peuvent produire jusqu'a 35 T en champ statique, produit par des aimants résistifs alimentés grâce à une installation électrique de 24 MW.
+img: /img/project/physics/temperature_M1_I16000_ws.png
 ---
 
 <center>
