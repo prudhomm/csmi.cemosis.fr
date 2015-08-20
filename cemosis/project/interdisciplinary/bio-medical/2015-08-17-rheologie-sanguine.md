@@ -10,11 +10,11 @@ categories: interdisciplinary-bio-project
 tags: cemosis-project
 ---
 
-<img src="/img/project/bio-medical/bloodrheol2-3d963.png" style="display:inline;float:left;margin: 0px 0px 0px 5px">
-<img src="/img/project/bio-medical/bloodrheol1-fe20d.png" style="float: left;margin: 0px 0px 0px 5px;">
+<img src="/img/project/bio-medical/bloodrheol2-3d963.png" style="display:inline;float:left;margin: 0px 5px 0px 0px">
+<img src="/img/project/bio-medical/bloodrheol1-fe20d.png" style="display:inline;float: right;margin: 5px 5px 0px 0px;">
 Contrairement aux liquides ordinaires et aux solides élastiques, les fluides complexes présentent plusieurs comportements étranges qui dépendent essentiellement de structures sous-jacentes qui composent ces fluides. En effet, de nombreux fluides complexes sont constituées d’entités microscopiques (comme des particules rigides ou déformables, des cellules biologiques, des macromolécules etc ..) qui sont en suspension dans le liquide, et dont les individus et les comportements collectifs ont un impact sur l’ensemble des propriétés rhéologiques du fluide à l’échelle macro. C’est cette rétroaction de l’échelle micro à l’échelle macro qui confère ce comportement complexe à ces fluides et qui continue de poser un formidable défi pour la modélisation théorique. Des exemples typiques de ces fluides complexes sont par exemple des suspensions (particules rigides en suspension dans un fluide newtonien), des émulsions (gouttelettes en suspension dans un fluide newtonien), du sang (globules rouges en suspension dans le plasma), et ainsi de suite. Les fluides complexes sont la règle dans les mondes industriels et biologiques, conférant ainsi à ce sujet un intérêt important dans des domaines variés allant du fondamental au technologique.
 Un défi important dans les fluides complexes réside dans la compréhension de (i) l’interaction fluide / structure au niveau des particules et (ii) l’organisation spatio-temporelle des entités (c’est à dire leurs comportements collectifs, la formation de bandes ...) qui composent le fluide complexe.
-<div style="clear:left"></div>
+<div style="clear:both"></div>
 
 <i>Images : Cytosquelette d’une globule rouge et forme biconcave d’une globule rouge</i>
 

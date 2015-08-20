@@ -16,6 +16,7 @@ tags: cemosis-project
 
 <img src="/img/project/physics/Magnet_3D_Ouvert.png" height="200" width="150" style="float:left;display:inline;margin:5px 0px 0px 10px">
 Le Laboratoire National des Champs Magnétiques Intenses (LNCMI) est un Très Grand Equipement du CNRS permettant aux chercheurs de réaliser des expériences sous champ magnétique intense (ie. supérieur au champ pouvant être produit par des aimants supraconducteurs, soit 24 T). Actuellement, les aimants du LNCMI peuvent produire jusqu'a 35 T en champ statique, produit par des aimants résistifs alimentés grâce à une installation électrique de 24 MW. Ces aimants sont mis à la disposition de la communauté scientifique via des appels à projets deux fois par an, et répondent à un large spectre d'applications allant de la physique du solide à la supraconductivité ou encore la magnétoscience.
+<div style="clear:left"></div>
 
 Dans un contexte de compétition internationale entre les laboratoires champs intenses, le LNCMI doit sans cesse repousser les limites des technologies utilisées pour la conceptions des aimants, en terme de matériaux et de design.
 
@@ -32,6 +33,8 @@ Le projet HiFiMagnet a pour objectif de proposer différents outils pour répond
 - des techniques d'adaptation de maillage et d'estimation d'erreur a posteriori ont d'ores et déjà été mises en place pour controler les erreurs d’approximation numérique
 - des méthodes de réduction d'ordre ont été plus récemment utilisées pour les études paramétriques et les analyses de sensibilité
 - une implémentation en parallèle de ces méthodes a été réalisée et des tests de passage à l’échelle sont actuellement en cours (Projet Prace Feel++  HPC)
+
+<div style="clear:left"></div>
 
 J. Nadarasa a soutenu son stage de Master 2 sur ce sujet (Coupled modeling and simulation of electromagnets in stationary and instationary modes (axisymmetric and 3D) ) ce 22/08/2013.
 

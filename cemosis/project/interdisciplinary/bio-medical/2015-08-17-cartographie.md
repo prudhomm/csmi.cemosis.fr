@@ -33,14 +33,14 @@ La première étape du projet est maintenant achevée.
 Grâce aux librairies shaplib et mapnik, nous disposons d'un cartogramme parallèle permettant de générer des cartes détaillées suffisamment rapidement.
 
 <center>
-<b>Avancée du projet MAP</b>
+<p><b>Avancée du projet MAP</b></p>
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/UTRK0NudTs4" frameborder="0" allowfullscreen></iframe>
+
 <br/>
-<img src="/img/project/bio-medical/c_sh68.png" height="400" width="240" style="float:left;display:inline">
-<img src="/img/project/bio-medical/c_sh68_deformed_2005.png" height="400" width="240" style="float:right;display:inline">
-<div style="clear: both;"></div>
-Haut-Rhin et déformation du Haut-Rhin en fonction d'une densité initiale.
+<p><img src="/img/project/bio-medical/c_sh68.png" height="400" width="240">
+<img src="/img/project/bio-medical/c_sh68_deformed_2005.png" height="400" width="240"></p>
+<p>Haut-Rhin et déformation du Haut-Rhin en fonction d'une densité initiale.</p>
 </center>
 
 La deuxième étape sera d'appliquer la bijection inverse au découpage sur la carte déformée.
