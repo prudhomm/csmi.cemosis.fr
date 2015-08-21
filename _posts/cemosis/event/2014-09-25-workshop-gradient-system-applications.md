@@ -13,8 +13,9 @@ Cemosis, le Centre de Modélisation et de Simulation de Strasbourg, ainsi que le
 
 Ce workshop a pour intitulé "Gradient Systems and applications" et se déroulera les 25 et 26 septembre 2014 à Strasbourg. Un des objectifs de ce projet est de préparer le prochain appel à projets de l'ANR.
 
+<center>
 <img src="https://sites.google.com/a/cemosis.fr/www/_/rsrc/1438599469941/home/evenements/gradient-systems-and-applications/Systemes-Gradients-Applications.png?height=400&amp;width=282)">
-
+</center>
 
 ####Organisateurs
 
@@ -60,6 +61,7 @@ Le workshop se déroulera à l'UFR Mathématiques Informatique de l'Université 
 ####Inscription
 
 <iframe src="https://docs.google.com/forms/d/1_Kt3oiLH-68ak7BmVUV1M_kU8ywulichU4PgNzDQbFQ/" width="100%" height="600"></iframe>
+
 
 [SGAworkshop_dolle_tomography.pdf](https://docs.google.com/viewer?a=v&pid=sites&srcid=Y2Vtb3Npcy5mcnx3d3d8Z3g6MjY0YWI1YTBhNmUxOGFkOQ)
 
