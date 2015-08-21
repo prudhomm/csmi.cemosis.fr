@@ -60,7 +60,7 @@
 
     {% for testimony in site.data.testimony.testimony | limit:4 %}
       <div class="col-md-6">
-        <blockquote class="testimonial"><p id="{{ testimony.id }}">{{ testimony.testimony }}</p></blockquote>
+        <blockquote class="testimonial"><p id="{{ testimony.id }}" class="read-more">{{ testimony.testimony }}</p></blockquote>
         <div class="arrow-down"></div>
         <p class="testimonial-author">{{ testimony.author }} | <span>{{ testimony.job }}</span></p>
       </div>
@@ -240,7 +240,7 @@
       {% for tECMI in site.data.testimony.testimonyECMI | limit: 4 %}
 
       <div class="col-md-6">
-        <blockquote class="testimonial"><p id="{{ tECMI.id }}">{{ tECMI.testimony }}</p></blockquote>
+        <blockquote class="testimonial"><p id="{{ tECMI.id }}" class="read-more">{{ tECMI.testimony }}</p></blockquote>
         <div class="arrow-down"></div>
         <p class="testimonial-author"><a href="{{ link-lang }}/promotions/#{{ tECMI.author }}">{{ tECMI.author }}</a> | <span>{{ tECMI.job }}</span></p>
       </div>
