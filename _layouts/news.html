@@ -21,21 +21,9 @@ layout: default
           <li><a href="{{ link-lang }}/news/">{% t news.allNews %}</a></li>
           <li><a href="{{ link-lang }}/news/1">{% t news.categoryWebsite %}</a></li>
           <li><a href="{{ link-lang }}/news/2">{% t news.categoryInternship %}</a></li>
-          <li><a href="{{ link-lang }}/news/3">{% t news.category3 %}</a></li>
+          <li><a href="{{ link-lang }}/news/3">{% t news.categoryTraining %}</a></li>
         </ul>
-        <hr style="border:1px solid black">
-        <ul class="nav nav-stacked">
-          {% for post in site.posts %}
-          {% if post.tag == 'tag1' %}
-          <li><a href="{{ link-lang }}{{ post.url }}">{% t news.tag1 %}</a></li>
-          {% endif %}
-          {% endfor %}
-          {% for post in site.posts %}
-          {% if post.tag == 'tag2' %}
-          <li><a href="{{ link-lang }}{{ post.url }}">{% t news.tag2 %}</a></li>
-          {% endif %}
-          {% endfor %}        
-        </ul>
+        
       </div>
 
     </div>

@@ -42,7 +42,7 @@
         <ul class="nav navbar-nav navbar-right">
 
           <!-- auto active current page -->
-          <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="{{ link-lang }}/index.html">{% t navbar.home %}</a></li>
+          <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="{{ link-lang }}/">{% t navbar.home %}</a></li>
 
           <!-- Team -->
           <li class="dropdown {% if page.url contains '/team/' %}active{% endif %}">
