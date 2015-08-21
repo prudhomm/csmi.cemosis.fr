@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <!-- links between languages, add {{ link-lang }} before any internal URLs-->
-  {% assign link-lang = "" %}
-  {% if site.lang == "en" %}
-    {% assign link-lang = "/en" %}
-  {% endif %}
-  {% if site.lang == "de" %}
-    {% assign link-lang = "/de" %}
-  {% endif %}
+<!-- links between languages, add {{ link-lang }} before any internal URLs-->
+{% assign link-lang = "" %} 
+{% if site.lang == "en" %} 
+  {% assign link-lang = "/en" %} 
+{% endif %} 
+{% if site.lang == "de" %} 
+{% assign link-lang = "/de" %} 
+{% endif %} 
+{% include head.html %}
 
-
-  {% include head.html %}
-
-  <body>
-
+<body>
     {% include header.html %}
-
-
-
-    {% include main-body.html %}
-
+    {% include main-body.html %} 
     {% include common.html %}
-
-
     {% include footer.html %}
-
     {% include script.html %}
 
     <script type="text/javascript" src="/js/jquery.fullPage.min.js"></script>
-
     <!-- read more option's code, using Readmore.js -->
     <script type="text/javascript">
-      $(document).ready(function(){
+    $(document).ready(function() {
         $('.read-more').readmore({
-          collapsedHeight: 150,
-          lessLink: '<a href="#">{% t index.readless %}</a>',
-          moreLink: '<a href="#">{% t index.readmore %}</a>' 
+            collapsedHeight: 150,
+            lessLink: '<a href="#">{% t index.readless %}</a>',
+            moreLink: '<a href="#">{% t index.readmore %}</a>'
         });
-      });      
+    });
     </script>
 
-  </body>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        
+      });
+    </script>
+</body>
 
 </html>
