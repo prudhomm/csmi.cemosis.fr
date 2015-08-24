@@ -1,120 +1,102 @@
-
-  <nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-
-        <!-- mobile logos -->
-        <a class="mobile-brand navbar-brand" href="http://www.unistra.fr/">
-          <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
-        </a>
-
-        <a class="mobile-brand navbar-brand" href="http://www.cemosis.fr">
-          <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
-        </a>
-        <a class="mobile-brand navbar-brand" href="https://mathinfo.unistra.fr/">
-          <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
-        </a>
-
-      </div>
-      {% assign sorted_promotions = (site.data.promotions.promotions | sort: 'year' | reverse) %}
-      <!-- Navbar buttons -->
-      <div class="collapse navbar-collapse navbar-fixed-top" id="main-navbar" style="position:relative">
-
-        <!-- logos -->
-        <a class="desktop-brand navbar-brand" href="http://www.unistra.fr/">
-          <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
-        </a>
-
-        <a class="desktop-brand navbar-brand" href="http://www.cemosis.fr">
-          <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
-        </a>
-        <a class="desktop-brand navbar-brand" href="https://mathinfo.unistra.fr/">
-          <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
-        </a>
-
-        <ul class="nav navbar-nav navbar-right">
-
-          <!-- auto active current page -->
-          <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="{{ link-lang }}/">{% t navbar.home %}</a></li>
-
-          <!-- Team -->
-          <li class="dropdown {% if page.url contains '/team/' %}active{% endif %}">
-          <a href="{{ link-lang }}/team" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- mobile logos -->
+            <a class="mobile-brand navbar-brand" href="http://www.unistra.fr/">
+                <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
+            </a>
+            <a class="mobile-brand navbar-brand" href="http://www.cemosis.fr">
+                <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
+            </a>
+            <a class="mobile-brand navbar-brand" href="https://mathinfo.unistra.fr/">
+                <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
+            </a>
+        </div>
+        {% assign sorted_promotions = (site.data.promotions.promotions | sort: 'year' | reverse) %}
+        <!-- Navbar buttons -->
+        <div class="collapse navbar-collapse navbar-fixed-top" id="main-navbar" style="position:relative">
+            <!-- logos -->
+            <a class="desktop-brand navbar-brand" href="http://www.unistra.fr/">
+                <img alt="Unistra" src="http://www.unistra.fr/fileadmin/templates/unistra-v2/images/logo.png" style="height:30px">
+            </a>
+            <a class="desktop-brand navbar-brand" href="http://www.cemosis.fr">
+                <img alt="Cemosis" src="http://www.google.com/a/cpanel/cemosis.fr/images/logo.gif?service=google_default" style="height:30px">
+            </a>
+            <a class="desktop-brand navbar-brand" href="https://mathinfo.unistra.fr/">
+                <img alt="UFR" src="https://clarinet.u-strasbg.fr/~gallais/uploads/Site//ufr.png" style="height:30px">
+            </a>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- auto active current page -->
+                <li class="{% if page.url contains 'index.html' %}active{% endif %}"><a href="{{ link-lang }}/">{% t navbar.home %}</a></li>
+                <!-- Team -->
+                <li class="dropdown {% if page.url contains '/team/' %}active{% endif %}">
+                    <a href="{{ link-lang }}/team" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
            {% t navbar.team %} <span class="caret"></span></a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="{{ link-lang }}/team/#managers">{% t navbar.managers %}</a></li>
-              <li><a href="{{ link-lang }}/team/#teachingstaff">{% t navbar.teachingstaff %}</a></li>
-            </ul>
-          </li>
-
-          <!-- Promotions -->
-          <li class="dropdown {% if page.url contains '/promotions/' %}active{% endif %}">
-          <a href="{{ link-lang }}/promotions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="{{ link-lang }}/team/#managers">{% t navbar.managers %}</a></li>
+                        <li><a href="{{ link-lang }}/team/#teachingstaff">{% t navbar.teachingstaff %}</a></li>
+                    </ul>
+                </li>
+                <!-- Promotions -->
+                <li class="dropdown {% if page.url contains '/promotions/' %}active{% endif %}">
+                    <a href="{{ link-lang }}/promotions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
            {% t navbar.promotions %} <span class="caret"></span></a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-             {% for promotion in sorted_promotions %}
-              <li><a href="{{ link-lang }}/promotions/#{{ promotion.master }}-{{promotion.year}}">{{ promotion.master }} {{ promotion.year}}</a></li>
-             {% endfor %}
-            </ul>
-          </li>
-
-          <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="{{ link-lang }}/news">{% t navbar.news %}</a></li>
-
-          <li class="dropdown {% if page.url contains '/courses/' %}active{% endif %}">
-          <a href="{{ link-lang }}/courses" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        {% for promotion in sorted_promotions %}
+                        <li><a href="{{ link-lang }}/promotions/#{{ promotion.master }}-{{promotion.year}}">{{ promotion.master }} {{ promotion.year}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li class="{% if page.url contains '/news/' %}active{% endif %}"><a href="{{ link-lang }}/news">{% t navbar.news %}</a></li>
+                <li class="dropdown {% if page.url contains '/courses/' %}active{% endif %}">
+                    <a href="{{ link-lang }}/courses" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
            {% t navbar.courses %} <span class="caret"></span></a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="{{ link-lang }}/courses/#S1">{% t global.s1 %}</a></li>
-              <li><a href="{{ link-lang }}/courses/#S2">{% t global.s2 %}</a></li>
-              <li><a href="{{ link-lang }}/courses/#S3">{% t global.s3 %}</a></li>
-              <li><a href="{{ link-lang }}/courses/#S4">{% t global.s4 %}</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="{{ link-lang }}/courses/#S1">{% t global.s1 %}</a></li>
+                        <li><a href="{{ link-lang }}/courses/#S2">{% t global.s2 %}</a></li>
+                        <li><a href="{{ link-lang }}/courses/#S3">{% t global.s3 %}</a></li>
+                        <li><a href="{{ link-lang }}/courses/#S4">{% t global.s4 %}</a></li>
+                    </ul>
+                </li>
+                <li class="{% if page.url contains '/entreprises/' %}active{% endif %}"><a href="{{ link-lang }}/entreprises">{% t navbar.entreprises %}</a></li>
+                {% if site.lang == "fr" %} {% capture link1 %}/en{{ page.url }}{% endcapture %} {% capture link2 %}/de{{ page.url }}{% endcapture %}
+                <li style="max-height:50px">
+                    <a href="{{ link1 }}"><img src="/images/United-Kingdom.png"></a>
+                </li>
+                <li style="max-height:50px">
+                    <a href="{{ link2 }}"><img src="/images/Germany.png"></a>
+                </li>
+                {% endif %} {% if site.lang == "en" %} {% capture link1 %}{{ page.url }}{% endcapture %} {% capture link2 %}{{ site.baseurl | replace:'en','de' }}{{ page.url }}{% endcapture %}
+                <li style="max-height:50px">
+                    <a href="{{ link1 }}"><img src="/images/France.png"></a>
+                </li>
+                <li style="max-height:50px">
+                    <a href="{{ link2 }}"><img src="/images/Germany.png"></a>
+                </li>
+                {% endif %} {% if site.lang == "de" %} {% capture link1 %}{{ page.url }}{% endcapture %} {% capture link2 %}{{ site.baseurl | replace:'de','en' }}{{ page.url }}{% endcapture %}
+                <li style="max-height:50px">
+                    <a href="{{ link1 }}"><img src="/images/France.png"></a>
+                </li>
+                <li style="max-height:50px">
+                    <a href="{{ link2 }}"><img src="/images/United-Kingdom.png"></a>
+                </li>
+                {% endif %}
             </ul>
-          </li>
-
-          <li class="{% if page.url contains '/entreprises/' %}active{% endif %}"><a href="{{ link-lang }}/entreprises">{% t navbar.entreprises %}</a></li>
-
-          {% if site.lang == "fr" %}
-            {% capture link1 %}/en{{ page.url }}{% endcapture %}
-            {% capture link2 %}/de{{ page.url }}{% endcapture %}
-            <li style="max-height:50px"><a href="{{ link1 }}"><img src="/images/United-Kingdom.png"></a></li>
-            <li style="max-height:50px"><a href="{{ link2 }}"><img src="/images/Germany.png"></a></li>
-          {% endif %}
-
-          {% if site.lang == "en" %}
-            {% capture link1 %}{{ page.url }}{% endcapture %}
-            {% capture link2 %}{{ site.baseurl | replace:'en','de' }}{{ page.url }}{% endcapture %}
-            <li style="max-height:50px"><a href="{{ link1 }}"><img src="/images/France.png"></a></li>
-            <li style="max-height:50px"><a href="{{ link2 }}"><img src="/images/Germany.png"></a></li>
-          {% endif %}
-
-          {% if site.lang == "de" %}
-            {% capture link1 %}{{ page.url }}{% endcapture %}
-            {% capture link2 %}{{ site.baseurl | replace:'de','en' }}{{ page.url }}{% endcapture %}
-            <li style="max-height:50px"><a href="{{ link1 }}"><img src="/images/France.png"></a></li>
-            <li style="max-height:50px"><a href="{{ link2 }}"><img src="/images/United-Kingdom.png"></a></li>
-          {% endif %}
-        </ul>
-
-      </div><!-- /.navbra-collapse -->
-
-    </div><!-- /.container-fluid -->
-  </nav>
-
-
-  <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-  <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-
+        </div>
+        <!-- /.navbra-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
         <div class="item active">
             <div class="slide1"></div>
         </div>
@@ -130,32 +112,30 @@
         <div class="item">
             <div class="slide5"></div>
         </div>
-      </div><!-- .carousel-inner -->
-
-      <div id="title-overlay" class="container carousel-overlay text-center">
-
-          <div class="col-md-8">
-          <h1>{% t global.masterName1 %}</h1>
-          <h1 style="text-align:center">{% t global.masterName2 %}</h1>
-            <blockquote class="testimonial"><h2>{% t global.slogan %}</h2></blockquote>
-
+    </div>
+    <!-- .carousel-inner -->
+    <div id="title-overlay" class="container carousel-overlay text-center">
+        <div class="col-md-8">
+            <h1>{% t global.masterName1 %}</h1>
+            <h1 style="text-align:center">{% t global.masterName2 %}</h1>
+            <blockquote class="testimonial">
+                <h2>{% t global.slogan %}</h2></blockquote>
             <a class="btn btn-lg btn-primary fp-buttons" href="mailto:contact-csmi@cemosis.fr">
                 <span class="fa fa-question"></span> {% t global.contactButton %}
             </a>
             <a class="btn btn-lg btn-success fp-buttons" href="https://aria.u-strasbg.fr/">
                 <span class="fa fa-check"></span> {% t global.applyButton %}
             </a>
-            </div>
-
-          <div class="col-md-4">
-          <!--<h2><span class="label label-default">{% t index.recentNewsTitle %}</span></h2>-->
-
-          <ul class="list-group" style="text-align:left;padding-top:20px;width: 100%;opacity: .8">
-          {% for post in site.tags.csmi limit:4 %}
-            <li class="list-group-item"><h4><small>[{{ post.categories }}] <a href="{{ post.url }}">{{ post.title }}</a></small></h4></li>
-          {% endfor %}
-          </ul>
-          </div>
         </div>
-
-  </div><!-- .carousel -->
+        <div class="col-md-4">
+            <!--<h2><span class="label label-default">{% t index.recentNewsTitle %}</span></h2>-->
+            <ul class="list-group" style="text-align:left;padding-top:20px;width: 100%;opacity: .8">
+                {% for post in site.tags.csmi limit:4 %}
+                <li class="list-group-item">
+                    <h4><small>[{{ post.categories }}] <a href="{{ post.url }}">{{ post.title }}</a></small></h4></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- .carousel -->
