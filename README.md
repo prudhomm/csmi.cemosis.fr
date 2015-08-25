@@ -52,3 +52,8 @@ tags: feelpp, cemosis, csmi
 ```
 
 ## Be sure the `categories:` that you write exists and is correct.
+
+
+# Webhook for 3 websites
+
+To setup webhook for feelpp.org csmi.unistra.fr and www.cemosis.fr, add a webhook that send to http://hostname:8080/hooks/news/master. Then destination machine will execute script to pull changes from news repository.
