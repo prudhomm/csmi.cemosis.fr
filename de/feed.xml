@@ -9,8 +9,8 @@ mathématique de l&#39;information.
 </description>
     <link>http://csmi.cemosis.fr//</link>
     <atom:link href="http://csmi.cemosis.fr//de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Jul 2015 01:32:09 +0200</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2015 01:32:09 +0200</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2015 14:56:47 +0200</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2015 14:56:47 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -30,6 +30,8 @@ mathématique de l&#39;information.
         <link>http://csmi.cemosis.fr//de/website/2015/07/22/site-update.html</link>
         <guid isPermaLink="true">http://csmi.cemosis.fr//de/website/2015/07/22/site-update.html</guid>
         
+        <category>csmi</category>
+        
         
         <category>website</category>
         
@@ -45,6 +47,8 @@ mathématique de l&#39;information.
         <pubDate>Fri, 17 Jul 2015 00:00:00 +0200</pubDate>
         <link>http://csmi.cemosis.fr//de/website/2015/07/17/creation-website.html</link>
         <guid isPermaLink="true">http://csmi.cemosis.fr//de/website/2015/07/17/creation-website.html</guid>
+        
+        <category>csmi</category>
         
         
         <category>website</category>
@@ -85,6 +89,8 @@ mathématique de l&#39;information.
         <pubDate>Sat, 11 Jul 2015 00:00:00 +0200</pubDate>
         <link>http://csmi.cemosis.fr//de/internship/2015/07/11/soutenances-de-stages.html</link>
         <guid isPermaLink="true">http://csmi.cemosis.fr//de/internship/2015/07/11/soutenances-de-stages.html</guid>
+        
+        <category>csmi</category>
         
         
         <category>internship</category>
