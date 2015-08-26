@@ -15,9 +15,9 @@ L'ordre de passage est [ici](https://docs.google.com/spreadsheets/d/1N4iS0fy-o6a
 | Étudiant | Entreprise/Structure | Titre |
 |----------|----------------------|-------|
 |Alexandre Corizzi|U. Rouen| Problème de diffusion en géophysique basé sur une méthode des volumes finis 3D|
-|Djebril Mokkadem| Dassault Systèmes| |
-|Pierre Gerhard| Cerema | | 
-| Marion Spreng| Hager Controls | |
-| Thomas Lantz | Holo3 | |
+|Djebril Mokkadem| Dassault Systèmes| Prototyping of 3D Tracking-Based Components for Augmented Reality|
+|Pierre Gerhard| Cerema | Caractérisation et modéelisation du champ sonore en acoustique du bâtiment : développement de modèles simplifiées spéecifiques aux locaux de formes complexes | 
+| Marion Spreng| Hager Controls | M4SE@Home |
+| Thomas Lantz | Holo3 | Digital Image Correlation |
 | Benjamin Vanthong| Holo3 | Reconstruction de surfaces |
-| Mamadou Camara  | ICube | |
+| Mamadou Camara  | ICube | Turbulences et transport de particules dans les fosses nasales|
