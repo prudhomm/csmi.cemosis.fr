@@ -2,7 +2,7 @@
 layout: news_item
 title: Soutenances de stages des M1/CSMI
 date: 2015-08-26
-author: prudhomm
+author: Christophe Prud'homme
 categories: website
 tags: csmi
 ---
