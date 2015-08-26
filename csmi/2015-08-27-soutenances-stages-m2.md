@@ -14,10 +14,10 @@ L'ordre de passage est [ici](https://docs.google.com/spreadsheets/d/1N4iS0fy-o6a
 
 | Étudiant | Entreprise/Structure | Titre |
 |----------|----------------------|-------|
-|Alexandre Corizzi|U. Rouen| |
+|Alexandre Corizzi|U. Rouen| Problème de diffusion en géophysique basé sur une méthode des volumes finis 3D|
 |Djebril Mokkadem| Dassault Systèmes| |
 |Pierre Gerhard| Cerema | | 
 | Marion Spreng| Hager Controls | |
 | Thomas Lantz | Holo3 | |
-| Benjamin Vanthong| Holo3 | |
+| Benjamin Vanthong| Holo3 | Reconstruction de surfaces |
 | Mamadou Camara  | ICube | |
