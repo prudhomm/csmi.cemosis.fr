@@ -23,3 +23,6 @@ L'ordre de passage est [ici](https://docs.google.com/spreadsheets/d/1N4iS0fy-o6a
 | Mamadou Camara  | ICube | Turbulences et transport de particules dans les fosses nasales|
 
 Les stages a Holo3 ont été effectués en collaboration avec [Cemosis](http://www.cemosis.fr).
+
+
+
