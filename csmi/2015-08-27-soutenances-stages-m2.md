@@ -3,7 +3,7 @@ layout: news_item
 title: Soutenances de stages des M2/CSMI
 date: 2015-08-27
 author: Christophe Prud'homme
-categories: website
+categories: internship
 tags: csmi
 ---
 
