@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [project]
 project: [HP-Feel++]
-tags: feelpp
+tags: [feelpp]
 ---
 
 The Hp-Feel++ project (6 Millions core hours on Curie@TGCC) was selected by

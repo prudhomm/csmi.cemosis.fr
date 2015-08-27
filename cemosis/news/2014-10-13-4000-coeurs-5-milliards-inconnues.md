@@ -4,8 +4,8 @@ title: Jusqu'à 40 000 coeurs et 5 milliards d'inconnues !
 date: 2014-10-13
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Grâce aux récents développements de Feel++ vers les préconditionneurs par sous-structuration pour la méthode des mortars/joints, des tests ont pu être effectués pour vérifier les propriétés mathématiques de ces préconditionneurs. Ainsi, des simulations jusqu'à 40 000 coeurs de calculs -  au [TGCC/CEA](http://www-hpc.cea.fr/fr/complexe/tgcc-curie.htm) sur la machine Curie - ont été effectués et ont validé ces préconditionneurs.

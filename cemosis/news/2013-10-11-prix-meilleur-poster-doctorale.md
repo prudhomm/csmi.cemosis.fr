@@ -4,8 +4,8 @@ title: Prix du meilleur poster de l'école doctorale - Ranine Tarabay
 date: 2013-10-11
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 <img src="/img/news/IMG_6876.JPG">

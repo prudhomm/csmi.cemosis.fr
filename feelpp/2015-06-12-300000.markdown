@@ -5,7 +5,7 @@ date: 2015-06-12
 author: vhuber
 fullname: Vincent HUBER
 categories: [news]
-tags: feelpp
+tags: [feelpp]
 ---
 
 Cemosis received 300'000 core hours from the [Strasbourg MesoCenter](https://hpc.unistra.fr/) to supports

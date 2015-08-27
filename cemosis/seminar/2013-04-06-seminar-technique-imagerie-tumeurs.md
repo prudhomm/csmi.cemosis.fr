@@ -4,8 +4,8 @@ title: Une nouvelle technique d'imagerie au service de la détection de tumeurs
 date: 2013-04-06
 author: prudhomm
 fullname: Christophe Prud'homme
-categories: seminar
-tags: cemosis
+categories: [seminar]
+tags: [cemosis]
 ---
 
 Dans un premier temps, Murielle Torregrossa de ICUBE/IMIS présentera  une nouvelle technique d'imagerie au service de la détection de tumeurs puis Zakaria Belhachmi fera une review des méthodes mathématiques pour ce type de problème. À  noter que cette présentation se place également dans le cadre du projet CeMoSiS DOT (Diffuse Optical Tomography).

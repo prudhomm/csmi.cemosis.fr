@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [project]
 project: [NS2++]
-tags: feelpp
+tags: [feelpp]
 ---
 
 Thanks to the funding of

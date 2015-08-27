@@ -4,8 +4,8 @@ title: Présentation aux JDEVs 2015 sur la Visualisation In-Situ
 date: 2015-06-08
 author: Alexandre
 fullname: Alexandre Ancel
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Du 30 Juin au 3 Juillet 2015, Cemosis sera présent à la 3ème édition des [Journées nationales du DEVeloppement logiciel de l'Enseignement Supérieur et Recherche (JDEVs)](http://devlog.cnrs.fr/jdev2015) à Bordeaux.

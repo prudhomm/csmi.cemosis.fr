@@ -5,8 +5,8 @@ title:
 date: 2015-08-17
 author: 
 fullname: 
-categories: interdisciplinary-bio-project
-tags: cemosis-project
+categories: [interdisciplinary-bio-project]
+tags: [cemosis-project]
 abstract: Contrairement aux liquides ordinaires et aux solides élastiques, les fluides complexes présentent plusieurs comportements étranges qui dépendent essentiellement de structures sous-jacentes qui composent ces fluides.
 img: /img/project/bio-medical/bloodrheol1-fe20d.png
 ---

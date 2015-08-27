@@ -4,8 +4,8 @@ title: Prix Mésochallenges equip@meso
 date: 2013-10-02
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Ce Vendredi 20 Septembre, le projet [*Calcul haute performance pour la simulation d'écoulements sanguins dans des géométries complexes*](http://www.cemosis.fr/projets/interdisciplinaires/sante-bio/bloodflow) a reçu le prix [Mesochallenge equip@meso](http://www.genci.fr/fr/node/378).

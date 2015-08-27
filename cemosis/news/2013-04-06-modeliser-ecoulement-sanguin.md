@@ -4,8 +4,8 @@ title:  Modéliser l’écoulement sanguin grâce au calcul haute performance da
 date: 2013-04-06
 author: prudhomm
 fullname: Christophe Prud'homme
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Le projet autour des écoulements sanguins a été mis en avant dans l'actu de Strasbourg. Il a été effectivement retenu par Le MesoChallenge de l'Université de Strasbourg

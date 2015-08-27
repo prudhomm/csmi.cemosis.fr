@@ -4,8 +4,8 @@ title: Giovanna Guidoboni, lauréate d’une Chaire Gutenberg
 date: 2014-10-13
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 [Madame Giovanna Guidoboni](http://www.cemosis.fr/home/actualites/bienvenueagiovannaguidoboni), professeur à l’université de Purdue (IUPUI) et titulaire d’une chaire d’attractivité Labex IRMIA/IUPUI, vient d’obtenir une prestigieuse Chaire Gutenberg.

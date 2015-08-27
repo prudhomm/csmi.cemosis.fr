@@ -4,8 +4,8 @@ title: 19e Rencontre Math Industrie autour du HPC, à Saclay
 date: 2015-06-08
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Sur le thème du HPC dans les entreprises et l’industrie: des outils mathématiques pour tirer profit des nouvelles capacités de calcul scientifique, la 19ème rencontre math industrie organisée par la SMAI et AMIES aura lieu à la Maison de la Simulation à Saclay le 22 juin 2015 en marge du forum TERATEC qui commence le 23 juin.

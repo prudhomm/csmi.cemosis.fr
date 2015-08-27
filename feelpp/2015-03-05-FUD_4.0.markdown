@@ -6,7 +6,7 @@ author: vhuber
 fullname: Vincent HUBER
 categories: [workshop]
 workshop: [FUD4]
-tags: feelpp
+tags: [feelpp]
 ---
 
 The Center of Modeling and Simulation in Strasbourg as well as the

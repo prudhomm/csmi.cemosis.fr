@@ -4,8 +4,8 @@ title: Soutenances
 date: 2013-09-04
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Différents stages hébergés par Cemosis ont été soutenus fin Août 2013.

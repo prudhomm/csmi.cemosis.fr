@@ -4,8 +4,8 @@ title: Jeudi 20 juin 11h Seminaire EDP &#58; Mourad Ismail (Liphy/Grenoble) sur 
 date: 2013-06-19
 author: prudhomm
 fullname: Christophe Prud'homme
-categories: seminar
-tags: cemosis
+categories: [seminar]
+tags: [cemosis]
 ---
 
 ####Lieu et Date

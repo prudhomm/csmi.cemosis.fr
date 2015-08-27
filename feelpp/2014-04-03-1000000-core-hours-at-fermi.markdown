@@ -5,7 +5,7 @@ date: 2014-04-03
 author: prudhomm
 fullname: Christophe Prud'homme
 categories: [news]
-tags: feelpp
+tags: [feelpp]
 ---
 
 We received 1'000'000 core hours for developing a scalable substructuring

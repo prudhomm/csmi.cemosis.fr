@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [project]
 project: [HAMM/Mortar]
-tags: feelpp
+tags: [feelpp]
 ---
 
 We are developing a substructuring preconditioner for the

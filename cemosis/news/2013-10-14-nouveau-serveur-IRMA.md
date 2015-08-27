@@ -4,8 +4,8 @@ title: Un nouveau serveur de calcul scientifique à l'IRMA / A new server for sc
 date: 2013-10-14
 author: Alexandre
 fullname: Alexandre Ancel
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 English version below

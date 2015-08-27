@@ -8,7 +8,7 @@ categories: [webinar]
 webinar: Feel++ and HifiMagnet
 topic: [Feel++ & HiFiMagnet]
 project: [Feel++ & HiFiMagnet]
-tags: feelpp
+tags: [feelpp]
 ---
 
 C. Daversin will present the advances of the HiFiMagnet (High Field

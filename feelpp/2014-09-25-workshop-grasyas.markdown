@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [workshop]
 workshop: [GSA]
-tags: feelpp
+tags: [feelpp]
 ---
 
 

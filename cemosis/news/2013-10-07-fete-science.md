@@ -4,8 +4,8 @@ title: Fête de la science !
 date: 2013-10-07
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 La "Fête de la Science" (http://www.fetedelascience.fr/) organisée par le ministère de l'enseignement supérieur et de la recherche qui a lieu du 9 au 13 Octobre 2013 a pour thème cette année : "De l'infiniment grand à l'infiniment petit".

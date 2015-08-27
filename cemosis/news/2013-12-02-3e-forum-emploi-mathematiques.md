@@ -4,8 +4,8 @@ title: 3e Forum Emploi Mathématiques
 date: 2013-12-02
 author: Alexandre
 fullname: Alexandre Ancel
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Le 3e [Forum Emploi Mathématiques](http://www.forum-emploi-maths.org/) (FEM) se tiendra le 6 décembre 2013 au Conservatoire National des Arts et Métiers à Paris ([plan d'accès](https://www.google.fr/maps/preview#!data=!1m4!1m3!1d3250!2d2.3550472!3d48.8668574!4m12!2m11!1m10!1s0x0%3A0x46dad820509383bc!3m8!1m3!1d84435!2d7.7801151!3d48.5984714!3m2!1i1024!2i768!4f13.1)).
