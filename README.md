@@ -51,10 +51,27 @@ tags: [feelpp, cemosis, csmi]
 ---
 ```
 
-## Be sure the `categories:` that you write exists and is correct.
+### Be sure the `categories:` that you write exists and is correct.
 
 
 # Webhook for 3 websites
 
 To setup news webhook for feelpp.org, csmi.unistra.fr and www.cemosis.fr add a webhook that send to http://hostname:8080/hooks/news/master. Then destination machine will execute script to pull changes from news repository and push commits into their own repositories. 
 
+## Write post as project for www.cemosis.fr
+
+```yaml
+---
+layout: project_item
+name: Chorus
+title: "Méthodes de Réduction d'Ordre en Aérothermie: Application aux systèmes d'air conditionné de cabine d'avion"
+date: 2015-08-17
+author: 
+fullname: 
+categories: [entreprise-project]
+tags: [cemosis-project]
+abstract: Dans ce projet nous nous intéressons à des méthodes de réduction d'ordre pour des problèmes d'aérothermie.
+img: /img/project/cabin.png
+collaborator: 
+---
+```
