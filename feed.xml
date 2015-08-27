@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Master Calcul Scientifique et Mathématiques de l&#39;Information</title>
-    <description>Le Master CSMI s&#39;adresse aux titulaires d&#39;une licence de mathématiques qui souhaitent s&#39;orienter vers une carrière 
-d&#39;ingénieur ou vers une thèse dans un domaine des mathématiques appliquées. 
-L&#39;objectif de cette formation est de donner une double compétence en calcul scientifique et en 
-mathématique de l&#39;information.
+    <title>Master Calcul Scientifique et Mathématiques de l'Information</title>
+    <description>Le Master CSMI s'adresse aux titulaires d'une licence de mathématiques qui souhaitent s'orienter vers une carrière 
+d'ingénieur ou vers une thèse dans un domaine des mathématiques appliquées. 
+L'objectif de cette formation est de donner une double compétence en calcul scientifique et en 
+mathématique de l'information.
 </description>
     <link>http://csmi.cemosis.fr//</link>
     <atom:link href="http://csmi.cemosis.fr//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Aug 2015 14:56:43 +0200</pubDate>
-    <lastBuildDate>Tue, 25 Aug 2015 14:56:43 +0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Thu, 27 Aug 2015 10:21:53 +0200</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2015 10:21:53 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Mise à jour du site, quelques nouveautés</title>
