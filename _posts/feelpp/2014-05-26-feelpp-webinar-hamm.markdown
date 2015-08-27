@@ -8,7 +8,7 @@ categories: [webinar]
 webinar: HAMM/Mortar
 topic: [preconditioner]
 project: [HAMM/Mortar]
-tags: feelpp
+tags: [feelpp]
 ---
 
 The bi-monthly Feel++ webinar will have a presentation by

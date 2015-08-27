@@ -5,8 +5,8 @@ title: Détection de tumeurs par Tomographie Optique Diffuse
 date: 2015-08-17
 author: 
 fullname: 
-categories: interdisciplinary-bio-project
-tags: cemosis-project
+categories: [interdisciplinary-bio-project]
+tags: [cemosis-project]
 abstract: La tomographie optique résolue en temps est une technique d'imagerie clinique et pré-clinique permettant de reconstruire des cartes d'absorptions et de diffusion optiques des organes explorés par l'utilisation de lumière proche infrarouge (équations de diffusion, problème inverse, régularisation, optimisation).
 img: /img/project/bio-medical/optique1.jpg
 ---

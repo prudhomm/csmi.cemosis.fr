@@ -5,8 +5,8 @@ title: "De l'IRM réelle à l'IRM virtuelle : modéliser les flux sanguins dans 
 date: 2015-08-17
 author: 
 fullname: 
-categories: interdisciplinary-bio-project
-tags: cemosis-project
+categories: [interdisciplinary-bio-project]
+tags: [cemosis-project]
 abstract: Le but du projet ANR [Vivabrain](http://www.vivabrain.fr/) consiste à développer un protocole complet pour la création d’angiographies virtuelles des réseaux vasculaires cérébraux. Il s’agit d’un travail à l’interface entre informatique (traitement, analyse, synthèse d’image, génération de maillages) et mathématiques appliquées (mécanique des fluides, interaction fluides/structures).
 img: /img/project/bio-medical/MesoChallengeStreamlinesV30.png
 ---

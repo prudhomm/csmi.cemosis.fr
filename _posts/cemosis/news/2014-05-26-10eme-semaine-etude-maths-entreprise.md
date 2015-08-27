@@ -4,8 +4,8 @@ title: 10ème Semaine d'Étude Maths-Entreprises du 23 au 27 juin 2014
 date: 2014-05-26
 author: Alexandre
 fullname: Alexandre Ancel
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 La 10ème Semaine d'Étude Maths-Entreprises se tiendra  du 23 au 27 juin 2014 à l'UFR Mathématiques-Informatique de l'Université de Strasbourg. 

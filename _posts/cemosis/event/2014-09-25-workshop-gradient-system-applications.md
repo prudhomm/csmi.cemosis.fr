@@ -4,8 +4,8 @@ title: Workshop "Gradient Systems and applications"
 date: 2014-09-25
 author: 
 fullname: 
-categories: event
-tags: cemosis
+categories: [event]
+tags: [cemosis]
 period: 25-26/09/14
 ---
 

@@ -15,8 +15,8 @@ layout: news_item
 title: tile
 date: 2015-07-17
 author: Admin
-categories: website
-tags: csmi
+categories: [website]
+tags: [csmi]
 ---
 ```
 
@@ -30,13 +30,13 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [project]
 project: [HP-Feel++]
-tags: feelpp
+tags: [feelpp]
 ---
 ```
 
 ## News for several websites
 
-If you want to display a news in several websites, just add one or two more website names in the `tags:`.
+If you want to display a news in several websites, just add one or two more website names in the `tags:`. Close `tags` and `categories` in square brackets to avoid parsing issue.
 
 ```yaml
 ---
@@ -47,7 +47,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [project]
 project: [HP-Feel++]
-tags: feelpp, cemosis, csmi
+tags: [feelpp, cemosis, csmi]
 ---
 ```
 
@@ -57,3 +57,4 @@ tags: feelpp, cemosis, csmi
 # Webhook for 3 websites
 
 To setup webhook for feelpp.org csmi.unistra.fr and www.cemosis.fr, add a webhook that send to http://hostname:8080/hooks/news/master. Then destination machine will execute script to pull changes from news repository and push commits into their own repositories. 
+    

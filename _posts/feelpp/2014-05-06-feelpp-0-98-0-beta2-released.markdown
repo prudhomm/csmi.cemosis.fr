@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 version: v0.98.0-beta.2
 categories: [release]
-tags: feelpp
+tags: [feelpp]
 ---
 
 The Beta 2 of Feel++ 0.98.0 has been released

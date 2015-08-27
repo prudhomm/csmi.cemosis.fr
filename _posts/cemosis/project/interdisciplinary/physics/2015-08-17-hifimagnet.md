@@ -5,8 +5,8 @@ title: Modélisation multi physique d'aimants à haut champ
 date: 2015-08-17
 author: 
 fullname: 
-categories: interdisciplinary-physics-project
-tags: cemosis-project
+categories: [interdisciplinary-physics-project]
+tags: [cemosis-project]
 abstract: Le Laboratoire National des Champs Magnétiques Intenses (LNCMI) est un Très Grand Equipement du CNRS permettant aux chercheurs de réaliser des expériences sous champ magnétique intense (ie. supérieur au champ pouvant être produit par des aimants supraconducteurs, soit 24 T).
 img: /img/project/physics/temperature_M1_I16000_ws.png
 ---

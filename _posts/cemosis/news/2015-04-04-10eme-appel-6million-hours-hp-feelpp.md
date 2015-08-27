@@ -4,8 +4,8 @@ title: Le 10eme appel Prace décerne 6 Millions d'heures coeurs pour le projet H
 date: 2015-04-04
 author: Christophe
 fullname: Christophe Prud'homme
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Le résumé en anglais:

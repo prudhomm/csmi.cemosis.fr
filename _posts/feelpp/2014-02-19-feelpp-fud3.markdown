@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [workshop]
 workshop: [FUD3]
-tags: feelpp
+tags: [feelpp]
 ---
 
 

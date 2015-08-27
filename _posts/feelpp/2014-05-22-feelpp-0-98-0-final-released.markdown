@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 version: v0.98.0-final
 categories: [release]
-tags: feelpp
+tags: [feelpp]
 ---
 
 Feel++ 0.98.0 has been released. The tarball is [here](https://github.com/feelpp/feelpp/releases) and it is available on

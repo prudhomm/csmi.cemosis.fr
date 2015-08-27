@@ -4,8 +4,8 @@ title: Rapport d'activité 2013 2014
 date: 2014-09-04
 author: Vincent 
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Vous trouverez ci-dessous le rapport d'activité de Cemosis, bonne lecture !

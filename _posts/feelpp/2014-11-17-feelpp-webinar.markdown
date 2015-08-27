@@ -8,7 +8,7 @@ categories: [webinar]
 webinar: Feel++
 topic:
 project: [Feel++]
-tags: feelpp
+tags: [feelpp]
 ---
 
 J. Veysset a new postdoctorate fellow who joined our team in november

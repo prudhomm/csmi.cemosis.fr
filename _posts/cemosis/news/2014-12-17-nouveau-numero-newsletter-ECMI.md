@@ -4,8 +4,8 @@ title: Nouveau numéro de la newsletter ECMI
 date: 2014-12-17
 author: Alexandre
 fullname: Alexandre Ancel
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Un nouveau numéro de la newsletter ECMI est disponible à [cette adresse](http://www.mafy.lut.fi/EcmiNL/issues.php?action=downiss&ID=56).

@@ -6,7 +6,7 @@ author: prudhomm
 fullname: Christophe Prud'homme
 categories: [project]
 project: [Eye2Brain]
-tags: feelpp
+tags: [feelpp]
 ---
 
 Thanks to the funding of the Labex IRMIA (Université de Strasbourg)

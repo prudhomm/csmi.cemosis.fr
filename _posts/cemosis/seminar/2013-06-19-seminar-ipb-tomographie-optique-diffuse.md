@@ -4,8 +4,8 @@ title: Jeudi 20 juin 14h30 Séminaire IPB &#58; Tomographie optique diffuse (Lio
 date: 2013-06-19
 author: prudhomm
 fullname: Christophe Prud'homme
-categories: seminar
-tags: cemosis
+categories: [seminar]
+tags: [cemosis]
 ---
 
 ###Titre

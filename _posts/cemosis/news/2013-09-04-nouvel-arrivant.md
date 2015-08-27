@@ -4,8 +4,8 @@ title: Nouvel arrivant
 date: 2013-09-04
 author: Vincent
 fullname: Vincent Huber
-categories: news
-tags: cemosis
+categories: [news]
+tags: [cemosis]
 ---
 
 Cemosis accueille un nouveau membre: [Alexandre Ancel](http://www.cemosis.fr/qui-sommes-nous).

@@ -8,7 +8,7 @@ categories: [webinar]
 webinar: dot
 topic: [dot]
 project: [DOT]
-tags: feelpp
+tags: [feelpp]
 ---
 
 G. Dollé will present the advances of the DOT (diffuse optical

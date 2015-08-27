@@ -4,8 +4,8 @@ title: Rencontre Xtra-dev&#58; Présentation de CeMoSiS le 23 mai à 14h à l'UF
 date: 2013-05-21
 author: prudhomm
 fullname: Christophe Prud'homme
-categories: seminar
-tags: cemosis
+categories: [seminar]
+tags: [cemosis]
 ---
 
 Une présentation de CeMoSiS sera faite lors du séminaire Xtra-dev à l'UFR Math-Info en salle 301 le 23 mai 2011.
