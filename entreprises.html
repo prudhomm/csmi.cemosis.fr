@@ -8,27 +8,30 @@ permalink: /entreprises/
 </div>
 
 <div class="container-fluid" style="text-align:center">
-	{% for entreprise in site.data.entreprise.entreprise %}
-	<div class="row-fluid">
-		<div class="col-md-4">
+ {% for entreprise in site.data.entreprise.entreprise %}
+ <div class="row-fluid">
+  <div class="col-md-4">
 
-			<a class="anchor" name="{{ entreprise.id }}"></a>
-				<h3>{{ entreprise.name }}</h3></td>
-					
-					{% if entreprise.logo %}
-						<img src="{{ entreprise.logo }}" width="128px">
-					{% else %}
-						<img src="/images/photos/unknown-id-128x128.png" width="128px">
-					{% endif %}
-		</div>
-		<div class="col-md-8">
-					<blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-1 }}</p></blockquote>
-        			<p class="testimonial-author">{{ entreprise.testimony-1-author }} | <span>{{ entreprise.testimony-1-job }}</span></p>
+   <a class="anchor" name="{{ entreprise.id }}"></a>
+    <h3>{{ entreprise.name }}</h3></td>
 
-					<blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-2 }}</p></blockquote>
-        			<p class="testimonial-author">{{ entreprise.testimony-2-author }} | <span>{{ entreprise.testimony-2-job }}</span></p>
-        </div>
+     {% if entreprise.logo %}
+      <img src="{{ entreprise.logo }}" width="128px">
+     {% else %}
+      <img src="/images/photos/unknown-id-128x128.png" width="128px">
+     {% endif %}
+     <center> {{ entreprise.description }} </center>
+  </div>
+  <div class="col-md-8">
+     <blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-1 }}</p></blockquote>
+           <p class="testimonial-author">{{ entreprise.testimony-1-author }} | <span>{{ entreprise.testimony-1-date }}</span> | <span>{{ entreprise.testimony-1-job }}</span></p>
+
+     {% if entreprise.testimony-2 %}
+      <blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-2 }}</p></blockquote>
+           <p class="testimonial-author">{{ entreprise.testimony-2-author }} | <span>{{ entreprise.testimony-2-date }}</span> | <span>{{ entreprise.testimony-2-job }}</span></p>
+     {% endif %}
+  </div>
     </div>
     <hr>
-	{% endfor %}
+ {% endfor %}
 </div>

@@ -286,10 +286,10 @@
               {% for entreprise in site.data.entreprise.entreprise %}
               <div class="col-md-4">
                   <p>
-                      <a href="entreprise.website"></a>
+                      <a href="{{ entreprise.website }}">
                       {% if entreprise.logo %}
-                      <img src="{{ entreprise.logo }}"> {% else %}
-                      <img src="/images/photos/unknown-id-128x128.png"> {% endif %}
+                      <img src="{{ entreprise.logo }}" width="128px"> {% else %}
+                      <img src="/images/photos/unknown-id-128x128.png" width="128px"> {% endif %}</a>
                   </p>
               </div>
               {% include entreprise-3-each-row.html %} {% endfor %}
