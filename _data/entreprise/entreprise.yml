@@ -1,45 +1,8 @@
-- name: Entreprise 1
+- name: Plastic Omnium Auto Extérieur Services
   id: 1
-  logo: 
-  website: 
-  testimony-1: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-1-author: t1
-  testimony-1-job: job
-  testimony-2: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-2-author: t2
-  testimony-2-job: job
-  description: 
-- name: Entreprise 2
-  id: 2
-  logo: 
-  website: 
-  testimony-1: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-1-author: t1
-  testimony-1-job: job
-  testimony-2: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-2-author: t2
-  testimony-2-job: job
-  description:
-- name: Entreprise 3
-  id: 3
-  logo: 
-  website: 
-  testimony-1: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-1-author: t1
-  testimony-1-job: job
-  testimony-2: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-2-author: t2
-  testimony-2-job: job
-  description:
-- name: Entreprise 4
-  id: 4
-  logo: 
-  website: 
-  testimony-1: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-1-author: t1
-  testimony-1-job: job
-  testimony-2: Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano populo destinatis frumentum dedit, pauloque postea cum provenisset segetum copia, integre sine ulla restituit mora.
-  testimony-2-author: t1
-  testimony-2-job: job
-  description: 
-  
+  logo: /images/logos/logo-po.jpg
+  website:
+  testimony-1: Certains projets en recherche et innovation à Plastic Omnium peuvent demander des outils de développement numérique pour tester partiellement de nouvelles idées de modélisation. Nous avons donc cherché un logiciel libre parallélisé à installer sur notre cluster, permettant de résoudre des systèmes d’équations aux dérivées partielles. Avec sa librairie d’opérateurs et de solveurs disponibles, le logiciel Feel++ correspondait à cette attente. Un premier sujet portant sur le calcul de modes propres, confié à un stagiaire en master 2 nous a permis de nous familiariser avec le logiciel et de démarrer une collaboration sur un travail de recherche en mécanique des fluides, associant les compétences industrielles et universitaires. Le souhait est maintenant de consolider l’utilisation de Feel++ dans l’équipe avec le support de l’université. Le master 2 en  math/calcul scientifique/HPC est donc une formation bien adaptée à cet objectif.
+  testimony-1-author: Philippe Gilotte
+  testimony-1-job: Chef de Projet Recherche
+  testimony-1-date: 27/08/2015
