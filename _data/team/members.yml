@@ -102,7 +102,7 @@
   office:
   email: pda@unistra.fr
   telephone:
-  photo:
+  photo: /images/photos/pda-id.jpg
   web:
   id: m12
 
@@ -111,6 +111,6 @@
   office:
   email: olivier.guichard@math.unistra.fr
   telephone:
-  photo:
+  photo: /images/photos/og-id.jpg
   web:
   id: m13
