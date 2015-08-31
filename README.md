@@ -3,7 +3,7 @@
 ## Use `tags: website-name` in the Front Matter
 
 This repository contains all the news of three websites above.
-To write a post for a specific website, be sure to use right `tag` in the `Front Matter` of every markdown file.
+To write a post for a specific website, be sure to use right `tags` in the `Front Matter` of every markdown file.
 
 Two examples for two websites:
 
@@ -75,3 +75,5 @@ img: /img/project/cabin.png
 collaborator: 
 ---
 ```
+
+Actually there are 3 types of project for cemosis website: `[interdisciplinary-bio-project]`, `[entreprise-project]` and `[interdisciplinary-physics-project]`. They are all under the same tags: `[cemosis-project]`.
