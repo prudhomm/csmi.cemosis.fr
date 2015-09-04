@@ -1,14 +1,15 @@
 ---
 layout: project_item
 name: Planification de Procédures Médicales
-title: 
+title:
 date: 2015-08-17
-author: 
-fullname: 
+author:
+fullname:
 categories: [interdisciplinary-bio-project]
 tags: [cemosis-project]
-abstract: La thermo-ablation de tumeurs est une intervention de chirurgie mini-invasive qui consiste à implanter une ou plusieurs aiguilles directement dans la tumeur pour la détruire par la chaleur ou le froid. La planification préopératoire de ce geste chirurgical est une étape décisive du processus interventionnel. Elle consiste pour le radiologue interventionnel à déterminer une ou plusieurs trajectoires d’aiguilles sûres pour le patient et efficaces. D’une bonne planification dépend le succès de l’intervention. Or cette étape reste encore souvent longue, fastidieuse et imprécise. Les radiologues interventionnels et chirurgiens sont en forte attente d’une réelle assistance pour ce genre de planification.
+abstract: La thermo-ablation de tumeurs est une intervention de chirurgie mini-invasive qui consiste à implanter une ou plusieurs aiguilles directement dans la tumeur pour la détruire par la chaleur ou le froid. La planification préopératoire de ce geste chirurgical est une étape décisive du processus interventionnel. Elle consiste pour le radiologue interventionnel à déterminer une ou plusieurs trajectoires d’aiguilles sûres pour le patient et efficaces. Les radiologues interventionnels et chirurgiens sont en forte attente d’une réelle assistance pour ce genre de planification.
 img: /img/project/bio-medical/diri_1.png
+collaborator:
 ---
 
 <img src="/img/project/bio-medical/ablationtumeur1-cbaeb.png" style="display: inline;float: left;margin: 5px 5px 0px 0px;">

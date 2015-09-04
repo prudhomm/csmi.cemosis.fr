@@ -9,6 +9,7 @@ categories: [interdisciplinary-physics-project]
 tags: [cemosis-project]
 abstract: Le but de HydroMorpho est de simuler le transports de sédiments en fonds marins en couplant Navier-Stokes et Exner.
 img: /img/project/hydro.png
+collaborator: 
 ---
 
 <h5>Problématique :</h5>
