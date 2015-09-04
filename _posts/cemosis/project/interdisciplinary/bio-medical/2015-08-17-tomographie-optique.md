@@ -3,12 +3,13 @@ layout: project_item
 name: Tomographie Optique
 title: Détection de tumeurs par Tomographie Optique Diffuse
 date: 2015-08-17
-author: 
-fullname: 
+author:
+fullname:
 categories: [interdisciplinary-bio-project]
 tags: [cemosis-project]
 abstract: La tomographie optique résolue en temps est une technique d'imagerie clinique et pré-clinique permettant de reconstruire des cartes d'absorptions et de diffusion optiques des organes explorés par l'utilisation de lumière proche infrarouge (équations de diffusion, problème inverse, régularisation, optimisation).
 img: /img/project/bio-medical/optique1.jpg
+collaborator: 
 ---
 
 La tomographie optique résolue en temps est une technique d'imagerie clinique et pré-clinique permettant de reconstruire des cartes d'absorptions et de diffusion optiques des organes explorés par l'utilisation de lumière proche infrarouge (équations de diffusion, problème inverse, régularisation, optimisation).
@@ -24,7 +25,7 @@ Son domaine d'application s'oriente naturellement vers la cancérologie (mammogr
 
 Le but final de ce projet est d'apporter à la communauté médicale un outils fiable et performant d'analyse du métabolisme à des fins thérapeutiques.
 
-<center> 
+<center>
 <p><b>Simulation directe.</b></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zYQ7sBZB2Fw" frameborder="0" allowfullscreen></iframe>
 <p>Contour volumique de la lumière diffusé dans le cylindre.</p>
