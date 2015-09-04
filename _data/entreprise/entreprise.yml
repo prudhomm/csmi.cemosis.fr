@@ -8,12 +8,12 @@
   testimony-1-job: Chef de Projet Recherche
   testimony-1-date: 27/08/2015
 
-- name: Hager Controls
-  id: 2
-  logo: /images/logos/logo-hager.jpg
-  website: http://www.hagergroup.com
-  description: Fournisseur leader de solutions et de services pour les installations électriques dans les bâtiments résidentiels, tertiaires et industriels
-  testimony-1:
-  testimony-1-author: Bertrand Legrand
-  testimony-1-job: Chef de Projet
-  testimony-1-date: 01/09/2015
+# - name: Hager Controls
+#  id: 2
+#  logo: /images/logos/logo-hager.jpg
+#  website: http://www.hagergroup.com
+#  description: Fournisseur leader de solutions et de services pour les installations électriques dans les bâtiments résidentiels, tertiaires et industriels
+#  testimony-1:
+#  testimony-1-author: Bertrand Legrand
+#  testimony-1-job: Chef de Projet
+#  testimony-1-date: 01/09/2015
