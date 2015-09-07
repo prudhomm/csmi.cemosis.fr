@@ -63,13 +63,13 @@
     </center>
     <div class="row-fluid">
       {% for testimony in site.data.entreprise.entreprise | limit:4 %}
-        {% if entreprise.testimony-1 %}
+        {% if testimony.testimony-1 %}
         <div class="col-md-6">
             <blockquote class="testimonial">
                 <p id="{{ testimony.id }}" class="read-more">{{ testimony.testimony-1 }}</p>
             </blockquote>
             <div class="arrow-down"></div>
-            <p class="testimonial-author">{{ testimony.testimony-1-author }} | <span>{{ testimony.testimony-1-date }}</span>  | <span>{{ testimony.testimony-1-job }}</span></p>
+            <p class="testimonial-author">{{ testimony.testimony-1-author }} | <span>{{ testimony.name }}</span> | <span>{{ testimony.testimony-1-date }}</span>  | <span>{{ testimony.testimony-1-job }}</span></p>
         </div>
         {% endif %}
       {% endfor %}
@@ -307,8 +307,8 @@
                   <p>
                       <a href="{{ entreprise.website }}">
                       {% if entreprise.logo %}
-                      <img src="{{ entreprise.logo }}" width="256px"> {% else %}
-                      <img src="/images/photos/unknown-id-128x128.png" height="100"> {% endif %}</a>
+                      <img src="{{ entreprise.logo }}" height="100px"> {% else %}
+                      <img src="/images/photos/unknown-id-128x128.png" height="100px"> {% endif %}</a>
                   </p>
               </div>
               {% include entreprise-3-each-row.html %} {% endfor %}
