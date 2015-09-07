@@ -8,12 +8,30 @@
   testimony-1-job: Chef de Projet Recherche
   testimony-1-date: 27/08/2015
 
-# - name: Hager Controls
-#  id: 2
-#  logo: /images/logos/logo-hager.jpg
-#  website: http://www.hagergroup.com
-#  description: Fournisseur leader de solutions et de services pour les installations électriques dans les bâtiments résidentiels, tertiaires et industriels
+- name: Hager Controls
+  id: 2
+  logo: /images/logos/logo-hager.jpg
+  website: http://www.hagergroup.com
+  description: Fournisseur leader de solutions et de services pour les installations électriques dans les bâtiments résidentiels, tertiaires et industriels
 #  testimony-1:
 #  testimony-1-author: Bertrand Legrand
 #  testimony-1-job: Chef de Projet
 #  testimony-1-date: 01/09/2015
+
+- name: Holo3
+  id: 3
+  logo: /images/logos/logo-holo3.jpg
+  website: http://www.holo3.com
+  description: Centre de transfert de technologie spécialisé dans les techniques optiques et d'imagerie
+
+- name: Dassault Systèmes
+  id: 4
+  logo: /images/logos/logo-3ds.png
+  website: http://www.3ds.com
+  description: Leader mondial dans les logiciels de conception en 3D, de maquette numérique 3D et de solutions pour la gestion du cycle de vie d’un produit
+
+- name: Airbus Group
+  id: 5
+  logo: /images/logos/logo-airbus.png
+  website: http://www.airbusgroup.com/
+  description: Groupe industriel européen présent dans le secteur aéronautique et spatial civil et militaire.

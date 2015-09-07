@@ -56,6 +56,25 @@
         {% endfor %}
     </div>
     <center style="padding-top:50px">{% t index.testimonyPanel.joinGroup %} <a href="https://www.linkedin.com/groups?home=&amp;gid=3923807&amp;trk=anet_ug_hm"><i class="fa fa-linkedin fa-lg"></i>&nbsp{% t index.testimonyPanel.groupLink %}</a></center>
+
+    <center>
+        <div style="padding-bottom:50px;">
+            <h2>Témoignages d'entreprises</h2></div>
+    </center>
+    <div class="row-fluid">
+      {% for testimony in site.data.entreprise.entreprise | limit:4 %}
+        {% if entreprise.testimony-1 %}
+        <div class="col-md-6">
+            <blockquote class="testimonial">
+                <p id="{{ testimony.id }}" class="read-more">{{ testimony.testimony-1 }}</p>
+            </blockquote>
+            <div class="arrow-down"></div>
+            <p class="testimonial-author">{{ testimony.testimony-1-author }} | <span>{{ testimony.testimony-1-date }}</span>  | <span>{{ testimony.testimony-1-job }}</span></p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
 </div>
 <span class="anchor" id="access"></span>
 <div id="panel-access" class="container-fluid">
@@ -288,8 +307,8 @@
                   <p>
                       <a href="{{ entreprise.website }}">
                       {% if entreprise.logo %}
-                      <img src="{{ entreprise.logo }}" width="128px"> {% else %}
-                      <img src="/images/photos/unknown-id-128x128.png" width="128px"> {% endif %}</a>
+                      <img src="{{ entreprise.logo }}" width="256px"> {% else %}
+                      <img src="/images/photos/unknown-id-128x128.png" height="100"> {% endif %}</a>
                   </p>
               </div>
               {% include entreprise-3-each-row.html %} {% endfor %}
