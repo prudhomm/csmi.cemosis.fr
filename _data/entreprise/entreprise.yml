@@ -41,3 +41,9 @@
   logo: /images/logos/logo-axessim.png
   website: http://www.axessim.eu/
   description: Conception et au développement de logiciels destinés aux entreprises et laboratoires de recherche
+
+- name: Altran 
+  id: 7
+  logo: /images/logos/logo-altran.jpg
+  website: http://www.altran.fr
+  description: Entreprise de conseil en innovation et ingénierie avancée
