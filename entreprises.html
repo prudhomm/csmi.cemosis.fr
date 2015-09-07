@@ -22,10 +22,11 @@ permalink: /entreprises/
      {% endif %}
      <center> {{ entreprise.description }} </center>
   </div>
-  <div class="col-md-8">
+<div class="col-md-8">
+     {% if entreprise.testimony-1 %}
      <blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-1 }}</p></blockquote>
            <p class="testimonial-author">{{ entreprise.testimony-1-author }} | <span>{{ entreprise.testimony-1-date }}</span> | <span>{{ entreprise.testimony-1-job }}</span></p>
-
+     {% endif %}
      {% if entreprise.testimony-2 %}
       <blockquote class="testimonial"><p id="{{  }}">{{ entreprise.testimony-2 }}</p></blockquote>
            <p class="testimonial-author">{{ entreprise.testimony-2-author }} | <span>{{ entreprise.testimony-2-date }}</span> | <span>{{ entreprise.testimony-2-job }}</span></p>
