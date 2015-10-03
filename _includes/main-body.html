@@ -45,7 +45,7 @@
             <h2>{% t index.testimonyPanel.title %}</h2></div>
     </center>
     <div class="row-fluid">
-        {% for testimony in site.data.testimony.testimony | limit:4 %}
+        {% for testimony in site.data.testimony.testimony | limit:6 %}
         <div class="col-md-6">
             <blockquote class="testimonial">
                 <p id="{{ testimony.id }}" class="read-more">{{ testimony.testimony }}</p>
@@ -214,6 +214,20 @@
             </a>
         </div>
         <div class="col-md-4">
+         <h3 class="marketing-title">Espace Avenir</h3>
+         <a href="">
+             <div class="thumbnail" style="width=50%">
+                 <img src="/images/logos/logo-espace-avenir.png" style="min-height:256px;height:256px;">
+                 <div class="caption">
+                     <address>
+                         <strong></strong>
+                         <br>
+                         <span class="article-highlight-label"></span>
+                         <br>
+                     </address>
+                 </div>
+             </div>
+         </a>
         </div>
         <div class="col-md-4">
         </div>

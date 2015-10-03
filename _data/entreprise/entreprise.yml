@@ -13,10 +13,10 @@
   logo: /images/logos/logo-hager.jpg
   website: http://www.hagergroup.com
   description: Fournisseur leader de solutions et de services pour les installations électriques dans les bâtiments résidentiels, tertiaires et industriels
-#  testimony-1:
-#  testimony-1-author: Bertrand Legrand
-#  testimony-1-job: Chef de Projet
-#  testimony-1-date: 01/09/2015
+  testimony-1: Durant la phase de formalisation d’un de nos projets de développement, nous avons été confrontés à un problème de régulation temps réel. Après une première approche très focalisée dans notre domaine de compétences il nous a paru important pouvoir s’ouvrir à des disciplines annexes. L’intégration d’algorithmes mathématiques était rendue nécessaire par la complexité des contraintes à prendre en compte pour la gestion de notre système. Le travail en étroite collaboration avec les étudiants et les chercheurs a été très enrichissant de part et d’autre. Pour les étudiants qui ont pu découvrir les problématiques de gestion d’énergie et pour nous qui avons pu sortir des sentiers battus et innover dans notre domaine de compétence.  La consolidation de cette étude dans nos produits nous apportera une véritable différenciation vis-à-vis de nos concurrents.
+  testimony-1-author: Bertrand Legrand & Alain Gartiser
+  testimony-1-job: Chefs de Projet
+  testimony-1-date: 01/09/2015
 
 - name: Holo3
   id: 3
@@ -42,7 +42,7 @@
   website: http://www.axessim.eu/
   description: Conception et au développement de logiciels destinés aux entreprises et laboratoires de recherche
 
-- name: Altran 
+- name: Altran
   id: 7
   logo: /images/logos/logo-altran.jpg
   website: http://www.altran.fr
