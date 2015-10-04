@@ -67,7 +67,7 @@ index:
         onisepDesc: Une vaste panoplie de métiers
         eumathsin: EU-Maths-IN
         eumathsinDesc: Les offres d'emploi en Mathématiques en Europe
-        cnrs: Groupe Calcul cnrs
+        cnrs: Groupe Calcul CNRS
         cnrsDesc: Offres d'emplois en calcul (thèse, ingénieur, postdoc)
     internationalPanel:
         title: Relations internationales
@@ -80,7 +80,7 @@ index:
         partner: Nos partenaires
         network: Notre Réseau
         entreprise: Partenaires industriels
-        
+
 news:
     title: Les Actualités du Master
     allNews: Tous les actualités
@@ -97,10 +97,10 @@ promotions:
     title: "Promotions CSMI 2014,2015 &amp; CSSI 2011-2013"
     introductionTitle: Un peu d'histoire
     introduction: |
-                  En 2005, Éric Sonnendrucker créée  et est le responsable du Master Calcul Scientifique et Visualisation qui est fusionné 
-                  de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité 
-                  Informatique qui est alors sous la responsabilité de <a href="{{ link-lang }}/team/#m2">Philippe Helluy</a>. En 
-                  2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la 
+                  En 2005, Éric Sonnendrucker créée  et est le responsable du Master Calcul Scientifique et Visualisation qui est fusionné
+                  de 2009 avec le Master de Mathématiques Discrètes pour créer de 2009 à 2013, le Master de Calcul Scientifique et Sécurité
+                  Informatique qui est alors sous la responsabilité de <a href="{{ link-lang }}/team/#m2">Philippe Helluy</a>. En
+                  2013 il devient le Master de Calcul Scientifique et Mathématiques de l'Information pour 4 ans et est sous la
                   responsabilité de <a href="{{ link-lang }}/team/#m1">Christophe Prud'homme</a>.
     promotion: Promotion
     recentjob: Dernier emploi
@@ -127,10 +127,10 @@ about:
     rightofreplyTerm: Si vous estimez qu'un contenu porte atteinte à votre image, vous pouvez exercer un droit de réponse en écrivant à CSMI.
     copyrightTitle: Droits d'auteur
     copyrightTerm: |
-                    En application du code français de la propriété intellectuelle et, plus généralement, des traités et accords 
-                    internationaux comportant des dispositions relatives à la protection des droits d'auteurs, il est interdit 
+                    En application du code français de la propriété intellectuelle et, plus généralement, des traités et accords
+                    internationaux comportant des dispositions relatives à la protection des droits d'auteurs, il est interdit
                     pour un usage autre que privé de reproduire, vendre, distribuer, émettre, diffuser, adapter, modifier, publier,
-                     communiquer intégralement ou partiellement, sous quelque forme que ce soit, les données, la présentation, 
-                     l'organisation du site, ou les oeuvres protégées par le droit d'auteur (photographies, images, textes, vidéos) 
+                     communiquer intégralement ou partiellement, sous quelque forme que ce soit, les données, la présentation,
+                     l'organisation du site, ou les oeuvres protégées par le droit d'auteur (photographies, images, textes, vidéos)
                      qui figurent sur ce site sans autorisation écrite particulière et préalable de Cemosis.
     signature: Fait à Strasbourg le 10/07/2015.
