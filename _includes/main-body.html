@@ -62,7 +62,7 @@
             <h2>Témoignages d'entreprises</h2></div>
     </center>
     <div class="row-fluid">
-      {% for testimony in site.data.entreprise.entreprise  %}
+      {% for testimony in site.data.entreprise.entreprise | limit:10 %}
         {% if testimony.testimony-1 %}
         <div class="col-md-6">
             <blockquote class="testimonial">
