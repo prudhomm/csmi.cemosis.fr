@@ -4,7 +4,7 @@ title:  Brochure AngioTK
 date: 2015-11-04
 author: prudhomm
 fullname: Christophe Prud'homme
-categories: [brochure]
+categories: [news]
 tags: [feelpp,cemosis]
 ---
 
